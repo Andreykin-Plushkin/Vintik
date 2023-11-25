@@ -12,7 +12,7 @@ echo "            _     _ "
 echo "           (')-=-(') "
 echo '         __(   "   )__ '
 echo "        / _/'-----'\_ \ 		Vintik Debugger"
-echo "     ___\\\\ \\\\     // //___ 		version: 0.1"
+echo "     ___\\\\ \\\\     // //___ 		version: 0.2"
 echo "     >____)/_\---/_\(____< 		Author: Anix (s21 : lizziech)"
 
 echo "----------------------------------------------------------------------"
@@ -206,7 +206,7 @@ create_web_page() { # Создание веб-страницы для вывод
   
 
    echo "</script>" >> "${path_to_save_logs}/statistics/index.html"
-   echo "<h1>Vintik v0.1</h1>" >> "${path_to_save_logs}/statistics/index.html"
+   echo "<h1>Vintik v0.2</h1>" >> "${path_to_save_logs}/statistics/index.html"
    echo "<h2>Created by Anix (s21 : lizziech)</h2>" >> "${path_to_save_logs}/statistics/index.html"
    echo "<div id=\"stat\" style=\"width: 1500px; height: 600px;\"></div>" >> "${path_to_save_logs}/statistics/index.html"
    echo "</body" >> "${path_to_save_logs}/statistics/index.html" 
