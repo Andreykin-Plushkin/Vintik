@@ -1,9 +1,10 @@
+
 #!/bin/bash
 
 
 #---------------Config---------------
-name_of_program="./s21_cat"             # Путь до вашей программы
-name_of_system_program="cat"            # Путь до рабочей программы
+name_of_program="./s21_grep"             # Путь до вашей программы
+name_of_system_program="grep"            # Путь до рабочей программы
 file_with_test_params="tests.txt"       # Путь до файла с набором тестов
 path_to_save_logs="test_logs"           # Путь до папки, в которой все результаты будут сохраняться
 #------------------------------------
@@ -11,9 +12,9 @@ path_to_save_logs="test_logs"           # Путь до папки, в кото�
 echo "            _     _ "
 echo "           (')-=-(') "
 echo '         __(   "   )__ '
-echo "        / _/'-----'\_ \ 		Vintik Debugger"
-echo "     ___\\\\ \\\\     // //___ 		version: 0.2"
-echo "     >____)/_\---/_\(____< 		Author: Anix (s21 : lizziech)"
+echo "        / _/'-----'\_ \         Vintik Debugger"
+echo "     ___\\\\ \\\\     // //___         version: 0.2"
+echo "     >____)/_\---/_\(____<         Author: Anix (s21 : lizziech)"
 
 echo "----------------------------------------------------------------------"
 
@@ -86,7 +87,7 @@ testing() {
     
     if [ -f "${path_to_save_logs}/list_of_fail_args_old.log" ]
     then
-
+            NUMBER_OF_TEST_WITH_NEW_MISTAKE=1
             if [ -f "${path_to_save_logs}/need_correct.log" ]; then
                 rm "${path_to_save_logs}/need_correct.log"
             fi
@@ -119,10 +120,12 @@ testing() {
                 done < "${path_to_save_logs}/list_of_fail_args_old.log"
                 
                 if [ "$NEW_MISTAKE" -eq 1 ]; then
-                    echo "You made new mistake! [$line]"
+                    echo " ${NUMBER_OF_TEST_WITH_NEW_MISTAKE} You made new mistake! [$line]"
                     echo "${line}" >> "${path_to_save_logs}/new_mistake.log"
                     (( COUNT_OF_NEW_MISTAKE++ ))
                 fi
+                
+                (( NUMBER_OF_TEST_WITH_NEW_MISTAKE++ ))
                 
             done < "${path_to_save_logs}/list_of_fail_args.log"
             
@@ -164,7 +167,7 @@ create_web_page() { # Создание веб-страницы для вывод
         mkdir "${path_to_save_logs}/statistics"
         touch "${path_to_save_logs}/statistics/index.html"
         touch "${path_to_save_logs}/statistics/stats.txt"
-    else 
+    else
         rm "${path_to_save_logs}/statistics/index.html"
     fi
 
@@ -177,7 +180,7 @@ create_web_page() { # Создание веб-страницы для вывод
    echo "<script src='https://www.google.com/jsapi'></script>" >> "${path_to_save_logs}/statistics/index.html"
    echo "<title>Vintik</title>" >> "${path_to_save_logs}/statistics/index.html"
    #echo "<meta http-equiv='refresh' content='5'>" >> "${path_to_save_logs}/statistics/index.html"
-   echo "</head>" >> "${path_to_save_logs}/statistics/index.html"   
+   echo "</head>" >> "${path_to_save_logs}/statistics/index.html"
    echo "<body>" >> "${path_to_save_logs}/statistics/index.html"
 
    echo "<script>" >> "${path_to_save_logs}/statistics/index.html"
@@ -209,8 +212,8 @@ create_web_page() { # Создание веб-страницы для вывод
    echo "<h1>Vintik v0.2</h1>" >> "${path_to_save_logs}/statistics/index.html"
    echo "<h2>Created by Anix (s21 : lizziech)</h2>" >> "${path_to_save_logs}/statistics/index.html"
    echo "<div id=\"stat\" style=\"width: 1500px; height: 600px;\"></div>" >> "${path_to_save_logs}/statistics/index.html"
-   echo "</body" >> "${path_to_save_logs}/statistics/index.html" 
-   echo "</html>" >> "${path_to_save_logs}/statistics/index.html" 
+   echo "</body" >> "${path_to_save_logs}/statistics/index.html"
+   echo "</html>" >> "${path_to_save_logs}/statistics/index.html"
   
   
 
@@ -227,6 +230,7 @@ echo "  -> FAIL ${FAIL}"
 echo "Quantity tests: ${COUNTER}"
 echo "-----------------------------------------------"
 echo ""
+echo "[+] Пофиксили ${COUNT_OF_FIXED_MISTAKE} ошибок"
+echo "[-] Появилось ${COUNT_OF_NEW_MISTAKE} ошибок"
 echo " [!] Не забудьте проверить стиль и утечки!"
 echo " [+] А также откройте файл ${path_to_save_logs}/statistics/index.html  <3"
-
