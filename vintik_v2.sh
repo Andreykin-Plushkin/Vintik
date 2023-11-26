@@ -9,12 +9,12 @@ file_with_test_params="tests.txt"       # Путь до файла с набор
 path_to_save_logs="test_logs"           # Путь до папки, в которой все результаты будут сохраняться
 #------------------------------------
 
-echo "            _     _ "
-echo "           (')-=-(') "
-echo '         __(   "   )__ '
-echo "        / _/'-----'\_ \         Vintik Debugger"
-echo "     ___\\\\ \\\\     // //___         version: 0.2"
-echo "     >____)/_\---/_\(____<         Author: Anix (s21 : lizziech)"
+echo "\033[0;32m            _     _  \033[0m"
+echo "\033[0;32m           (')-=-(')  \033[0m"
+echo '\033[0;32m         __(   "   )__  \033[0m'
+echo "\033[0;32m        / _/'-----'\_ \         \033[0m   Vintik Debugger"
+echo "\033[0;32m     ___\\\\ \\\\        /  /___         \033[0mversion: 0.2.2"
+echo "\033[0;32m     >____)/_\---/_\(____<         \033[1;93mAuthor\033[0m: Anix (s21 : lizziech)"
 
 echo "----------------------------------------------------------------------"
 
@@ -62,7 +62,7 @@ testing() {
             (( SUCCESS++ ))
         else
             
-            echo " ${COUNTER} FAIL ${line}"
+            echo " ${COUNTER} \033[1;91mFAIL\033[0m ${line}"
             
             echo "${line}" >> "${path_to_save_logs}/list_of_fail_args.log"
         
@@ -209,7 +209,7 @@ create_web_page() { # Создание веб-страницы для вывод
   
 
    echo "</script>" >> "${path_to_save_logs}/statistics/index.html"
-   echo "<h1>Vintik v0.2</h1>" >> "${path_to_save_logs}/statistics/index.html"
+   echo "<h1>Vintik v0.2.2</h1>" >> "${path_to_save_logs}/statistics/index.html"
    echo "<h2>Created by Anix (s21 : lizziech)</h2>" >> "${path_to_save_logs}/statistics/index.html"
    echo "<div id=\"stat\" style=\"width: 1500px; height: 600px;\"></div>" >> "${path_to_save_logs}/statistics/index.html"
    echo "</body" >> "${path_to_save_logs}/statistics/index.html"
@@ -225,12 +225,28 @@ create_web_page 0
 
 echo ""
 echo "--------------------RESULTS--------------------"
-echo "  -> SUCCESS $SUCCESS"
-echo "  -> FAIL ${FAIL}"
+
+if [[ $SUCCESS > 0 ]]; then
+    echo "  -> \033[92mSUCCESS $SUCCESS\033[0m"
+fi
+
+if [[ $FAIL > 0 ]]; then
+    echo "  -> \033[1;91mFAIL ${FAIL}\033[0m"
+else
+    echo "\033[102mВсе тесты пройдены!\033[0m"
+fi
+
 echo "Quantity tests: ${COUNTER}"
 echo "-----------------------------------------------"
 echo ""
-echo "[+] Пофиксили ${COUNT_OF_FIXED_MISTAKE} ошибок"
-echo "[-] Появилось ${COUNT_OF_NEW_MISTAKE} ошибок"
-echo " [!] Не забудьте проверить стиль и утечки!"
-echo " [+] А также откройте файл ${path_to_save_logs}/statistics/index.html  <3"
+
+if [[ $COUNT_OF_FIXED_MISTAKE > 0 ]]; then
+ echo "\033[92m[+] Пофиксили ${COUNT_OF_FIXED_MISTAKE} ошибок\033[0m"
+fi
+
+if [[ $COUNT_OF_NEW_MISTAKE > 0 ]]; then
+ echo "\033[1;91m[-] Появилось ${COUNT_OF_NEW_MISTAKE} ошибок\033[0m"
+fi
+
+echo " \033[1;91m[!] Не забудьте проверить стиль и утечки!\033[0m"
+echo " \033[1;93m[+] А также откройте файл ${path_to_save_logs}/statistics/index.html  <3\033[0m"
