@@ -14,7 +14,7 @@ echo "\033[0;32m            _     _  \033[0m"
 echo "\033[0;32m           (')-=-(')  \033[0m"
 echo '\033[0;32m         __(   "   )__  \033[0m'
 echo "\033[0;32m        / _/'-----'\_ \         \033[0m   Vintik Debugger"
-echo "\033[0;32m     ___\\\\ \\\\        /  /___         \033[0mversion: 0.2.2"
+echo "\033[0;32m     ___\\\\ \\\\        /  /___         \033[0mversion: 1.0 Mac OS"
 echo "\033[0;32m     >____)/_\---/_\(____<         \033[1;93mAuthor\033[0m: Anix (s21 : lizziech)"
 
 echo "----------------------------------------------------------------------"
@@ -235,7 +235,7 @@ create_web_page() { # Создание веб-страницы для вывод
   
 
    echo "</script>" >> "${path_to_save_logs}/statistics/index.html"
-   echo "<h1>Vintik v0.2.2</h1>" >> "${path_to_save_logs}/statistics/index.html"
+   echo "<h1>Vintik v1.0</h1>" >> "${path_to_save_logs}/statistics/index.html"
    echo "<h2>Created by Anix (s21 : lizziech)</h2>" >> "${path_to_save_logs}/statistics/index.html"
    echo "<div id=\"stat\" style=\"width: 1500px; height: 600px;\"></div>" >> "${path_to_save_logs}/statistics/index.html"
    echo "</body" >> "${path_to_save_logs}/statistics/index.html"
