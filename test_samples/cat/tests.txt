@@ -1,0 +1,4415 @@
+-b test_files/1.txt
+-b test_files/2.txt
+-b test_files/test_1_cat.txt
+-b test_files/test_2_cat.txt
+-b test_files/test_3_cat.txt
+-b test_files/test_4_cat.txt
+-b test_files/test_5_cat.txt
+-b test_files/test_case_cat.txt
+-e test_files/1.txt
+-e test_files/2.txt
+-e test_files/test_1_cat.txt
+-e test_files/test_2_cat.txt
+-e test_files/test_3_cat.txt
+-e test_files/test_4_cat.txt
+-e test_files/test_5_cat.txt
+-e test_files/test_case_cat.txt
+-n test_files/1.txt
+-n test_files/2.txt
+-n test_files/test_1_cat.txt
+-n test_files/test_2_cat.txt
+-n test_files/test_3_cat.txt
+-n test_files/test_4_cat.txt
+-n test_files/test_5_cat.txt
+-n test_files/test_case_cat.txt
+-s test_files/1.txt
+-s test_files/2.txt
+-s test_files/test_1_cat.txt
+-s test_files/test_2_cat.txt
+-s test_files/test_3_cat.txt
+-s test_files/test_4_cat.txt
+-s test_files/test_5_cat.txt
+-s test_files/test_case_cat.txt
+-t test_files/1.txt
+-t test_files/2.txt
+-t test_files/test_1_cat.txt
+-t test_files/test_2_cat.txt
+-t test_files/test_3_cat.txt
+-t test_files/test_4_cat.txt
+-t test_files/test_5_cat.txt
+-t test_files/test_case_cat.txt
+-v test_files/1.txt
+-v test_files/2.txt
+-v test_files/test_1_cat.txt
+-v test_files/test_2_cat.txt
+-v test_files/test_3_cat.txt
+-v test_files/test_4_cat.txt
+-v test_files/test_5_cat.txt
+-v test_files/test_case_cat.txt
+-b -e test_files/1.txt
+-b -e test_files/2.txt
+-b -e test_files/test_1_cat.txt
+-b -e test_files/test_2_cat.txt
+-b -e test_files/test_3_cat.txt
+-b -e test_files/test_4_cat.txt
+-b -e test_files/test_5_cat.txt
+-b -e test_files/test_case_cat.txt
+-b -n test_files/1.txt
+-b -n test_files/2.txt
+-b -n test_files/test_1_cat.txt
+-b -n test_files/test_2_cat.txt
+-b -n test_files/test_3_cat.txt
+-b -n test_files/test_4_cat.txt
+-b -n test_files/test_5_cat.txt
+-b -n test_files/test_case_cat.txt
+-b -s test_files/1.txt
+-b -s test_files/2.txt
+-b -s test_files/test_1_cat.txt
+-b -s test_files/test_2_cat.txt
+-b -s test_files/test_3_cat.txt
+-b -s test_files/test_4_cat.txt
+-b -s test_files/test_5_cat.txt
+-b -s test_files/test_case_cat.txt
+-b -t test_files/1.txt
+-b -t test_files/2.txt
+-b -t test_files/test_1_cat.txt
+-b -t test_files/test_2_cat.txt
+-b -t test_files/test_3_cat.txt
+-b -t test_files/test_4_cat.txt
+-b -t test_files/test_5_cat.txt
+-b -t test_files/test_case_cat.txt
+-b -v test_files/1.txt
+-b -v test_files/2.txt
+-b -v test_files/test_1_cat.txt
+-b -v test_files/test_2_cat.txt
+-b -v test_files/test_3_cat.txt
+-b -v test_files/test_4_cat.txt
+-b -v test_files/test_5_cat.txt
+-b -v test_files/test_case_cat.txt
+-e -b test_files/1.txt
+-e -b test_files/2.txt
+-e -b test_files/test_1_cat.txt
+-e -b test_files/test_2_cat.txt
+-e -b test_files/test_3_cat.txt
+-e -b test_files/test_4_cat.txt
+-e -b test_files/test_5_cat.txt
+-e -b test_files/test_case_cat.txt
+-e -n test_files/1.txt
+-e -n test_files/2.txt
+-e -n test_files/test_1_cat.txt
+-e -n test_files/test_2_cat.txt
+-e -n test_files/test_3_cat.txt
+-e -n test_files/test_4_cat.txt
+-e -n test_files/test_5_cat.txt
+-e -n test_files/test_case_cat.txt
+-e -s test_files/1.txt
+-e -s test_files/2.txt
+-e -s test_files/test_1_cat.txt
+-e -s test_files/test_2_cat.txt
+-e -s test_files/test_3_cat.txt
+-e -s test_files/test_4_cat.txt
+-e -s test_files/test_5_cat.txt
+-e -s test_files/test_case_cat.txt
+-e -t test_files/1.txt
+-e -t test_files/2.txt
+-e -t test_files/test_1_cat.txt
+-e -t test_files/test_2_cat.txt
+-e -t test_files/test_3_cat.txt
+-e -t test_files/test_4_cat.txt
+-e -t test_files/test_5_cat.txt
+-e -t test_files/test_case_cat.txt
+-e -v test_files/1.txt
+-e -v test_files/2.txt
+-e -v test_files/test_1_cat.txt
+-e -v test_files/test_2_cat.txt
+-e -v test_files/test_3_cat.txt
+-e -v test_files/test_4_cat.txt
+-e -v test_files/test_5_cat.txt
+-e -v test_files/test_case_cat.txt
+-n -b test_files/1.txt
+-n -b test_files/2.txt
+-n -b test_files/test_1_cat.txt
+-n -b test_files/test_2_cat.txt
+-n -b test_files/test_3_cat.txt
+-n -b test_files/test_4_cat.txt
+-n -b test_files/test_5_cat.txt
+-n -b test_files/test_case_cat.txt
+-n -e test_files/1.txt
+-n -e test_files/2.txt
+-n -e test_files/test_1_cat.txt
+-n -e test_files/test_2_cat.txt
+-n -e test_files/test_3_cat.txt
+-n -e test_files/test_4_cat.txt
+-n -e test_files/test_5_cat.txt
+-n -e test_files/test_case_cat.txt
+-n -s test_files/1.txt
+-n -s test_files/2.txt
+-n -s test_files/test_1_cat.txt
+-n -s test_files/test_2_cat.txt
+-n -s test_files/test_3_cat.txt
+-n -s test_files/test_4_cat.txt
+-n -s test_files/test_5_cat.txt
+-n -s test_files/test_case_cat.txt
+-n -t test_files/1.txt
+-n -t test_files/2.txt
+-n -t test_files/test_1_cat.txt
+-n -t test_files/test_2_cat.txt
+-n -t test_files/test_3_cat.txt
+-n -t test_files/test_4_cat.txt
+-n -t test_files/test_5_cat.txt
+-n -t test_files/test_case_cat.txt
+-n -v test_files/1.txt
+-n -v test_files/2.txt
+-n -v test_files/test_1_cat.txt
+-n -v test_files/test_2_cat.txt
+-n -v test_files/test_3_cat.txt
+-n -v test_files/test_4_cat.txt
+-n -v test_files/test_5_cat.txt
+-n -v test_files/test_case_cat.txt
+-s -b test_files/1.txt
+-s -b test_files/2.txt
+-s -b test_files/test_1_cat.txt
+-s -b test_files/test_2_cat.txt
+-s -b test_files/test_3_cat.txt
+-s -b test_files/test_4_cat.txt
+-s -b test_files/test_5_cat.txt
+-s -b test_files/test_case_cat.txt
+-s -e test_files/1.txt
+-s -e test_files/2.txt
+-s -e test_files/test_1_cat.txt
+-s -e test_files/test_2_cat.txt
+-s -e test_files/test_3_cat.txt
+-s -e test_files/test_4_cat.txt
+-s -e test_files/test_5_cat.txt
+-s -e test_files/test_case_cat.txt
+-s -n test_files/1.txt
+-s -n test_files/2.txt
+-s -n test_files/test_1_cat.txt
+-s -n test_files/test_2_cat.txt
+-s -n test_files/test_3_cat.txt
+-s -n test_files/test_4_cat.txt
+-s -n test_files/test_5_cat.txt
+-s -n test_files/test_case_cat.txt
+-s -t test_files/1.txt
+-s -t test_files/2.txt
+-s -t test_files/test_1_cat.txt
+-s -t test_files/test_2_cat.txt
+-s -t test_files/test_3_cat.txt
+-s -t test_files/test_4_cat.txt
+-s -t test_files/test_5_cat.txt
+-s -t test_files/test_case_cat.txt
+-s -v test_files/1.txt
+-s -v test_files/2.txt
+-s -v test_files/test_1_cat.txt
+-s -v test_files/test_2_cat.txt
+-s -v test_files/test_3_cat.txt
+-s -v test_files/test_4_cat.txt
+-s -v test_files/test_5_cat.txt
+-s -v test_files/test_case_cat.txt
+-t -b test_files/1.txt
+-t -b test_files/2.txt
+-t -b test_files/test_1_cat.txt
+-t -b test_files/test_2_cat.txt
+-t -b test_files/test_3_cat.txt
+-t -b test_files/test_4_cat.txt
+-t -b test_files/test_5_cat.txt
+-t -b test_files/test_case_cat.txt
+-t -e test_files/1.txt
+-t -e test_files/2.txt
+-t -e test_files/test_1_cat.txt
+-t -e test_files/test_2_cat.txt
+-t -e test_files/test_3_cat.txt
+-t -e test_files/test_4_cat.txt
+-t -e test_files/test_5_cat.txt
+-t -e test_files/test_case_cat.txt
+-t -n test_files/1.txt
+-t -n test_files/2.txt
+-t -n test_files/test_1_cat.txt
+-t -n test_files/test_2_cat.txt
+-t -n test_files/test_3_cat.txt
+-t -n test_files/test_4_cat.txt
+-t -n test_files/test_5_cat.txt
+-t -n test_files/test_case_cat.txt
+-t -s test_files/1.txt
+-t -s test_files/2.txt
+-t -s test_files/test_1_cat.txt
+-t -s test_files/test_2_cat.txt
+-t -s test_files/test_3_cat.txt
+-t -s test_files/test_4_cat.txt
+-t -s test_files/test_5_cat.txt
+-t -s test_files/test_case_cat.txt
+-t -v test_files/1.txt
+-t -v test_files/2.txt
+-t -v test_files/test_1_cat.txt
+-t -v test_files/test_2_cat.txt
+-t -v test_files/test_3_cat.txt
+-t -v test_files/test_4_cat.txt
+-t -v test_files/test_5_cat.txt
+-t -v test_files/test_case_cat.txt
+-v -b test_files/1.txt
+-v -b test_files/2.txt
+-v -b test_files/test_1_cat.txt
+-v -b test_files/test_2_cat.txt
+-v -b test_files/test_3_cat.txt
+-v -b test_files/test_4_cat.txt
+-v -b test_files/test_5_cat.txt
+-v -b test_files/test_case_cat.txt
+-v -e test_files/1.txt
+-v -e test_files/2.txt
+-v -e test_files/test_1_cat.txt
+-v -e test_files/test_2_cat.txt
+-v -e test_files/test_3_cat.txt
+-v -e test_files/test_4_cat.txt
+-v -e test_files/test_5_cat.txt
+-v -e test_files/test_case_cat.txt
+-v -n test_files/1.txt
+-v -n test_files/2.txt
+-v -n test_files/test_1_cat.txt
+-v -n test_files/test_2_cat.txt
+-v -n test_files/test_3_cat.txt
+-v -n test_files/test_4_cat.txt
+-v -n test_files/test_5_cat.txt
+-v -n test_files/test_case_cat.txt
+-v -s test_files/1.txt
+-v -s test_files/2.txt
+-v -s test_files/test_1_cat.txt
+-v -s test_files/test_2_cat.txt
+-v -s test_files/test_3_cat.txt
+-v -s test_files/test_4_cat.txt
+-v -s test_files/test_5_cat.txt
+-v -s test_files/test_case_cat.txt
+-v -t test_files/1.txt
+-v -t test_files/2.txt
+-v -t test_files/test_1_cat.txt
+-v -t test_files/test_2_cat.txt
+-v -t test_files/test_3_cat.txt
+-v -t test_files/test_4_cat.txt
+-v -t test_files/test_5_cat.txt
+-v -t test_files/test_case_cat.txt-b test_files/1.txt
+-b test_files/2.txt
+-b test_files/test_1_cat.txt
+-b test_files/test_2_cat.txt
+-b test_files/test_3_cat.txt
+-b test_files/test_4_cat.txt
+-b test_files/test_5_cat.txt
+-b test_files/test_case_cat.txt
+-e test_files/1.txt
+-e test_files/2.txt
+-e test_files/test_1_cat.txt
+-e test_files/test_2_cat.txt
+-e test_files/test_3_cat.txt
+-e test_files/test_4_cat.txt
+-e test_files/test_5_cat.txt
+-e test_files/test_case_cat.txt
+-n test_files/1.txt
+-n test_files/2.txt
+-n test_files/test_1_cat.txt
+-n test_files/test_2_cat.txt
+-n test_files/test_3_cat.txt
+-n test_files/test_4_cat.txt
+-n test_files/test_5_cat.txt
+-n test_files/test_case_cat.txt
+-s test_files/1.txt
+-s test_files/2.txt
+-s test_files/test_1_cat.txt
+-s test_files/test_2_cat.txt
+-s test_files/test_3_cat.txt
+-s test_files/test_4_cat.txt
+-s test_files/test_5_cat.txt
+-s test_files/test_case_cat.txt
+-t test_files/1.txt
+-t test_files/2.txt
+-t test_files/test_1_cat.txt
+-t test_files/test_2_cat.txt
+-t test_files/test_3_cat.txt
+-t test_files/test_4_cat.txt
+-t test_files/test_5_cat.txt
+-t test_files/test_case_cat.txt
+-v test_files/1.txt
+-v test_files/2.txt
+-v test_files/test_1_cat.txt
+-v test_files/test_2_cat.txt
+-v test_files/test_3_cat.txt
+-v test_files/test_4_cat.txt
+-v test_files/test_5_cat.txt
+-v test_files/test_case_cat.txt
+-b -e test_files/1.txt
+-b -e test_files/2.txt
+-b -e test_files/test_1_cat.txt
+-b -e test_files/test_2_cat.txt
+-b -e test_files/test_3_cat.txt
+-b -e test_files/test_4_cat.txt
+-b -e test_files/test_5_cat.txt
+-b -e test_files/test_case_cat.txt
+-b -n test_files/1.txt
+-b -n test_files/2.txt
+-b -n test_files/test_1_cat.txt
+-b -n test_files/test_2_cat.txt
+-b -n test_files/test_3_cat.txt
+-b -n test_files/test_4_cat.txt
+-b -n test_files/test_5_cat.txt
+-b -n test_files/test_case_cat.txt
+-b -s test_files/1.txt
+-b -s test_files/2.txt
+-b -s test_files/test_1_cat.txt
+-b -s test_files/test_2_cat.txt
+-b -s test_files/test_3_cat.txt
+-b -s test_files/test_4_cat.txt
+-b -s test_files/test_5_cat.txt
+-b -s test_files/test_case_cat.txt
+-b -t test_files/1.txt
+-b -t test_files/2.txt
+-b -t test_files/test_1_cat.txt
+-b -t test_files/test_2_cat.txt
+-b -t test_files/test_3_cat.txt
+-b -t test_files/test_4_cat.txt
+-b -t test_files/test_5_cat.txt
+-b -t test_files/test_case_cat.txt
+-b -v test_files/1.txt
+-b -v test_files/2.txt
+-b -v test_files/test_1_cat.txt
+-b -v test_files/test_2_cat.txt
+-b -v test_files/test_3_cat.txt
+-b -v test_files/test_4_cat.txt
+-b -v test_files/test_5_cat.txt
+-b -v test_files/test_case_cat.txt
+-e -b test_files/1.txt
+-e -b test_files/2.txt
+-e -b test_files/test_1_cat.txt
+-e -b test_files/test_2_cat.txt
+-e -b test_files/test_3_cat.txt
+-e -b test_files/test_4_cat.txt
+-e -b test_files/test_5_cat.txt
+-e -b test_files/test_case_cat.txt
+-e -n test_files/1.txt
+-e -n test_files/2.txt
+-e -n test_files/test_1_cat.txt
+-e -n test_files/test_2_cat.txt
+-e -n test_files/test_3_cat.txt
+-e -n test_files/test_4_cat.txt
+-e -n test_files/test_5_cat.txt
+-e -n test_files/test_case_cat.txt
+-e -s test_files/1.txt
+-e -s test_files/2.txt
+-e -s test_files/test_1_cat.txt
+-e -s test_files/test_2_cat.txt
+-e -s test_files/test_3_cat.txt
+-e -s test_files/test_4_cat.txt
+-e -s test_files/test_5_cat.txt
+-e -s test_files/test_case_cat.txt
+-e -t test_files/1.txt
+-e -t test_files/2.txt
+-e -t test_files/test_1_cat.txt
+-e -t test_files/test_2_cat.txt
+-e -t test_files/test_3_cat.txt
+-e -t test_files/test_4_cat.txt
+-e -t test_files/test_5_cat.txt
+-e -t test_files/test_case_cat.txt
+-e -v test_files/1.txt
+-e -v test_files/2.txt
+-e -v test_files/test_1_cat.txt
+-e -v test_files/test_2_cat.txt
+-e -v test_files/test_3_cat.txt
+-e -v test_files/test_4_cat.txt
+-e -v test_files/test_5_cat.txt
+-e -v test_files/test_case_cat.txt
+-n -b test_files/1.txt
+-n -b test_files/2.txt
+-n -b test_files/test_1_cat.txt
+-n -b test_files/test_2_cat.txt
+-n -b test_files/test_3_cat.txt
+-n -b test_files/test_4_cat.txt
+-n -b test_files/test_5_cat.txt
+-n -b test_files/test_case_cat.txt
+-n -e test_files/1.txt
+-n -e test_files/2.txt
+-n -e test_files/test_1_cat.txt
+-n -e test_files/test_2_cat.txt
+-n -e test_files/test_3_cat.txt
+-n -e test_files/test_4_cat.txt
+-n -e test_files/test_5_cat.txt
+-n -e test_files/test_case_cat.txt
+-n -s test_files/1.txt
+-n -s test_files/2.txt
+-n -s test_files/test_1_cat.txt
+-n -s test_files/test_2_cat.txt
+-n -s test_files/test_3_cat.txt
+-n -s test_files/test_4_cat.txt
+-n -s test_files/test_5_cat.txt
+-n -s test_files/test_case_cat.txt
+-n -t test_files/1.txt
+-n -t test_files/2.txt
+-n -t test_files/test_1_cat.txt
+-n -t test_files/test_2_cat.txt
+-n -t test_files/test_3_cat.txt
+-n -t test_files/test_4_cat.txt
+-n -t test_files/test_5_cat.txt
+-n -t test_files/test_case_cat.txt
+-n -v test_files/1.txt
+-n -v test_files/2.txt
+-n -v test_files/test_1_cat.txt
+-n -v test_files/test_2_cat.txt
+-n -v test_files/test_3_cat.txt
+-n -v test_files/test_4_cat.txt
+-n -v test_files/test_5_cat.txt
+-n -v test_files/test_case_cat.txt
+-s -b test_files/1.txt
+-s -b test_files/2.txt
+-s -b test_files/test_1_cat.txt
+-s -b test_files/test_2_cat.txt
+-s -b test_files/test_3_cat.txt
+-s -b test_files/test_4_cat.txt
+-s -b test_files/test_5_cat.txt
+-s -b test_files/test_case_cat.txt
+-s -e test_files/1.txt
+-s -e test_files/2.txt
+-s -e test_files/test_1_cat.txt
+-s -e test_files/test_2_cat.txt
+-s -e test_files/test_3_cat.txt
+-s -e test_files/test_4_cat.txt
+-s -e test_files/test_5_cat.txt
+-s -e test_files/test_case_cat.txt
+-s -n test_files/1.txt
+-s -n test_files/2.txt
+-s -n test_files/test_1_cat.txt
+-s -n test_files/test_2_cat.txt
+-s -n test_files/test_3_cat.txt
+-s -n test_files/test_4_cat.txt
+-s -n test_files/test_5_cat.txt
+-s -n test_files/test_case_cat.txt
+-s -t test_files/1.txt
+-s -t test_files/2.txt
+-s -t test_files/test_1_cat.txt
+-s -t test_files/test_2_cat.txt
+-s -t test_files/test_3_cat.txt
+-s -t test_files/test_4_cat.txt
+-s -t test_files/test_5_cat.txt
+-s -t test_files/test_case_cat.txt
+-s -v test_files/1.txt
+-s -v test_files/2.txt
+-s -v test_files/test_1_cat.txt
+-s -v test_files/test_2_cat.txt
+-s -v test_files/test_3_cat.txt
+-s -v test_files/test_4_cat.txt
+-s -v test_files/test_5_cat.txt
+-s -v test_files/test_case_cat.txt
+-t -b test_files/1.txt
+-t -b test_files/2.txt
+-t -b test_files/test_1_cat.txt
+-t -b test_files/test_2_cat.txt
+-t -b test_files/test_3_cat.txt
+-t -b test_files/test_4_cat.txt
+-t -b test_files/test_5_cat.txt
+-t -b test_files/test_case_cat.txt
+-t -e test_files/1.txt
+-t -e test_files/2.txt
+-t -e test_files/test_1_cat.txt
+-t -e test_files/test_2_cat.txt
+-t -e test_files/test_3_cat.txt
+-t -e test_files/test_4_cat.txt
+-t -e test_files/test_5_cat.txt
+-t -e test_files/test_case_cat.txt
+-t -n test_files/1.txt
+-t -n test_files/2.txt
+-t -n test_files/test_1_cat.txt
+-t -n test_files/test_2_cat.txt
+-t -n test_files/test_3_cat.txt
+-t -n test_files/test_4_cat.txt
+-t -n test_files/test_5_cat.txt
+-t -n test_files/test_case_cat.txt
+-t -s test_files/1.txt
+-t -s test_files/2.txt
+-t -s test_files/test_1_cat.txt
+-t -s test_files/test_2_cat.txt
+-t -s test_files/test_3_cat.txt
+-t -s test_files/test_4_cat.txt
+-t -s test_files/test_5_cat.txt
+-t -s test_files/test_case_cat.txt
+-t -v test_files/1.txt
+-t -v test_files/2.txt
+-t -v test_files/test_1_cat.txt
+-t -v test_files/test_2_cat.txt
+-t -v test_files/test_3_cat.txt
+-t -v test_files/test_4_cat.txt
+-t -v test_files/test_5_cat.txt
+-t -v test_files/test_case_cat.txt
+-v -b test_files/1.txt
+-v -b test_files/2.txt
+-v -b test_files/test_1_cat.txt
+-v -b test_files/test_2_cat.txt
+-v -b test_files/test_3_cat.txt
+-v -b test_files/test_4_cat.txt
+-v -b test_files/test_5_cat.txt
+-v -b test_files/test_case_cat.txt
+-v -e test_files/1.txt
+-v -e test_files/2.txt
+-v -e test_files/test_1_cat.txt
+-v -e test_files/test_2_cat.txt
+-v -e test_files/test_3_cat.txt
+-v -e test_files/test_4_cat.txt
+-v -e test_files/test_5_cat.txt
+-v -e test_files/test_case_cat.txt
+-v -n test_files/1.txt
+-v -n test_files/2.txt
+-v -n test_files/test_1_cat.txt
+-v -n test_files/test_2_cat.txt
+-v -n test_files/test_3_cat.txt
+-v -n test_files/test_4_cat.txt
+-v -n test_files/test_5_cat.txt
+-v -n test_files/test_case_cat.txt
+-v -s test_files/1.txt
+-v -s test_files/2.txt
+-v -s test_files/test_1_cat.txt
+-v -s test_files/test_2_cat.txt
+-v -s test_files/test_3_cat.txt
+-v -s test_files/test_4_cat.txt
+-v -s test_files/test_5_cat.txt
+-v -s test_files/test_case_cat.txt
+-v -t test_files/1.txt
+-v -t test_files/2.txt
+-v -t test_files/test_1_cat.txt
+-v -t test_files/test_2_cat.txt
+-v -t test_files/test_3_cat.txt
+-v -t test_files/test_4_cat.txt
+-v -t test_files/test_5_cat.txt
+-v -t test_files/test_case_cat.txt
+-b -e -n test_files/1.txt
+-b -e -n test_files/2.txt
+-b -e -n test_files/test_1_cat.txt
+-b -e -n test_files/test_2_cat.txt
+-b -e -n test_files/test_3_cat.txt
+-b -e -n test_files/test_4_cat.txt
+-b -e -n test_files/test_5_cat.txt
+-b -e -n test_files/test_case_cat.txt
+-b -e -s test_files/1.txt
+-b -e -s test_files/2.txt
+-b -e -s test_files/test_1_cat.txt
+-b -e -s test_files/test_2_cat.txt
+-b -e -s test_files/test_3_cat.txt
+-b -e -s test_files/test_4_cat.txt
+-b -e -s test_files/test_5_cat.txt
+-b -e -s test_files/test_case_cat.txt
+-b -e -t test_files/1.txt
+-b -e -t test_files/2.txt
+-b -e -t test_files/test_1_cat.txt
+-b -e -t test_files/test_2_cat.txt
+-b -e -t test_files/test_3_cat.txt
+-b -e -t test_files/test_4_cat.txt
+-b -e -t test_files/test_5_cat.txt
+-b -e -t test_files/test_case_cat.txt
+-b -e -v test_files/1.txt
+-b -e -v test_files/2.txt
+-b -e -v test_files/test_1_cat.txt
+-b -e -v test_files/test_2_cat.txt
+-b -e -v test_files/test_3_cat.txt
+-b -e -v test_files/test_4_cat.txt
+-b -e -v test_files/test_5_cat.txt
+-b -e -v test_files/test_case_cat.txt
+-b -n -e test_files/1.txt
+-b -n -e test_files/2.txt
+-b -n -e test_files/test_1_cat.txt
+-b -n -e test_files/test_2_cat.txt
+-b -n -e test_files/test_3_cat.txt
+-b -n -e test_files/test_4_cat.txt
+-b -n -e test_files/test_5_cat.txt
+-b -n -e test_files/test_case_cat.txt
+-b -n -s test_files/1.txt
+-b -n -s test_files/2.txt
+-b -n -s test_files/test_1_cat.txt
+-b -n -s test_files/test_2_cat.txt
+-b -n -s test_files/test_3_cat.txt
+-b -n -s test_files/test_4_cat.txt
+-b -n -s test_files/test_5_cat.txt
+-b -n -s test_files/test_case_cat.txt
+-b -n -t test_files/1.txt
+-b -n -t test_files/2.txt
+-b -n -t test_files/test_1_cat.txt
+-b -n -t test_files/test_2_cat.txt
+-b -n -t test_files/test_3_cat.txt
+-b -n -t test_files/test_4_cat.txt
+-b -n -t test_files/test_5_cat.txt
+-b -n -t test_files/test_case_cat.txt
+-b -n -v test_files/1.txt
+-b -n -v test_files/2.txt
+-b -n -v test_files/test_1_cat.txt
+-b -n -v test_files/test_2_cat.txt
+-b -n -v test_files/test_3_cat.txt
+-b -n -v test_files/test_4_cat.txt
+-b -n -v test_files/test_5_cat.txt
+-b -n -v test_files/test_case_cat.txt
+-b -s -e test_files/1.txt
+-b -s -e test_files/2.txt
+-b -s -e test_files/test_1_cat.txt
+-b -s -e test_files/test_2_cat.txt
+-b -s -e test_files/test_3_cat.txt
+-b -s -e test_files/test_4_cat.txt
+-b -s -e test_files/test_5_cat.txt
+-b -s -e test_files/test_case_cat.txt
+-b -s -n test_files/1.txt
+-b -s -n test_files/2.txt
+-b -s -n test_files/test_1_cat.txt
+-b -s -n test_files/test_2_cat.txt
+-b -s -n test_files/test_3_cat.txt
+-b -s -n test_files/test_4_cat.txt
+-b -s -n test_files/test_5_cat.txt
+-b -s -n test_files/test_case_cat.txt
+-b -s -t test_files/1.txt
+-b -s -t test_files/2.txt
+-b -s -t test_files/test_1_cat.txt
+-b -s -t test_files/test_2_cat.txt
+-b -s -t test_files/test_3_cat.txt
+-b -s -t test_files/test_4_cat.txt
+-b -s -t test_files/test_5_cat.txt
+-b -s -t test_files/test_case_cat.txt
+-b -s -v test_files/1.txt
+-b -s -v test_files/2.txt
+-b -s -v test_files/test_1_cat.txt
+-b -s -v test_files/test_2_cat.txt
+-b -s -v test_files/test_3_cat.txt
+-b -s -v test_files/test_4_cat.txt
+-b -s -v test_files/test_5_cat.txt
+-b -s -v test_files/test_case_cat.txt
+-b -t -e test_files/1.txt
+-b -t -e test_files/2.txt
+-b -t -e test_files/test_1_cat.txt
+-b -t -e test_files/test_2_cat.txt
+-b -t -e test_files/test_3_cat.txt
+-b -t -e test_files/test_4_cat.txt
+-b -t -e test_files/test_5_cat.txt
+-b -t -e test_files/test_case_cat.txt
+-b -t -n test_files/1.txt
+-b -t -n test_files/2.txt
+-b -t -n test_files/test_1_cat.txt
+-b -t -n test_files/test_2_cat.txt
+-b -t -n test_files/test_3_cat.txt
+-b -t -n test_files/test_4_cat.txt
+-b -t -n test_files/test_5_cat.txt
+-b -t -n test_files/test_case_cat.txt
+-b -t -s test_files/1.txt
+-b -t -s test_files/2.txt
+-b -t -s test_files/test_1_cat.txt
+-b -t -s test_files/test_2_cat.txt
+-b -t -s test_files/test_3_cat.txt
+-b -t -s test_files/test_4_cat.txt
+-b -t -s test_files/test_5_cat.txt
+-b -t -s test_files/test_case_cat.txt
+-b -t -v test_files/1.txt
+-b -t -v test_files/2.txt
+-b -t -v test_files/test_1_cat.txt
+-b -t -v test_files/test_2_cat.txt
+-b -t -v test_files/test_3_cat.txt
+-b -t -v test_files/test_4_cat.txt
+-b -t -v test_files/test_5_cat.txt
+-b -t -v test_files/test_case_cat.txt
+-b -v -e test_files/1.txt
+-b -v -e test_files/2.txt
+-b -v -e test_files/test_1_cat.txt
+-b -v -e test_files/test_2_cat.txt
+-b -v -e test_files/test_3_cat.txt
+-b -v -e test_files/test_4_cat.txt
+-b -v -e test_files/test_5_cat.txt
+-b -v -e test_files/test_case_cat.txt
+-b -v -n test_files/1.txt
+-b -v -n test_files/2.txt
+-b -v -n test_files/test_1_cat.txt
+-b -v -n test_files/test_2_cat.txt
+-b -v -n test_files/test_3_cat.txt
+-b -v -n test_files/test_4_cat.txt
+-b -v -n test_files/test_5_cat.txt
+-b -v -n test_files/test_case_cat.txt
+-b -v -s test_files/1.txt
+-b -v -s test_files/2.txt
+-b -v -s test_files/test_1_cat.txt
+-b -v -s test_files/test_2_cat.txt
+-b -v -s test_files/test_3_cat.txt
+-b -v -s test_files/test_4_cat.txt
+-b -v -s test_files/test_5_cat.txt
+-b -v -s test_files/test_case_cat.txt
+-b -v -t test_files/1.txt
+-b -v -t test_files/2.txt
+-b -v -t test_files/test_1_cat.txt
+-b -v -t test_files/test_2_cat.txt
+-b -v -t test_files/test_3_cat.txt
+-b -v -t test_files/test_4_cat.txt
+-b -v -t test_files/test_5_cat.txt
+-b -v -t test_files/test_case_cat.txt
+-e -b -n test_files/1.txt
+-e -b -n test_files/2.txt
+-e -b -n test_files/test_1_cat.txt
+-e -b -n test_files/test_2_cat.txt
+-e -b -n test_files/test_3_cat.txt
+-e -b -n test_files/test_4_cat.txt
+-e -b -n test_files/test_5_cat.txt
+-e -b -n test_files/test_case_cat.txt
+-e -b -s test_files/1.txt
+-e -b -s test_files/2.txt
+-e -b -s test_files/test_1_cat.txt
+-e -b -s test_files/test_2_cat.txt
+-e -b -s test_files/test_3_cat.txt
+-e -b -s test_files/test_4_cat.txt
+-e -b -s test_files/test_5_cat.txt
+-e -b -s test_files/test_case_cat.txt
+-e -b -t test_files/1.txt
+-e -b -t test_files/2.txt
+-e -b -t test_files/test_1_cat.txt
+-e -b -t test_files/test_2_cat.txt
+-e -b -t test_files/test_3_cat.txt
+-e -b -t test_files/test_4_cat.txt
+-e -b -t test_files/test_5_cat.txt
+-e -b -t test_files/test_case_cat.txt
+-e -b -v test_files/1.txt
+-e -b -v test_files/2.txt
+-e -b -v test_files/test_1_cat.txt
+-e -b -v test_files/test_2_cat.txt
+-e -b -v test_files/test_3_cat.txt
+-e -b -v test_files/test_4_cat.txt
+-e -b -v test_files/test_5_cat.txt
+-e -b -v test_files/test_case_cat.txt
+-e -n -b test_files/1.txt
+-e -n -b test_files/2.txt
+-e -n -b test_files/test_1_cat.txt
+-e -n -b test_files/test_2_cat.txt
+-e -n -b test_files/test_3_cat.txt
+-e -n -b test_files/test_4_cat.txt
+-e -n -b test_files/test_5_cat.txt
+-e -n -b test_files/test_case_cat.txt
+-e -n -s test_files/1.txt
+-e -n -s test_files/2.txt
+-e -n -s test_files/test_1_cat.txt
+-e -n -s test_files/test_2_cat.txt
+-e -n -s test_files/test_3_cat.txt
+-e -n -s test_files/test_4_cat.txt
+-e -n -s test_files/test_5_cat.txt
+-e -n -s test_files/test_case_cat.txt
+-e -n -t test_files/1.txt
+-e -n -t test_files/2.txt
+-e -n -t test_files/test_1_cat.txt
+-e -n -t test_files/test_2_cat.txt
+-e -n -t test_files/test_3_cat.txt
+-e -n -t test_files/test_4_cat.txt
+-e -n -t test_files/test_5_cat.txt
+-e -n -t test_files/test_case_cat.txt
+-e -n -v test_files/1.txt
+-e -n -v test_files/2.txt
+-e -n -v test_files/test_1_cat.txt
+-e -n -v test_files/test_2_cat.txt
+-e -n -v test_files/test_3_cat.txt
+-e -n -v test_files/test_4_cat.txt
+-e -n -v test_files/test_5_cat.txt
+-e -n -v test_files/test_case_cat.txt
+-e -s -b test_files/1.txt
+-e -s -b test_files/2.txt
+-e -s -b test_files/test_1_cat.txt
+-e -s -b test_files/test_2_cat.txt
+-e -s -b test_files/test_3_cat.txt
+-e -s -b test_files/test_4_cat.txt
+-e -s -b test_files/test_5_cat.txt
+-e -s -b test_files/test_case_cat.txt
+-e -s -n test_files/1.txt
+-e -s -n test_files/2.txt
+-e -s -n test_files/test_1_cat.txt
+-e -s -n test_files/test_2_cat.txt
+-e -s -n test_files/test_3_cat.txt
+-e -s -n test_files/test_4_cat.txt
+-e -s -n test_files/test_5_cat.txt
+-e -s -n test_files/test_case_cat.txt
+-e -s -t test_files/1.txt
+-e -s -t test_files/2.txt
+-e -s -t test_files/test_1_cat.txt
+-e -s -t test_files/test_2_cat.txt
+-e -s -t test_files/test_3_cat.txt
+-e -s -t test_files/test_4_cat.txt
+-e -s -t test_files/test_5_cat.txt
+-e -s -t test_files/test_case_cat.txt
+-e -s -v test_files/1.txt
+-e -s -v test_files/2.txt
+-e -s -v test_files/test_1_cat.txt
+-e -s -v test_files/test_2_cat.txt
+-e -s -v test_files/test_3_cat.txt
+-e -s -v test_files/test_4_cat.txt
+-e -s -v test_files/test_5_cat.txt
+-e -s -v test_files/test_case_cat.txt
+-e -t -b test_files/1.txt
+-e -t -b test_files/2.txt
+-e -t -b test_files/test_1_cat.txt
+-e -t -b test_files/test_2_cat.txt
+-e -t -b test_files/test_3_cat.txt
+-e -t -b test_files/test_4_cat.txt
+-e -t -b test_files/test_5_cat.txt
+-e -t -b test_files/test_case_cat.txt
+-e -t -n test_files/1.txt
+-e -t -n test_files/2.txt
+-e -t -n test_files/test_1_cat.txt
+-e -t -n test_files/test_2_cat.txt
+-e -t -n test_files/test_3_cat.txt
+-e -t -n test_files/test_4_cat.txt
+-e -t -n test_files/test_5_cat.txt
+-e -t -n test_files/test_case_cat.txt
+-e -t -s test_files/1.txt
+-e -t -s test_files/2.txt
+-e -t -s test_files/test_1_cat.txt
+-e -t -s test_files/test_2_cat.txt
+-e -t -s test_files/test_3_cat.txt
+-e -t -s test_files/test_4_cat.txt
+-e -t -s test_files/test_5_cat.txt
+-e -t -s test_files/test_case_cat.txt
+-e -t -v test_files/1.txt
+-e -t -v test_files/2.txt
+-e -t -v test_files/test_1_cat.txt
+-e -t -v test_files/test_2_cat.txt
+-e -t -v test_files/test_3_cat.txt
+-e -t -v test_files/test_4_cat.txt
+-e -t -v test_files/test_5_cat.txt
+-e -t -v test_files/test_case_cat.txt
+-e -v -b test_files/1.txt
+-e -v -b test_files/2.txt
+-e -v -b test_files/test_1_cat.txt
+-e -v -b test_files/test_2_cat.txt
+-e -v -b test_files/test_3_cat.txt
+-e -v -b test_files/test_4_cat.txt
+-e -v -b test_files/test_5_cat.txt
+-e -v -b test_files/test_case_cat.txt
+-e -v -n test_files/1.txt
+-e -v -n test_files/2.txt
+-e -v -n test_files/test_1_cat.txt
+-e -v -n test_files/test_2_cat.txt
+-e -v -n test_files/test_3_cat.txt
+-e -v -n test_files/test_4_cat.txt
+-e -v -n test_files/test_5_cat.txt
+-e -v -n test_files/test_case_cat.txt
+-e -v -s test_files/1.txt
+-e -v -s test_files/2.txt
+-e -v -s test_files/test_1_cat.txt
+-e -v -s test_files/test_2_cat.txt
+-e -v -s test_files/test_3_cat.txt
+-e -v -s test_files/test_4_cat.txt
+-e -v -s test_files/test_5_cat.txt
+-e -v -s test_files/test_case_cat.txt
+-e -v -t test_files/1.txt
+-e -v -t test_files/2.txt
+-e -v -t test_files/test_1_cat.txt
+-e -v -t test_files/test_2_cat.txt
+-e -v -t test_files/test_3_cat.txt
+-e -v -t test_files/test_4_cat.txt
+-e -v -t test_files/test_5_cat.txt
+-e -v -t test_files/test_case_cat.txt
+-n -b -e test_files/1.txt
+-n -b -e test_files/2.txt
+-n -b -e test_files/test_1_cat.txt
+-n -b -e test_files/test_2_cat.txt
+-n -b -e test_files/test_3_cat.txt
+-n -b -e test_files/test_4_cat.txt
+-n -b -e test_files/test_5_cat.txt
+-n -b -e test_files/test_case_cat.txt
+-n -b -s test_files/1.txt
+-n -b -s test_files/2.txt
+-n -b -s test_files/test_1_cat.txt
+-n -b -s test_files/test_2_cat.txt
+-n -b -s test_files/test_3_cat.txt
+-n -b -s test_files/test_4_cat.txt
+-n -b -s test_files/test_5_cat.txt
+-n -b -s test_files/test_case_cat.txt
+-n -b -t test_files/1.txt
+-n -b -t test_files/2.txt
+-n -b -t test_files/test_1_cat.txt
+-n -b -t test_files/test_2_cat.txt
+-n -b -t test_files/test_3_cat.txt
+-n -b -t test_files/test_4_cat.txt
+-n -b -t test_files/test_5_cat.txt
+-n -b -t test_files/test_case_cat.txt
+-n -b -v test_files/1.txt
+-n -b -v test_files/2.txt
+-n -b -v test_files/test_1_cat.txt
+-n -b -v test_files/test_2_cat.txt
+-n -b -v test_files/test_3_cat.txt
+-n -b -v test_files/test_4_cat.txt
+-n -b -v test_files/test_5_cat.txt
+-n -b -v test_files/test_case_cat.txt
+-n -e -b test_files/1.txt
+-n -e -b test_files/2.txt
+-n -e -b test_files/test_1_cat.txt
+-n -e -b test_files/test_2_cat.txt
+-n -e -b test_files/test_3_cat.txt
+-n -e -b test_files/test_4_cat.txt
+-n -e -b test_files/test_5_cat.txt
+-n -e -b test_files/test_case_cat.txt
+-n -e -s test_files/1.txt
+-n -e -s test_files/2.txt
+-n -e -s test_files/test_1_cat.txt
+-n -e -s test_files/test_2_cat.txt
+-n -e -s test_files/test_3_cat.txt
+-n -e -s test_files/test_4_cat.txt
+-n -e -s test_files/test_5_cat.txt
+-n -e -s test_files/test_case_cat.txt
+-n -e -t test_files/1.txt
+-n -e -t test_files/2.txt
+-n -e -t test_files/test_1_cat.txt
+-n -e -t test_files/test_2_cat.txt
+-n -e -t test_files/test_3_cat.txt
+-n -e -t test_files/test_4_cat.txt
+-n -e -t test_files/test_5_cat.txt
+-n -e -t test_files/test_case_cat.txt
+-n -e -v test_files/1.txt
+-n -e -v test_files/2.txt
+-n -e -v test_files/test_1_cat.txt
+-n -e -v test_files/test_2_cat.txt
+-n -e -v test_files/test_3_cat.txt
+-n -e -v test_files/test_4_cat.txt
+-n -e -v test_files/test_5_cat.txt
+-n -e -v test_files/test_case_cat.txt
+-n -s -b test_files/1.txt
+-n -s -b test_files/2.txt
+-n -s -b test_files/test_1_cat.txt
+-n -s -b test_files/test_2_cat.txt
+-n -s -b test_files/test_3_cat.txt
+-n -s -b test_files/test_4_cat.txt
+-n -s -b test_files/test_5_cat.txt
+-n -s -b test_files/test_case_cat.txt
+-n -s -e test_files/1.txt
+-n -s -e test_files/2.txt
+-n -s -e test_files/test_1_cat.txt
+-n -s -e test_files/test_2_cat.txt
+-n -s -e test_files/test_3_cat.txt
+-n -s -e test_files/test_4_cat.txt
+-n -s -e test_files/test_5_cat.txt
+-n -s -e test_files/test_case_cat.txt
+-n -s -t test_files/1.txt
+-n -s -t test_files/2.txt
+-n -s -t test_files/test_1_cat.txt
+-n -s -t test_files/test_2_cat.txt
+-n -s -t test_files/test_3_cat.txt
+-n -s -t test_files/test_4_cat.txt
+-n -s -t test_files/test_5_cat.txt
+-n -s -t test_files/test_case_cat.txt
+-n -s -v test_files/1.txt
+-n -s -v test_files/2.txt
+-n -s -v test_files/test_1_cat.txt
+-n -s -v test_files/test_2_cat.txt
+-n -s -v test_files/test_3_cat.txt
+-n -s -v test_files/test_4_cat.txt
+-n -s -v test_files/test_5_cat.txt
+-n -s -v test_files/test_case_cat.txt
+-n -t -b test_files/1.txt
+-n -t -b test_files/2.txt
+-n -t -b test_files/test_1_cat.txt
+-n -t -b test_files/test_2_cat.txt
+-n -t -b test_files/test_3_cat.txt
+-n -t -b test_files/test_4_cat.txt
+-n -t -b test_files/test_5_cat.txt
+-n -t -b test_files/test_case_cat.txt
+-n -t -e test_files/1.txt
+-n -t -e test_files/2.txt
+-n -t -e test_files/test_1_cat.txt
+-n -t -e test_files/test_2_cat.txt
+-n -t -e test_files/test_3_cat.txt
+-n -t -e test_files/test_4_cat.txt
+-n -t -e test_files/test_5_cat.txt
+-n -t -e test_files/test_case_cat.txt
+-n -t -s test_files/1.txt
+-n -t -s test_files/2.txt
+-n -t -s test_files/test_1_cat.txt
+-n -t -s test_files/test_2_cat.txt
+-n -t -s test_files/test_3_cat.txt
+-n -t -s test_files/test_4_cat.txt
+-n -t -s test_files/test_5_cat.txt
+-n -t -s test_files/test_case_cat.txt
+-n -t -v test_files/1.txt
+-n -t -v test_files/2.txt
+-n -t -v test_files/test_1_cat.txt
+-n -t -v test_files/test_2_cat.txt
+-n -t -v test_files/test_3_cat.txt
+-n -t -v test_files/test_4_cat.txt
+-n -t -v test_files/test_5_cat.txt
+-n -t -v test_files/test_case_cat.txt
+-n -v -b test_files/1.txt
+-n -v -b test_files/2.txt
+-n -v -b test_files/test_1_cat.txt
+-n -v -b test_files/test_2_cat.txt
+-n -v -b test_files/test_3_cat.txt
+-n -v -b test_files/test_4_cat.txt
+-n -v -b test_files/test_5_cat.txt
+-n -v -b test_files/test_case_cat.txt
+-n -v -e test_files/1.txt
+-n -v -e test_files/2.txt
+-n -v -e test_files/test_1_cat.txt
+-n -v -e test_files/test_2_cat.txt
+-n -v -e test_files/test_3_cat.txt
+-n -v -e test_files/test_4_cat.txt
+-n -v -e test_files/test_5_cat.txt
+-n -v -e test_files/test_case_cat.txt
+-n -v -s test_files/1.txt
+-n -v -s test_files/2.txt
+-n -v -s test_files/test_1_cat.txt
+-n -v -s test_files/test_2_cat.txt
+-n -v -s test_files/test_3_cat.txt
+-n -v -s test_files/test_4_cat.txt
+-n -v -s test_files/test_5_cat.txt
+-n -v -s test_files/test_case_cat.txt
+-n -v -t test_files/1.txt
+-n -v -t test_files/2.txt
+-n -v -t test_files/test_1_cat.txt
+-n -v -t test_files/test_2_cat.txt
+-n -v -t test_files/test_3_cat.txt
+-n -v -t test_files/test_4_cat.txt
+-n -v -t test_files/test_5_cat.txt
+-n -v -t test_files/test_case_cat.txt
+-s -b -e test_files/1.txt
+-s -b -e test_files/2.txt
+-s -b -e test_files/test_1_cat.txt
+-s -b -e test_files/test_2_cat.txt
+-s -b -e test_files/test_3_cat.txt
+-s -b -e test_files/test_4_cat.txt
+-s -b -e test_files/test_5_cat.txt
+-s -b -e test_files/test_case_cat.txt
+-s -b -n test_files/1.txt
+-s -b -n test_files/2.txt
+-s -b -n test_files/test_1_cat.txt
+-s -b -n test_files/test_2_cat.txt
+-s -b -n test_files/test_3_cat.txt
+-s -b -n test_files/test_4_cat.txt
+-s -b -n test_files/test_5_cat.txt
+-s -b -n test_files/test_case_cat.txt
+-s -b -t test_files/1.txt
+-s -b -t test_files/2.txt
+-s -b -t test_files/test_1_cat.txt
+-s -b -t test_files/test_2_cat.txt
+-s -b -t test_files/test_3_cat.txt
+-s -b -t test_files/test_4_cat.txt
+-s -b -t test_files/test_5_cat.txt
+-s -b -t test_files/test_case_cat.txt
+-s -b -v test_files/1.txt
+-s -b -v test_files/2.txt
+-s -b -v test_files/test_1_cat.txt
+-s -b -v test_files/test_2_cat.txt
+-s -b -v test_files/test_3_cat.txt
+-s -b -v test_files/test_4_cat.txt
+-s -b -v test_files/test_5_cat.txt
+-s -b -v test_files/test_case_cat.txt
+-s -e -b test_files/1.txt
+-s -e -b test_files/2.txt
+-s -e -b test_files/test_1_cat.txt
+-s -e -b test_files/test_2_cat.txt
+-s -e -b test_files/test_3_cat.txt
+-s -e -b test_files/test_4_cat.txt
+-s -e -b test_files/test_5_cat.txt
+-s -e -b test_files/test_case_cat.txt
+-s -e -n test_files/1.txt
+-s -e -n test_files/2.txt
+-s -e -n test_files/test_1_cat.txt
+-s -e -n test_files/test_2_cat.txt
+-s -e -n test_files/test_3_cat.txt
+-s -e -n test_files/test_4_cat.txt
+-s -e -n test_files/test_5_cat.txt
+-s -e -n test_files/test_case_cat.txt
+-s -e -t test_files/1.txt
+-s -e -t test_files/2.txt
+-s -e -t test_files/test_1_cat.txt
+-s -e -t test_files/test_2_cat.txt
+-s -e -t test_files/test_3_cat.txt
+-s -e -t test_files/test_4_cat.txt
+-s -e -t test_files/test_5_cat.txt
+-s -e -t test_files/test_case_cat.txt
+-s -e -v test_files/1.txt
+-s -e -v test_files/2.txt
+-s -e -v test_files/test_1_cat.txt
+-s -e -v test_files/test_2_cat.txt
+-s -e -v test_files/test_3_cat.txt
+-s -e -v test_files/test_4_cat.txt
+-s -e -v test_files/test_5_cat.txt
+-s -e -v test_files/test_case_cat.txt
+-s -n -b test_files/1.txt
+-s -n -b test_files/2.txt
+-s -n -b test_files/test_1_cat.txt
+-s -n -b test_files/test_2_cat.txt
+-s -n -b test_files/test_3_cat.txt
+-s -n -b test_files/test_4_cat.txt
+-s -n -b test_files/test_5_cat.txt
+-s -n -b test_files/test_case_cat.txt
+-s -n -e test_files/1.txt
+-s -n -e test_files/2.txt
+-s -n -e test_files/test_1_cat.txt
+-s -n -e test_files/test_2_cat.txt
+-s -n -e test_files/test_3_cat.txt
+-s -n -e test_files/test_4_cat.txt
+-s -n -e test_files/test_5_cat.txt
+-s -n -e test_files/test_case_cat.txt
+-s -n -t test_files/1.txt
+-s -n -t test_files/2.txt
+-s -n -t test_files/test_1_cat.txt
+-s -n -t test_files/test_2_cat.txt
+-s -n -t test_files/test_3_cat.txt
+-s -n -t test_files/test_4_cat.txt
+-s -n -t test_files/test_5_cat.txt
+-s -n -t test_files/test_case_cat.txt
+-s -n -v test_files/1.txt
+-s -n -v test_files/2.txt
+-s -n -v test_files/test_1_cat.txt
+-s -n -v test_files/test_2_cat.txt
+-s -n -v test_files/test_3_cat.txt
+-s -n -v test_files/test_4_cat.txt
+-s -n -v test_files/test_5_cat.txt
+-s -n -v test_files/test_case_cat.txt
+-s -t -b test_files/1.txt
+-s -t -b test_files/2.txt
+-s -t -b test_files/test_1_cat.txt
+-s -t -b test_files/test_2_cat.txt
+-s -t -b test_files/test_3_cat.txt
+-s -t -b test_files/test_4_cat.txt
+-s -t -b test_files/test_5_cat.txt
+-s -t -b test_files/test_case_cat.txt
+-s -t -e test_files/1.txt
+-s -t -e test_files/2.txt
+-s -t -e test_files/test_1_cat.txt
+-s -t -e test_files/test_2_cat.txt
+-s -t -e test_files/test_3_cat.txt
+-s -t -e test_files/test_4_cat.txt
+-s -t -e test_files/test_5_cat.txt
+-s -t -e test_files/test_case_cat.txt
+-s -t -n test_files/1.txt
+-s -t -n test_files/2.txt
+-s -t -n test_files/test_1_cat.txt
+-s -t -n test_files/test_2_cat.txt
+-s -t -n test_files/test_3_cat.txt
+-s -t -n test_files/test_4_cat.txt
+-s -t -n test_files/test_5_cat.txt
+-s -t -n test_files/test_case_cat.txt
+-s -t -v test_files/1.txt
+-s -t -v test_files/2.txt
+-s -t -v test_files/test_1_cat.txt
+-s -t -v test_files/test_2_cat.txt
+-s -t -v test_files/test_3_cat.txt
+-s -t -v test_files/test_4_cat.txt
+-s -t -v test_files/test_5_cat.txt
+-s -t -v test_files/test_case_cat.txt
+-s -v -b test_files/1.txt
+-s -v -b test_files/2.txt
+-s -v -b test_files/test_1_cat.txt
+-s -v -b test_files/test_2_cat.txt
+-s -v -b test_files/test_3_cat.txt
+-s -v -b test_files/test_4_cat.txt
+-s -v -b test_files/test_5_cat.txt
+-s -v -b test_files/test_case_cat.txt
+-s -v -e test_files/1.txt
+-s -v -e test_files/2.txt
+-s -v -e test_files/test_1_cat.txt
+-s -v -e test_files/test_2_cat.txt
+-s -v -e test_files/test_3_cat.txt
+-s -v -e test_files/test_4_cat.txt
+-s -v -e test_files/test_5_cat.txt
+-s -v -e test_files/test_case_cat.txt
+-s -v -n test_files/1.txt
+-s -v -n test_files/2.txt
+-s -v -n test_files/test_1_cat.txt
+-s -v -n test_files/test_2_cat.txt
+-s -v -n test_files/test_3_cat.txt
+-s -v -n test_files/test_4_cat.txt
+-s -v -n test_files/test_5_cat.txt
+-s -v -n test_files/test_case_cat.txt
+-s -v -t test_files/1.txt
+-s -v -t test_files/2.txt
+-s -v -t test_files/test_1_cat.txt
+-s -v -t test_files/test_2_cat.txt
+-s -v -t test_files/test_3_cat.txt
+-s -v -t test_files/test_4_cat.txt
+-s -v -t test_files/test_5_cat.txt
+-s -v -t test_files/test_case_cat.txt
+-t -b -e test_files/1.txt
+-t -b -e test_files/2.txt
+-t -b -e test_files/test_1_cat.txt
+-t -b -e test_files/test_2_cat.txt
+-t -b -e test_files/test_3_cat.txt
+-t -b -e test_files/test_4_cat.txt
+-t -b -e test_files/test_5_cat.txt
+-t -b -e test_files/test_case_cat.txt
+-t -b -n test_files/1.txt
+-t -b -n test_files/2.txt
+-t -b -n test_files/test_1_cat.txt
+-t -b -n test_files/test_2_cat.txt
+-t -b -n test_files/test_3_cat.txt
+-t -b -n test_files/test_4_cat.txt
+-t -b -n test_files/test_5_cat.txt
+-t -b -n test_files/test_case_cat.txt
+-t -b -s test_files/1.txt
+-t -b -s test_files/2.txt
+-t -b -s test_files/test_1_cat.txt
+-t -b -s test_files/test_2_cat.txt
+-t -b -s test_files/test_3_cat.txt
+-t -b -s test_files/test_4_cat.txt
+-t -b -s test_files/test_5_cat.txt
+-t -b -s test_files/test_case_cat.txt
+-t -b -v test_files/1.txt
+-t -b -v test_files/2.txt
+-t -b -v test_files/test_1_cat.txt
+-t -b -v test_files/test_2_cat.txt
+-t -b -v test_files/test_3_cat.txt
+-t -b -v test_files/test_4_cat.txt
+-t -b -v test_files/test_5_cat.txt
+-t -b -v test_files/test_case_cat.txt
+-t -e -b test_files/1.txt
+-t -e -b test_files/2.txt
+-t -e -b test_files/test_1_cat.txt
+-t -e -b test_files/test_2_cat.txt
+-t -e -b test_files/test_3_cat.txt
+-t -e -b test_files/test_4_cat.txt
+-t -e -b test_files/test_5_cat.txt
+-t -e -b test_files/test_case_cat.txt
+-t -e -n test_files/1.txt
+-t -e -n test_files/2.txt
+-t -e -n test_files/test_1_cat.txt
+-t -e -n test_files/test_2_cat.txt
+-t -e -n test_files/test_3_cat.txt
+-t -e -n test_files/test_4_cat.txt
+-t -e -n test_files/test_5_cat.txt
+-t -e -n test_files/test_case_cat.txt
+-t -e -s test_files/1.txt
+-t -e -s test_files/2.txt
+-t -e -s test_files/test_1_cat.txt
+-t -e -s test_files/test_2_cat.txt
+-t -e -s test_files/test_3_cat.txt
+-t -e -s test_files/test_4_cat.txt
+-t -e -s test_files/test_5_cat.txt
+-t -e -s test_files/test_case_cat.txt
+-t -e -v test_files/1.txt
+-t -e -v test_files/2.txt
+-t -e -v test_files/test_1_cat.txt
+-t -e -v test_files/test_2_cat.txt
+-t -e -v test_files/test_3_cat.txt
+-t -e -v test_files/test_4_cat.txt
+-t -e -v test_files/test_5_cat.txt
+-t -e -v test_files/test_case_cat.txt
+-t -n -b test_files/1.txt
+-t -n -b test_files/2.txt
+-t -n -b test_files/test_1_cat.txt
+-t -n -b test_files/test_2_cat.txt
+-t -n -b test_files/test_3_cat.txt
+-t -n -b test_files/test_4_cat.txt
+-t -n -b test_files/test_5_cat.txt
+-t -n -b test_files/test_case_cat.txt
+-t -n -e test_files/1.txt
+-t -n -e test_files/2.txt
+-t -n -e test_files/test_1_cat.txt
+-t -n -e test_files/test_2_cat.txt
+-t -n -e test_files/test_3_cat.txt
+-t -n -e test_files/test_4_cat.txt
+-t -n -e test_files/test_5_cat.txt
+-t -n -e test_files/test_case_cat.txt
+-t -n -s test_files/1.txt
+-t -n -s test_files/2.txt
+-t -n -s test_files/test_1_cat.txt
+-t -n -s test_files/test_2_cat.txt
+-t -n -s test_files/test_3_cat.txt
+-t -n -s test_files/test_4_cat.txt
+-t -n -s test_files/test_5_cat.txt
+-t -n -s test_files/test_case_cat.txt
+-t -n -v test_files/1.txt
+-t -n -v test_files/2.txt
+-t -n -v test_files/test_1_cat.txt
+-t -n -v test_files/test_2_cat.txt
+-t -n -v test_files/test_3_cat.txt
+-t -n -v test_files/test_4_cat.txt
+-t -n -v test_files/test_5_cat.txt
+-t -n -v test_files/test_case_cat.txt
+-t -s -b test_files/1.txt
+-t -s -b test_files/2.txt
+-t -s -b test_files/test_1_cat.txt
+-t -s -b test_files/test_2_cat.txt
+-t -s -b test_files/test_3_cat.txt
+-t -s -b test_files/test_4_cat.txt
+-t -s -b test_files/test_5_cat.txt
+-t -s -b test_files/test_case_cat.txt
+-t -s -e test_files/1.txt
+-t -s -e test_files/2.txt
+-t -s -e test_files/test_1_cat.txt
+-t -s -e test_files/test_2_cat.txt
+-t -s -e test_files/test_3_cat.txt
+-t -s -e test_files/test_4_cat.txt
+-t -s -e test_files/test_5_cat.txt
+-t -s -e test_files/test_case_cat.txt
+-t -s -n test_files/1.txt
+-t -s -n test_files/2.txt
+-t -s -n test_files/test_1_cat.txt
+-t -s -n test_files/test_2_cat.txt
+-t -s -n test_files/test_3_cat.txt
+-t -s -n test_files/test_4_cat.txt
+-t -s -n test_files/test_5_cat.txt
+-t -s -n test_files/test_case_cat.txt
+-t -s -v test_files/1.txt
+-t -s -v test_files/2.txt
+-t -s -v test_files/test_1_cat.txt
+-t -s -v test_files/test_2_cat.txt
+-t -s -v test_files/test_3_cat.txt
+-t -s -v test_files/test_4_cat.txt
+-t -s -v test_files/test_5_cat.txt
+-t -s -v test_files/test_case_cat.txt
+-t -v -b test_files/1.txt
+-t -v -b test_files/2.txt
+-t -v -b test_files/test_1_cat.txt
+-t -v -b test_files/test_2_cat.txt
+-t -v -b test_files/test_3_cat.txt
+-t -v -b test_files/test_4_cat.txt
+-t -v -b test_files/test_5_cat.txt
+-t -v -b test_files/test_case_cat.txt
+-t -v -e test_files/1.txt
+-t -v -e test_files/2.txt
+-t -v -e test_files/test_1_cat.txt
+-t -v -e test_files/test_2_cat.txt
+-t -v -e test_files/test_3_cat.txt
+-t -v -e test_files/test_4_cat.txt
+-t -v -e test_files/test_5_cat.txt
+-t -v -e test_files/test_case_cat.txt
+-t -v -n test_files/1.txt
+-t -v -n test_files/2.txt
+-t -v -n test_files/test_1_cat.txt
+-t -v -n test_files/test_2_cat.txt
+-t -v -n test_files/test_3_cat.txt
+-t -v -n test_files/test_4_cat.txt
+-t -v -n test_files/test_5_cat.txt
+-t -v -n test_files/test_case_cat.txt
+-t -v -s test_files/1.txt
+-t -v -s test_files/2.txt
+-t -v -s test_files/test_1_cat.txt
+-t -v -s test_files/test_2_cat.txt
+-t -v -s test_files/test_3_cat.txt
+-t -v -s test_files/test_4_cat.txt
+-t -v -s test_files/test_5_cat.txt
+-t -v -s test_files/test_case_cat.txt
+-v -b -e test_files/1.txt
+-v -b -e test_files/2.txt
+-v -b -e test_files/test_1_cat.txt
+-v -b -e test_files/test_2_cat.txt
+-v -b -e test_files/test_3_cat.txt
+-v -b -e test_files/test_4_cat.txt
+-v -b -e test_files/test_5_cat.txt
+-v -b -e test_files/test_case_cat.txt
+-v -b -n test_files/1.txt
+-v -b -n test_files/2.txt
+-v -b -n test_files/test_1_cat.txt
+-v -b -n test_files/test_2_cat.txt
+-v -b -n test_files/test_3_cat.txt
+-v -b -n test_files/test_4_cat.txt
+-v -b -n test_files/test_5_cat.txt
+-v -b -n test_files/test_case_cat.txt
+-v -b -s test_files/1.txt
+-v -b -s test_files/2.txt
+-v -b -s test_files/test_1_cat.txt
+-v -b -s test_files/test_2_cat.txt
+-v -b -s test_files/test_3_cat.txt
+-v -b -s test_files/test_4_cat.txt
+-v -b -s test_files/test_5_cat.txt
+-v -b -s test_files/test_case_cat.txt
+-v -b -t test_files/1.txt
+-v -b -t test_files/2.txt
+-v -b -t test_files/test_1_cat.txt
+-v -b -t test_files/test_2_cat.txt
+-v -b -t test_files/test_3_cat.txt
+-v -b -t test_files/test_4_cat.txt
+-v -b -t test_files/test_5_cat.txt
+-v -b -t test_files/test_case_cat.txt
+-v -e -b test_files/1.txt
+-v -e -b test_files/2.txt
+-v -e -b test_files/test_1_cat.txt
+-v -e -b test_files/test_2_cat.txt
+-v -e -b test_files/test_3_cat.txt
+-v -e -b test_files/test_4_cat.txt
+-v -e -b test_files/test_5_cat.txt
+-v -e -b test_files/test_case_cat.txt
+-v -e -n test_files/1.txt
+-v -e -n test_files/2.txt
+-v -e -n test_files/test_1_cat.txt
+-v -e -n test_files/test_2_cat.txt
+-v -e -n test_files/test_3_cat.txt
+-v -e -n test_files/test_4_cat.txt
+-v -e -n test_files/test_5_cat.txt
+-v -e -n test_files/test_case_cat.txt
+-v -e -s test_files/1.txt
+-v -e -s test_files/2.txt
+-v -e -s test_files/test_1_cat.txt
+-v -e -s test_files/test_2_cat.txt
+-v -e -s test_files/test_3_cat.txt
+-v -e -s test_files/test_4_cat.txt
+-v -e -s test_files/test_5_cat.txt
+-v -e -s test_files/test_case_cat.txt
+-v -e -t test_files/1.txt
+-v -e -t test_files/2.txt
+-v -e -t test_files/test_1_cat.txt
+-v -e -t test_files/test_2_cat.txt
+-v -e -t test_files/test_3_cat.txt
+-v -e -t test_files/test_4_cat.txt
+-v -e -t test_files/test_5_cat.txt
+-v -e -t test_files/test_case_cat.txt
+-v -n -b test_files/1.txt
+-v -n -b test_files/2.txt
+-v -n -b test_files/test_1_cat.txt
+-v -n -b test_files/test_2_cat.txt
+-v -n -b test_files/test_3_cat.txt
+-v -n -b test_files/test_4_cat.txt
+-v -n -b test_files/test_5_cat.txt
+-v -n -b test_files/test_case_cat.txt
+-v -n -e test_files/1.txt
+-v -n -e test_files/2.txt
+-v -n -e test_files/test_1_cat.txt
+-v -n -e test_files/test_2_cat.txt
+-v -n -e test_files/test_3_cat.txt
+-v -n -e test_files/test_4_cat.txt
+-v -n -e test_files/test_5_cat.txt
+-v -n -e test_files/test_case_cat.txt
+-v -n -s test_files/1.txt
+-v -n -s test_files/2.txt
+-v -n -s test_files/test_1_cat.txt
+-v -n -s test_files/test_2_cat.txt
+-v -n -s test_files/test_3_cat.txt
+-v -n -s test_files/test_4_cat.txt
+-v -n -s test_files/test_5_cat.txt
+-v -n -s test_files/test_case_cat.txt
+-v -n -t test_files/1.txt
+-v -n -t test_files/2.txt
+-v -n -t test_files/test_1_cat.txt
+-v -n -t test_files/test_2_cat.txt
+-v -n -t test_files/test_3_cat.txt
+-v -n -t test_files/test_4_cat.txt
+-v -n -t test_files/test_5_cat.txt
+-v -n -t test_files/test_case_cat.txt
+-v -s -b test_files/1.txt
+-v -s -b test_files/2.txt
+-v -s -b test_files/test_1_cat.txt
+-v -s -b test_files/test_2_cat.txt
+-v -s -b test_files/test_3_cat.txt
+-v -s -b test_files/test_4_cat.txt
+-v -s -b test_files/test_5_cat.txt
+-v -s -b test_files/test_case_cat.txt
+-v -s -e test_files/1.txt
+-v -s -e test_files/2.txt
+-v -s -e test_files/test_1_cat.txt
+-v -s -e test_files/test_2_cat.txt
+-v -s -e test_files/test_3_cat.txt
+-v -s -e test_files/test_4_cat.txt
+-v -s -e test_files/test_5_cat.txt
+-v -s -e test_files/test_case_cat.txt
+-v -s -n test_files/1.txt
+-v -s -n test_files/2.txt
+-v -s -n test_files/test_1_cat.txt
+-v -s -n test_files/test_2_cat.txt
+-v -s -n test_files/test_3_cat.txt
+-v -s -n test_files/test_4_cat.txt
+-v -s -n test_files/test_5_cat.txt
+-v -s -n test_files/test_case_cat.txt
+-v -s -t test_files/1.txt
+-v -s -t test_files/2.txt
+-v -s -t test_files/test_1_cat.txt
+-v -s -t test_files/test_2_cat.txt
+-v -s -t test_files/test_3_cat.txt
+-v -s -t test_files/test_4_cat.txt
+-v -s -t test_files/test_5_cat.txt
+-v -s -t test_files/test_case_cat.txt
+-v -t -b test_files/1.txt
+-v -t -b test_files/2.txt
+-v -t -b test_files/test_1_cat.txt
+-v -t -b test_files/test_2_cat.txt
+-v -t -b test_files/test_3_cat.txt
+-v -t -b test_files/test_4_cat.txt
+-v -t -b test_files/test_5_cat.txt
+-v -t -b test_files/test_case_cat.txt
+-v -t -e test_files/1.txt
+-v -t -e test_files/2.txt
+-v -t -e test_files/test_1_cat.txt
+-v -t -e test_files/test_2_cat.txt
+-v -t -e test_files/test_3_cat.txt
+-v -t -e test_files/test_4_cat.txt
+-v -t -e test_files/test_5_cat.txt
+-v -t -e test_files/test_case_cat.txt
+-v -t -n test_files/1.txt
+-v -t -n test_files/2.txt
+-v -t -n test_files/test_1_cat.txt
+-v -t -n test_files/test_2_cat.txt
+-v -t -n test_files/test_3_cat.txt
+-v -t -n test_files/test_4_cat.txt
+-v -t -n test_files/test_5_cat.txt
+-v -t -n test_files/test_case_cat.txt
+-v -t -s test_files/1.txt
+-v -t -s test_files/2.txt
+-v -t -s test_files/test_1_cat.txt
+-v -t -s test_files/test_2_cat.txt
+-v -t -s test_files/test_3_cat.txt
+-v -t -s test_files/test_4_cat.txt
+-v -t -s test_files/test_5_cat.txt
+-v -t -s test_files/test_case_cat.txt
+-b -e -n -s test_files/1.txt
+-b -e -n -s test_files/2.txt
+-b -e -n -s test_files/test_1_cat.txt
+-b -e -n -s test_files/test_2_cat.txt
+-b -e -n -s test_files/test_3_cat.txt
+-b -e -n -s test_files/test_4_cat.txt
+-b -e -n -s test_files/test_5_cat.txt
+-b -e -n -s test_files/test_case_cat.txt
+-b -e -n -t test_files/1.txt
+-b -e -n -t test_files/2.txt
+-b -e -n -t test_files/test_1_cat.txt
+-b -e -n -t test_files/test_2_cat.txt
+-b -e -n -t test_files/test_3_cat.txt
+-b -e -n -t test_files/test_4_cat.txt
+-b -e -n -t test_files/test_5_cat.txt
+-b -e -n -t test_files/test_case_cat.txt
+-b -e -n -v test_files/1.txt
+-b -e -n -v test_files/2.txt
+-b -e -n -v test_files/test_1_cat.txt
+-b -e -n -v test_files/test_2_cat.txt
+-b -e -n -v test_files/test_3_cat.txt
+-b -e -n -v test_files/test_4_cat.txt
+-b -e -n -v test_files/test_5_cat.txt
+-b -e -n -v test_files/test_case_cat.txt
+-b -e -s -n test_files/1.txt
+-b -e -s -n test_files/2.txt
+-b -e -s -n test_files/test_1_cat.txt
+-b -e -s -n test_files/test_2_cat.txt
+-b -e -s -n test_files/test_3_cat.txt
+-b -e -s -n test_files/test_4_cat.txt
+-b -e -s -n test_files/test_5_cat.txt
+-b -e -s -n test_files/test_case_cat.txt
+-b -e -s -t test_files/1.txt
+-b -e -s -t test_files/2.txt
+-b -e -s -t test_files/test_1_cat.txt
+-b -e -s -t test_files/test_2_cat.txt
+-b -e -s -t test_files/test_3_cat.txt
+-b -e -s -t test_files/test_4_cat.txt
+-b -e -s -t test_files/test_5_cat.txt
+-b -e -s -t test_files/test_case_cat.txt
+-b -e -s -v test_files/1.txt
+-b -e -s -v test_files/2.txt
+-b -e -s -v test_files/test_1_cat.txt
+-b -e -s -v test_files/test_2_cat.txt
+-b -e -s -v test_files/test_3_cat.txt
+-b -e -s -v test_files/test_4_cat.txt
+-b -e -s -v test_files/test_5_cat.txt
+-b -e -s -v test_files/test_case_cat.txt
+-b -e -t -n test_files/1.txt
+-b -e -t -n test_files/2.txt
+-b -e -t -n test_files/test_1_cat.txt
+-b -e -t -n test_files/test_2_cat.txt
+-b -e -t -n test_files/test_3_cat.txt
+-b -e -t -n test_files/test_4_cat.txt
+-b -e -t -n test_files/test_5_cat.txt
+-b -e -t -n test_files/test_case_cat.txt
+-b -e -t -s test_files/1.txt
+-b -e -t -s test_files/2.txt
+-b -e -t -s test_files/test_1_cat.txt
+-b -e -t -s test_files/test_2_cat.txt
+-b -e -t -s test_files/test_3_cat.txt
+-b -e -t -s test_files/test_4_cat.txt
+-b -e -t -s test_files/test_5_cat.txt
+-b -e -t -s test_files/test_case_cat.txt
+-b -e -t -v test_files/1.txt
+-b -e -t -v test_files/2.txt
+-b -e -t -v test_files/test_1_cat.txt
+-b -e -t -v test_files/test_2_cat.txt
+-b -e -t -v test_files/test_3_cat.txt
+-b -e -t -v test_files/test_4_cat.txt
+-b -e -t -v test_files/test_5_cat.txt
+-b -e -t -v test_files/test_case_cat.txt
+-b -e -v -n test_files/1.txt
+-b -e -v -n test_files/2.txt
+-b -e -v -n test_files/test_1_cat.txt
+-b -e -v -n test_files/test_2_cat.txt
+-b -e -v -n test_files/test_3_cat.txt
+-b -e -v -n test_files/test_4_cat.txt
+-b -e -v -n test_files/test_5_cat.txt
+-b -e -v -n test_files/test_case_cat.txt
+-b -e -v -s test_files/1.txt
+-b -e -v -s test_files/2.txt
+-b -e -v -s test_files/test_1_cat.txt
+-b -e -v -s test_files/test_2_cat.txt
+-b -e -v -s test_files/test_3_cat.txt
+-b -e -v -s test_files/test_4_cat.txt
+-b -e -v -s test_files/test_5_cat.txt
+-b -e -v -s test_files/test_case_cat.txt
+-b -e -v -t test_files/1.txt
+-b -e -v -t test_files/2.txt
+-b -e -v -t test_files/test_1_cat.txt
+-b -e -v -t test_files/test_2_cat.txt
+-b -e -v -t test_files/test_3_cat.txt
+-b -e -v -t test_files/test_4_cat.txt
+-b -e -v -t test_files/test_5_cat.txt
+-b -e -v -t test_files/test_case_cat.txt
+-b -n -e -s test_files/1.txt
+-b -n -e -s test_files/2.txt
+-b -n -e -s test_files/test_1_cat.txt
+-b -n -e -s test_files/test_2_cat.txt
+-b -n -e -s test_files/test_3_cat.txt
+-b -n -e -s test_files/test_4_cat.txt
+-b -n -e -s test_files/test_5_cat.txt
+-b -n -e -s test_files/test_case_cat.txt
+-b -n -e -t test_files/1.txt
+-b -n -e -t test_files/2.txt
+-b -n -e -t test_files/test_1_cat.txt
+-b -n -e -t test_files/test_2_cat.txt
+-b -n -e -t test_files/test_3_cat.txt
+-b -n -e -t test_files/test_4_cat.txt
+-b -n -e -t test_files/test_5_cat.txt
+-b -n -e -t test_files/test_case_cat.txt
+-b -n -e -v test_files/1.txt
+-b -n -e -v test_files/2.txt
+-b -n -e -v test_files/test_1_cat.txt
+-b -n -e -v test_files/test_2_cat.txt
+-b -n -e -v test_files/test_3_cat.txt
+-b -n -e -v test_files/test_4_cat.txt
+-b -n -e -v test_files/test_5_cat.txt
+-b -n -e -v test_files/test_case_cat.txt
+-b -n -s -e test_files/1.txt
+-b -n -s -e test_files/2.txt
+-b -n -s -e test_files/test_1_cat.txt
+-b -n -s -e test_files/test_2_cat.txt
+-b -n -s -e test_files/test_3_cat.txt
+-b -n -s -e test_files/test_4_cat.txt
+-b -n -s -e test_files/test_5_cat.txt
+-b -n -s -e test_files/test_case_cat.txt
+-b -n -s -t test_files/1.txt
+-b -n -s -t test_files/2.txt
+-b -n -s -t test_files/test_1_cat.txt
+-b -n -s -t test_files/test_2_cat.txt
+-b -n -s -t test_files/test_3_cat.txt
+-b -n -s -t test_files/test_4_cat.txt
+-b -n -s -t test_files/test_5_cat.txt
+-b -n -s -t test_files/test_case_cat.txt
+-b -n -s -v test_files/1.txt
+-b -n -s -v test_files/2.txt
+-b -n -s -v test_files/test_1_cat.txt
+-b -n -s -v test_files/test_2_cat.txt
+-b -n -s -v test_files/test_3_cat.txt
+-b -n -s -v test_files/test_4_cat.txt
+-b -n -s -v test_files/test_5_cat.txt
+-b -n -s -v test_files/test_case_cat.txt
+-b -n -t -e test_files/1.txt
+-b -n -t -e test_files/2.txt
+-b -n -t -e test_files/test_1_cat.txt
+-b -n -t -e test_files/test_2_cat.txt
+-b -n -t -e test_files/test_3_cat.txt
+-b -n -t -e test_files/test_4_cat.txt
+-b -n -t -e test_files/test_5_cat.txt
+-b -n -t -e test_files/test_case_cat.txt
+-b -n -t -s test_files/1.txt
+-b -n -t -s test_files/2.txt
+-b -n -t -s test_files/test_1_cat.txt
+-b -n -t -s test_files/test_2_cat.txt
+-b -n -t -s test_files/test_3_cat.txt
+-b -n -t -s test_files/test_4_cat.txt
+-b -n -t -s test_files/test_5_cat.txt
+-b -n -t -s test_files/test_case_cat.txt
+-b -n -t -v test_files/1.txt
+-b -n -t -v test_files/2.txt
+-b -n -t -v test_files/test_1_cat.txt
+-b -n -t -v test_files/test_2_cat.txt
+-b -n -t -v test_files/test_3_cat.txt
+-b -n -t -v test_files/test_4_cat.txt
+-b -n -t -v test_files/test_5_cat.txt
+-b -n -t -v test_files/test_case_cat.txt
+-b -n -v -e test_files/1.txt
+-b -n -v -e test_files/2.txt
+-b -n -v -e test_files/test_1_cat.txt
+-b -n -v -e test_files/test_2_cat.txt
+-b -n -v -e test_files/test_3_cat.txt
+-b -n -v -e test_files/test_4_cat.txt
+-b -n -v -e test_files/test_5_cat.txt
+-b -n -v -e test_files/test_case_cat.txt
+-b -n -v -s test_files/1.txt
+-b -n -v -s test_files/2.txt
+-b -n -v -s test_files/test_1_cat.txt
+-b -n -v -s test_files/test_2_cat.txt
+-b -n -v -s test_files/test_3_cat.txt
+-b -n -v -s test_files/test_4_cat.txt
+-b -n -v -s test_files/test_5_cat.txt
+-b -n -v -s test_files/test_case_cat.txt
+-b -n -v -t test_files/1.txt
+-b -n -v -t test_files/2.txt
+-b -n -v -t test_files/test_1_cat.txt
+-b -n -v -t test_files/test_2_cat.txt
+-b -n -v -t test_files/test_3_cat.txt
+-b -n -v -t test_files/test_4_cat.txt
+-b -n -v -t test_files/test_5_cat.txt
+-b -n -v -t test_files/test_case_cat.txt
+-b -s -e -n test_files/1.txt
+-b -s -e -n test_files/2.txt
+-b -s -e -n test_files/test_1_cat.txt
+-b -s -e -n test_files/test_2_cat.txt
+-b -s -e -n test_files/test_3_cat.txt
+-b -s -e -n test_files/test_4_cat.txt
+-b -s -e -n test_files/test_5_cat.txt
+-b -s -e -n test_files/test_case_cat.txt
+-b -s -e -t test_files/1.txt
+-b -s -e -t test_files/2.txt
+-b -s -e -t test_files/test_1_cat.txt
+-b -s -e -t test_files/test_2_cat.txt
+-b -s -e -t test_files/test_3_cat.txt
+-b -s -e -t test_files/test_4_cat.txt
+-b -s -e -t test_files/test_5_cat.txt
+-b -s -e -t test_files/test_case_cat.txt
+-b -s -e -v test_files/1.txt
+-b -s -e -v test_files/2.txt
+-b -s -e -v test_files/test_1_cat.txt
+-b -s -e -v test_files/test_2_cat.txt
+-b -s -e -v test_files/test_3_cat.txt
+-b -s -e -v test_files/test_4_cat.txt
+-b -s -e -v test_files/test_5_cat.txt
+-b -s -e -v test_files/test_case_cat.txt
+-b -s -n -e test_files/1.txt
+-b -s -n -e test_files/2.txt
+-b -s -n -e test_files/test_1_cat.txt
+-b -s -n -e test_files/test_2_cat.txt
+-b -s -n -e test_files/test_3_cat.txt
+-b -s -n -e test_files/test_4_cat.txt
+-b -s -n -e test_files/test_5_cat.txt
+-b -s -n -e test_files/test_case_cat.txt
+-b -s -n -t test_files/1.txt
+-b -s -n -t test_files/2.txt
+-b -s -n -t test_files/test_1_cat.txt
+-b -s -n -t test_files/test_2_cat.txt
+-b -s -n -t test_files/test_3_cat.txt
+-b -s -n -t test_files/test_4_cat.txt
+-b -s -n -t test_files/test_5_cat.txt
+-b -s -n -t test_files/test_case_cat.txt
+-b -s -n -v test_files/1.txt
+-b -s -n -v test_files/2.txt
+-b -s -n -v test_files/test_1_cat.txt
+-b -s -n -v test_files/test_2_cat.txt
+-b -s -n -v test_files/test_3_cat.txt
+-b -s -n -v test_files/test_4_cat.txt
+-b -s -n -v test_files/test_5_cat.txt
+-b -s -n -v test_files/test_case_cat.txt
+-b -s -t -e test_files/1.txt
+-b -s -t -e test_files/2.txt
+-b -s -t -e test_files/test_1_cat.txt
+-b -s -t -e test_files/test_2_cat.txt
+-b -s -t -e test_files/test_3_cat.txt
+-b -s -t -e test_files/test_4_cat.txt
+-b -s -t -e test_files/test_5_cat.txt
+-b -s -t -e test_files/test_case_cat.txt
+-b -s -t -n test_files/1.txt
+-b -s -t -n test_files/2.txt
+-b -s -t -n test_files/test_1_cat.txt
+-b -s -t -n test_files/test_2_cat.txt
+-b -s -t -n test_files/test_3_cat.txt
+-b -s -t -n test_files/test_4_cat.txt
+-b -s -t -n test_files/test_5_cat.txt
+-b -s -t -n test_files/test_case_cat.txt
+-b -s -t -v test_files/1.txt
+-b -s -t -v test_files/2.txt
+-b -s -t -v test_files/test_1_cat.txt
+-b -s -t -v test_files/test_2_cat.txt
+-b -s -t -v test_files/test_3_cat.txt
+-b -s -t -v test_files/test_4_cat.txt
+-b -s -t -v test_files/test_5_cat.txt
+-b -s -t -v test_files/test_case_cat.txt
+-b -s -v -e test_files/1.txt
+-b -s -v -e test_files/2.txt
+-b -s -v -e test_files/test_1_cat.txt
+-b -s -v -e test_files/test_2_cat.txt
+-b -s -v -e test_files/test_3_cat.txt
+-b -s -v -e test_files/test_4_cat.txt
+-b -s -v -e test_files/test_5_cat.txt
+-b -s -v -e test_files/test_case_cat.txt
+-b -s -v -n test_files/1.txt
+-b -s -v -n test_files/2.txt
+-b -s -v -n test_files/test_1_cat.txt
+-b -s -v -n test_files/test_2_cat.txt
+-b -s -v -n test_files/test_3_cat.txt
+-b -s -v -n test_files/test_4_cat.txt
+-b -s -v -n test_files/test_5_cat.txt
+-b -s -v -n test_files/test_case_cat.txt
+-b -s -v -t test_files/1.txt
+-b -s -v -t test_files/2.txt
+-b -s -v -t test_files/test_1_cat.txt
+-b -s -v -t test_files/test_2_cat.txt
+-b -s -v -t test_files/test_3_cat.txt
+-b -s -v -t test_files/test_4_cat.txt
+-b -s -v -t test_files/test_5_cat.txt
+-b -s -v -t test_files/test_case_cat.txt
+-b -t -e -n test_files/1.txt
+-b -t -e -n test_files/2.txt
+-b -t -e -n test_files/test_1_cat.txt
+-b -t -e -n test_files/test_2_cat.txt
+-b -t -e -n test_files/test_3_cat.txt
+-b -t -e -n test_files/test_4_cat.txt
+-b -t -e -n test_files/test_5_cat.txt
+-b -t -e -n test_files/test_case_cat.txt
+-b -t -e -s test_files/1.txt
+-b -t -e -s test_files/2.txt
+-b -t -e -s test_files/test_1_cat.txt
+-b -t -e -s test_files/test_2_cat.txt
+-b -t -e -s test_files/test_3_cat.txt
+-b -t -e -s test_files/test_4_cat.txt
+-b -t -e -s test_files/test_5_cat.txt
+-b -t -e -s test_files/test_case_cat.txt
+-b -t -e -v test_files/1.txt
+-b -t -e -v test_files/2.txt
+-b -t -e -v test_files/test_1_cat.txt
+-b -t -e -v test_files/test_2_cat.txt
+-b -t -e -v test_files/test_3_cat.txt
+-b -t -e -v test_files/test_4_cat.txt
+-b -t -e -v test_files/test_5_cat.txt
+-b -t -e -v test_files/test_case_cat.txt
+-b -t -n -e test_files/1.txt
+-b -t -n -e test_files/2.txt
+-b -t -n -e test_files/test_1_cat.txt
+-b -t -n -e test_files/test_2_cat.txt
+-b -t -n -e test_files/test_3_cat.txt
+-b -t -n -e test_files/test_4_cat.txt
+-b -t -n -e test_files/test_5_cat.txt
+-b -t -n -e test_files/test_case_cat.txt
+-b -t -n -s test_files/1.txt
+-b -t -n -s test_files/2.txt
+-b -t -n -s test_files/test_1_cat.txt
+-b -t -n -s test_files/test_2_cat.txt
+-b -t -n -s test_files/test_3_cat.txt
+-b -t -n -s test_files/test_4_cat.txt
+-b -t -n -s test_files/test_5_cat.txt
+-b -t -n -s test_files/test_case_cat.txt
+-b -t -n -v test_files/1.txt
+-b -t -n -v test_files/2.txt
+-b -t -n -v test_files/test_1_cat.txt
+-b -t -n -v test_files/test_2_cat.txt
+-b -t -n -v test_files/test_3_cat.txt
+-b -t -n -v test_files/test_4_cat.txt
+-b -t -n -v test_files/test_5_cat.txt
+-b -t -n -v test_files/test_case_cat.txt
+-b -t -s -e test_files/1.txt
+-b -t -s -e test_files/2.txt
+-b -t -s -e test_files/test_1_cat.txt
+-b -t -s -e test_files/test_2_cat.txt
+-b -t -s -e test_files/test_3_cat.txt
+-b -t -s -e test_files/test_4_cat.txt
+-b -t -s -e test_files/test_5_cat.txt
+-b -t -s -e test_files/test_case_cat.txt
+-b -t -s -n test_files/1.txt
+-b -t -s -n test_files/2.txt
+-b -t -s -n test_files/test_1_cat.txt
+-b -t -s -n test_files/test_2_cat.txt
+-b -t -s -n test_files/test_3_cat.txt
+-b -t -s -n test_files/test_4_cat.txt
+-b -t -s -n test_files/test_5_cat.txt
+-b -t -s -n test_files/test_case_cat.txt
+-b -t -s -v test_files/1.txt
+-b -t -s -v test_files/2.txt
+-b -t -s -v test_files/test_1_cat.txt
+-b -t -s -v test_files/test_2_cat.txt
+-b -t -s -v test_files/test_3_cat.txt
+-b -t -s -v test_files/test_4_cat.txt
+-b -t -s -v test_files/test_5_cat.txt
+-b -t -s -v test_files/test_case_cat.txt
+-b -t -v -e test_files/1.txt
+-b -t -v -e test_files/2.txt
+-b -t -v -e test_files/test_1_cat.txt
+-b -t -v -e test_files/test_2_cat.txt
+-b -t -v -e test_files/test_3_cat.txt
+-b -t -v -e test_files/test_4_cat.txt
+-b -t -v -e test_files/test_5_cat.txt
+-b -t -v -e test_files/test_case_cat.txt
+-b -t -v -n test_files/1.txt
+-b -t -v -n test_files/2.txt
+-b -t -v -n test_files/test_1_cat.txt
+-b -t -v -n test_files/test_2_cat.txt
+-b -t -v -n test_files/test_3_cat.txt
+-b -t -v -n test_files/test_4_cat.txt
+-b -t -v -n test_files/test_5_cat.txt
+-b -t -v -n test_files/test_case_cat.txt
+-b -t -v -s test_files/1.txt
+-b -t -v -s test_files/2.txt
+-b -t -v -s test_files/test_1_cat.txt
+-b -t -v -s test_files/test_2_cat.txt
+-b -t -v -s test_files/test_3_cat.txt
+-b -t -v -s test_files/test_4_cat.txt
+-b -t -v -s test_files/test_5_cat.txt
+-b -t -v -s test_files/test_case_cat.txt
+-b -v -e -n test_files/1.txt
+-b -v -e -n test_files/2.txt
+-b -v -e -n test_files/test_1_cat.txt
+-b -v -e -n test_files/test_2_cat.txt
+-b -v -e -n test_files/test_3_cat.txt
+-b -v -e -n test_files/test_4_cat.txt
+-b -v -e -n test_files/test_5_cat.txt
+-b -v -e -n test_files/test_case_cat.txt
+-b -v -e -s test_files/1.txt
+-b -v -e -s test_files/2.txt
+-b -v -e -s test_files/test_1_cat.txt
+-b -v -e -s test_files/test_2_cat.txt
+-b -v -e -s test_files/test_3_cat.txt
+-b -v -e -s test_files/test_4_cat.txt
+-b -v -e -s test_files/test_5_cat.txt
+-b -v -e -s test_files/test_case_cat.txt
+-b -v -e -t test_files/1.txt
+-b -v -e -t test_files/2.txt
+-b -v -e -t test_files/test_1_cat.txt
+-b -v -e -t test_files/test_2_cat.txt
+-b -v -e -t test_files/test_3_cat.txt
+-b -v -e -t test_files/test_4_cat.txt
+-b -v -e -t test_files/test_5_cat.txt
+-b -v -e -t test_files/test_case_cat.txt
+-b -v -n -e test_files/1.txt
+-b -v -n -e test_files/2.txt
+-b -v -n -e test_files/test_1_cat.txt
+-b -v -n -e test_files/test_2_cat.txt
+-b -v -n -e test_files/test_3_cat.txt
+-b -v -n -e test_files/test_4_cat.txt
+-b -v -n -e test_files/test_5_cat.txt
+-b -v -n -e test_files/test_case_cat.txt
+-b -v -n -s test_files/1.txt
+-b -v -n -s test_files/2.txt
+-b -v -n -s test_files/test_1_cat.txt
+-b -v -n -s test_files/test_2_cat.txt
+-b -v -n -s test_files/test_3_cat.txt
+-b -v -n -s test_files/test_4_cat.txt
+-b -v -n -s test_files/test_5_cat.txt
+-b -v -n -s test_files/test_case_cat.txt
+-b -v -n -t test_files/1.txt
+-b -v -n -t test_files/2.txt
+-b -v -n -t test_files/test_1_cat.txt
+-b -v -n -t test_files/test_2_cat.txt
+-b -v -n -t test_files/test_3_cat.txt
+-b -v -n -t test_files/test_4_cat.txt
+-b -v -n -t test_files/test_5_cat.txt
+-b -v -n -t test_files/test_case_cat.txt
+-b -v -s -e test_files/1.txt
+-b -v -s -e test_files/2.txt
+-b -v -s -e test_files/test_1_cat.txt
+-b -v -s -e test_files/test_2_cat.txt
+-b -v -s -e test_files/test_3_cat.txt
+-b -v -s -e test_files/test_4_cat.txt
+-b -v -s -e test_files/test_5_cat.txt
+-b -v -s -e test_files/test_case_cat.txt
+-b -v -s -n test_files/1.txt
+-b -v -s -n test_files/2.txt
+-b -v -s -n test_files/test_1_cat.txt
+-b -v -s -n test_files/test_2_cat.txt
+-b -v -s -n test_files/test_3_cat.txt
+-b -v -s -n test_files/test_4_cat.txt
+-b -v -s -n test_files/test_5_cat.txt
+-b -v -s -n test_files/test_case_cat.txt
+-b -v -s -t test_files/1.txt
+-b -v -s -t test_files/2.txt
+-b -v -s -t test_files/test_1_cat.txt
+-b -v -s -t test_files/test_2_cat.txt
+-b -v -s -t test_files/test_3_cat.txt
+-b -v -s -t test_files/test_4_cat.txt
+-b -v -s -t test_files/test_5_cat.txt
+-b -v -s -t test_files/test_case_cat.txt
+-b -v -t -e test_files/1.txt
+-b -v -t -e test_files/2.txt
+-b -v -t -e test_files/test_1_cat.txt
+-b -v -t -e test_files/test_2_cat.txt
+-b -v -t -e test_files/test_3_cat.txt
+-b -v -t -e test_files/test_4_cat.txt
+-b -v -t -e test_files/test_5_cat.txt
+-b -v -t -e test_files/test_case_cat.txt
+-b -v -t -n test_files/1.txt
+-b -v -t -n test_files/2.txt
+-b -v -t -n test_files/test_1_cat.txt
+-b -v -t -n test_files/test_2_cat.txt
+-b -v -t -n test_files/test_3_cat.txt
+-b -v -t -n test_files/test_4_cat.txt
+-b -v -t -n test_files/test_5_cat.txt
+-b -v -t -n test_files/test_case_cat.txt
+-b -v -t -s test_files/1.txt
+-b -v -t -s test_files/2.txt
+-b -v -t -s test_files/test_1_cat.txt
+-b -v -t -s test_files/test_2_cat.txt
+-b -v -t -s test_files/test_3_cat.txt
+-b -v -t -s test_files/test_4_cat.txt
+-b -v -t -s test_files/test_5_cat.txt
+-b -v -t -s test_files/test_case_cat.txt
+-e -b -n -s test_files/1.txt
+-e -b -n -s test_files/2.txt
+-e -b -n -s test_files/test_1_cat.txt
+-e -b -n -s test_files/test_2_cat.txt
+-e -b -n -s test_files/test_3_cat.txt
+-e -b -n -s test_files/test_4_cat.txt
+-e -b -n -s test_files/test_5_cat.txt
+-e -b -n -s test_files/test_case_cat.txt
+-e -b -n -t test_files/1.txt
+-e -b -n -t test_files/2.txt
+-e -b -n -t test_files/test_1_cat.txt
+-e -b -n -t test_files/test_2_cat.txt
+-e -b -n -t test_files/test_3_cat.txt
+-e -b -n -t test_files/test_4_cat.txt
+-e -b -n -t test_files/test_5_cat.txt
+-e -b -n -t test_files/test_case_cat.txt
+-e -b -n -v test_files/1.txt
+-e -b -n -v test_files/2.txt
+-e -b -n -v test_files/test_1_cat.txt
+-e -b -n -v test_files/test_2_cat.txt
+-e -b -n -v test_files/test_3_cat.txt
+-e -b -n -v test_files/test_4_cat.txt
+-e -b -n -v test_files/test_5_cat.txt
+-e -b -n -v test_files/test_case_cat.txt
+-e -b -s -n test_files/1.txt
+-e -b -s -n test_files/2.txt
+-e -b -s -n test_files/test_1_cat.txt
+-e -b -s -n test_files/test_2_cat.txt
+-e -b -s -n test_files/test_3_cat.txt
+-e -b -s -n test_files/test_4_cat.txt
+-e -b -s -n test_files/test_5_cat.txt
+-e -b -s -n test_files/test_case_cat.txt
+-e -b -s -t test_files/1.txt
+-e -b -s -t test_files/2.txt
+-e -b -s -t test_files/test_1_cat.txt
+-e -b -s -t test_files/test_2_cat.txt
+-e -b -s -t test_files/test_3_cat.txt
+-e -b -s -t test_files/test_4_cat.txt
+-e -b -s -t test_files/test_5_cat.txt
+-e -b -s -t test_files/test_case_cat.txt
+-e -b -s -v test_files/1.txt
+-e -b -s -v test_files/2.txt
+-e -b -s -v test_files/test_1_cat.txt
+-e -b -s -v test_files/test_2_cat.txt
+-e -b -s -v test_files/test_3_cat.txt
+-e -b -s -v test_files/test_4_cat.txt
+-e -b -s -v test_files/test_5_cat.txt
+-e -b -s -v test_files/test_case_cat.txt
+-e -b -t -n test_files/1.txt
+-e -b -t -n test_files/2.txt
+-e -b -t -n test_files/test_1_cat.txt
+-e -b -t -n test_files/test_2_cat.txt
+-e -b -t -n test_files/test_3_cat.txt
+-e -b -t -n test_files/test_4_cat.txt
+-e -b -t -n test_files/test_5_cat.txt
+-e -b -t -n test_files/test_case_cat.txt
+-e -b -t -s test_files/1.txt
+-e -b -t -s test_files/2.txt
+-e -b -t -s test_files/test_1_cat.txt
+-e -b -t -s test_files/test_2_cat.txt
+-e -b -t -s test_files/test_3_cat.txt
+-e -b -t -s test_files/test_4_cat.txt
+-e -b -t -s test_files/test_5_cat.txt
+-e -b -t -s test_files/test_case_cat.txt
+-e -b -t -v test_files/1.txt
+-e -b -t -v test_files/2.txt
+-e -b -t -v test_files/test_1_cat.txt
+-e -b -t -v test_files/test_2_cat.txt
+-e -b -t -v test_files/test_3_cat.txt
+-e -b -t -v test_files/test_4_cat.txt
+-e -b -t -v test_files/test_5_cat.txt
+-e -b -t -v test_files/test_case_cat.txt
+-e -b -v -n test_files/1.txt
+-e -b -v -n test_files/2.txt
+-e -b -v -n test_files/test_1_cat.txt
+-e -b -v -n test_files/test_2_cat.txt
+-e -b -v -n test_files/test_3_cat.txt
+-e -b -v -n test_files/test_4_cat.txt
+-e -b -v -n test_files/test_5_cat.txt
+-e -b -v -n test_files/test_case_cat.txt
+-e -b -v -s test_files/1.txt
+-e -b -v -s test_files/2.txt
+-e -b -v -s test_files/test_1_cat.txt
+-e -b -v -s test_files/test_2_cat.txt
+-e -b -v -s test_files/test_3_cat.txt
+-e -b -v -s test_files/test_4_cat.txt
+-e -b -v -s test_files/test_5_cat.txt
+-e -b -v -s test_files/test_case_cat.txt
+-e -b -v -t test_files/1.txt
+-e -b -v -t test_files/2.txt
+-e -b -v -t test_files/test_1_cat.txt
+-e -b -v -t test_files/test_2_cat.txt
+-e -b -v -t test_files/test_3_cat.txt
+-e -b -v -t test_files/test_4_cat.txt
+-e -b -v -t test_files/test_5_cat.txt
+-e -b -v -t test_files/test_case_cat.txt
+-e -n -b -s test_files/1.txt
+-e -n -b -s test_files/2.txt
+-e -n -b -s test_files/test_1_cat.txt
+-e -n -b -s test_files/test_2_cat.txt
+-e -n -b -s test_files/test_3_cat.txt
+-e -n -b -s test_files/test_4_cat.txt
+-e -n -b -s test_files/test_5_cat.txt
+-e -n -b -s test_files/test_case_cat.txt
+-e -n -b -t test_files/1.txt
+-e -n -b -t test_files/2.txt
+-e -n -b -t test_files/test_1_cat.txt
+-e -n -b -t test_files/test_2_cat.txt
+-e -n -b -t test_files/test_3_cat.txt
+-e -n -b -t test_files/test_4_cat.txt
+-e -n -b -t test_files/test_5_cat.txt
+-e -n -b -t test_files/test_case_cat.txt
+-e -n -b -v test_files/1.txt
+-e -n -b -v test_files/2.txt
+-e -n -b -v test_files/test_1_cat.txt
+-e -n -b -v test_files/test_2_cat.txt
+-e -n -b -v test_files/test_3_cat.txt
+-e -n -b -v test_files/test_4_cat.txt
+-e -n -b -v test_files/test_5_cat.txt
+-e -n -b -v test_files/test_case_cat.txt
+-e -n -s -b test_files/1.txt
+-e -n -s -b test_files/2.txt
+-e -n -s -b test_files/test_1_cat.txt
+-e -n -s -b test_files/test_2_cat.txt
+-e -n -s -b test_files/test_3_cat.txt
+-e -n -s -b test_files/test_4_cat.txt
+-e -n -s -b test_files/test_5_cat.txt
+-e -n -s -b test_files/test_case_cat.txt
+-e -n -s -t test_files/1.txt
+-e -n -s -t test_files/2.txt
+-e -n -s -t test_files/test_1_cat.txt
+-e -n -s -t test_files/test_2_cat.txt
+-e -n -s -t test_files/test_3_cat.txt
+-e -n -s -t test_files/test_4_cat.txt
+-e -n -s -t test_files/test_5_cat.txt
+-e -n -s -t test_files/test_case_cat.txt
+-e -n -s -v test_files/1.txt
+-e -n -s -v test_files/2.txt
+-e -n -s -v test_files/test_1_cat.txt
+-e -n -s -v test_files/test_2_cat.txt
+-e -n -s -v test_files/test_3_cat.txt
+-e -n -s -v test_files/test_4_cat.txt
+-e -n -s -v test_files/test_5_cat.txt
+-e -n -s -v test_files/test_case_cat.txt
+-e -n -t -b test_files/1.txt
+-e -n -t -b test_files/2.txt
+-e -n -t -b test_files/test_1_cat.txt
+-e -n -t -b test_files/test_2_cat.txt
+-e -n -t -b test_files/test_3_cat.txt
+-e -n -t -b test_files/test_4_cat.txt
+-e -n -t -b test_files/test_5_cat.txt
+-e -n -t -b test_files/test_case_cat.txt
+-e -n -t -s test_files/1.txt
+-e -n -t -s test_files/2.txt
+-e -n -t -s test_files/test_1_cat.txt
+-e -n -t -s test_files/test_2_cat.txt
+-e -n -t -s test_files/test_3_cat.txt
+-e -n -t -s test_files/test_4_cat.txt
+-e -n -t -s test_files/test_5_cat.txt
+-e -n -t -s test_files/test_case_cat.txt
+-e -n -t -v test_files/1.txt
+-e -n -t -v test_files/2.txt
+-e -n -t -v test_files/test_1_cat.txt
+-e -n -t -v test_files/test_2_cat.txt
+-e -n -t -v test_files/test_3_cat.txt
+-e -n -t -v test_files/test_4_cat.txt
+-e -n -t -v test_files/test_5_cat.txt
+-e -n -t -v test_files/test_case_cat.txt
+-e -n -v -b test_files/1.txt
+-e -n -v -b test_files/2.txt
+-e -n -v -b test_files/test_1_cat.txt
+-e -n -v -b test_files/test_2_cat.txt
+-e -n -v -b test_files/test_3_cat.txt
+-e -n -v -b test_files/test_4_cat.txt
+-e -n -v -b test_files/test_5_cat.txt
+-e -n -v -b test_files/test_case_cat.txt
+-e -n -v -s test_files/1.txt
+-e -n -v -s test_files/2.txt
+-e -n -v -s test_files/test_1_cat.txt
+-e -n -v -s test_files/test_2_cat.txt
+-e -n -v -s test_files/test_3_cat.txt
+-e -n -v -s test_files/test_4_cat.txt
+-e -n -v -s test_files/test_5_cat.txt
+-e -n -v -s test_files/test_case_cat.txt
+-e -n -v -t test_files/1.txt
+-e -n -v -t test_files/2.txt
+-e -n -v -t test_files/test_1_cat.txt
+-e -n -v -t test_files/test_2_cat.txt
+-e -n -v -t test_files/test_3_cat.txt
+-e -n -v -t test_files/test_4_cat.txt
+-e -n -v -t test_files/test_5_cat.txt
+-e -n -v -t test_files/test_case_cat.txt
+-e -s -b -n test_files/1.txt
+-e -s -b -n test_files/2.txt
+-e -s -b -n test_files/test_1_cat.txt
+-e -s -b -n test_files/test_2_cat.txt
+-e -s -b -n test_files/test_3_cat.txt
+-e -s -b -n test_files/test_4_cat.txt
+-e -s -b -n test_files/test_5_cat.txt
+-e -s -b -n test_files/test_case_cat.txt
+-e -s -b -t test_files/1.txt
+-e -s -b -t test_files/2.txt
+-e -s -b -t test_files/test_1_cat.txt
+-e -s -b -t test_files/test_2_cat.txt
+-e -s -b -t test_files/test_3_cat.txt
+-e -s -b -t test_files/test_4_cat.txt
+-e -s -b -t test_files/test_5_cat.txt
+-e -s -b -t test_files/test_case_cat.txt
+-e -s -b -v test_files/1.txt
+-e -s -b -v test_files/2.txt
+-e -s -b -v test_files/test_1_cat.txt
+-e -s -b -v test_files/test_2_cat.txt
+-e -s -b -v test_files/test_3_cat.txt
+-e -s -b -v test_files/test_4_cat.txt
+-e -s -b -v test_files/test_5_cat.txt
+-e -s -b -v test_files/test_case_cat.txt
+-e -s -n -b test_files/1.txt
+-e -s -n -b test_files/2.txt
+-e -s -n -b test_files/test_1_cat.txt
+-e -s -n -b test_files/test_2_cat.txt
+-e -s -n -b test_files/test_3_cat.txt
+-e -s -n -b test_files/test_4_cat.txt
+-e -s -n -b test_files/test_5_cat.txt
+-e -s -n -b test_files/test_case_cat.txt
+-e -s -n -t test_files/1.txt
+-e -s -n -t test_files/2.txt
+-e -s -n -t test_files/test_1_cat.txt
+-e -s -n -t test_files/test_2_cat.txt
+-e -s -n -t test_files/test_3_cat.txt
+-e -s -n -t test_files/test_4_cat.txt
+-e -s -n -t test_files/test_5_cat.txt
+-e -s -n -t test_files/test_case_cat.txt
+-e -s -n -v test_files/1.txt
+-e -s -n -v test_files/2.txt
+-e -s -n -v test_files/test_1_cat.txt
+-e -s -n -v test_files/test_2_cat.txt
+-e -s -n -v test_files/test_3_cat.txt
+-e -s -n -v test_files/test_4_cat.txt
+-e -s -n -v test_files/test_5_cat.txt
+-e -s -n -v test_files/test_case_cat.txt
+-e -s -t -b test_files/1.txt
+-e -s -t -b test_files/2.txt
+-e -s -t -b test_files/test_1_cat.txt
+-e -s -t -b test_files/test_2_cat.txt
+-e -s -t -b test_files/test_3_cat.txt
+-e -s -t -b test_files/test_4_cat.txt
+-e -s -t -b test_files/test_5_cat.txt
+-e -s -t -b test_files/test_case_cat.txt
+-e -s -t -n test_files/1.txt
+-e -s -t -n test_files/2.txt
+-e -s -t -n test_files/test_1_cat.txt
+-e -s -t -n test_files/test_2_cat.txt
+-e -s -t -n test_files/test_3_cat.txt
+-e -s -t -n test_files/test_4_cat.txt
+-e -s -t -n test_files/test_5_cat.txt
+-e -s -t -n test_files/test_case_cat.txt
+-e -s -t -v test_files/1.txt
+-e -s -t -v test_files/2.txt
+-e -s -t -v test_files/test_1_cat.txt
+-e -s -t -v test_files/test_2_cat.txt
+-e -s -t -v test_files/test_3_cat.txt
+-e -s -t -v test_files/test_4_cat.txt
+-e -s -t -v test_files/test_5_cat.txt
+-e -s -t -v test_files/test_case_cat.txt
+-e -s -v -b test_files/1.txt
+-e -s -v -b test_files/2.txt
+-e -s -v -b test_files/test_1_cat.txt
+-e -s -v -b test_files/test_2_cat.txt
+-e -s -v -b test_files/test_3_cat.txt
+-e -s -v -b test_files/test_4_cat.txt
+-e -s -v -b test_files/test_5_cat.txt
+-e -s -v -b test_files/test_case_cat.txt
+-e -s -v -n test_files/1.txt
+-e -s -v -n test_files/2.txt
+-e -s -v -n test_files/test_1_cat.txt
+-e -s -v -n test_files/test_2_cat.txt
+-e -s -v -n test_files/test_3_cat.txt
+-e -s -v -n test_files/test_4_cat.txt
+-e -s -v -n test_files/test_5_cat.txt
+-e -s -v -n test_files/test_case_cat.txt
+-e -s -v -t test_files/1.txt
+-e -s -v -t test_files/2.txt
+-e -s -v -t test_files/test_1_cat.txt
+-e -s -v -t test_files/test_2_cat.txt
+-e -s -v -t test_files/test_3_cat.txt
+-e -s -v -t test_files/test_4_cat.txt
+-e -s -v -t test_files/test_5_cat.txt
+-e -s -v -t test_files/test_case_cat.txt
+-e -t -b -n test_files/1.txt
+-e -t -b -n test_files/2.txt
+-e -t -b -n test_files/test_1_cat.txt
+-e -t -b -n test_files/test_2_cat.txt
+-e -t -b -n test_files/test_3_cat.txt
+-e -t -b -n test_files/test_4_cat.txt
+-e -t -b -n test_files/test_5_cat.txt
+-e -t -b -n test_files/test_case_cat.txt
+-e -t -b -s test_files/1.txt
+-e -t -b -s test_files/2.txt
+-e -t -b -s test_files/test_1_cat.txt
+-e -t -b -s test_files/test_2_cat.txt
+-e -t -b -s test_files/test_3_cat.txt
+-e -t -b -s test_files/test_4_cat.txt
+-e -t -b -s test_files/test_5_cat.txt
+-e -t -b -s test_files/test_case_cat.txt
+-e -t -b -v test_files/1.txt
+-e -t -b -v test_files/2.txt
+-e -t -b -v test_files/test_1_cat.txt
+-e -t -b -v test_files/test_2_cat.txt
+-e -t -b -v test_files/test_3_cat.txt
+-e -t -b -v test_files/test_4_cat.txt
+-e -t -b -v test_files/test_5_cat.txt
+-e -t -b -v test_files/test_case_cat.txt
+-e -t -n -b test_files/1.txt
+-e -t -n -b test_files/2.txt
+-e -t -n -b test_files/test_1_cat.txt
+-e -t -n -b test_files/test_2_cat.txt
+-e -t -n -b test_files/test_3_cat.txt
+-e -t -n -b test_files/test_4_cat.txt
+-e -t -n -b test_files/test_5_cat.txt
+-e -t -n -b test_files/test_case_cat.txt
+-e -t -n -s test_files/1.txt
+-e -t -n -s test_files/2.txt
+-e -t -n -s test_files/test_1_cat.txt
+-e -t -n -s test_files/test_2_cat.txt
+-e -t -n -s test_files/test_3_cat.txt
+-e -t -n -s test_files/test_4_cat.txt
+-e -t -n -s test_files/test_5_cat.txt
+-e -t -n -s test_files/test_case_cat.txt
+-e -t -n -v test_files/1.txt
+-e -t -n -v test_files/2.txt
+-e -t -n -v test_files/test_1_cat.txt
+-e -t -n -v test_files/test_2_cat.txt
+-e -t -n -v test_files/test_3_cat.txt
+-e -t -n -v test_files/test_4_cat.txt
+-e -t -n -v test_files/test_5_cat.txt
+-e -t -n -v test_files/test_case_cat.txt
+-e -t -s -b test_files/1.txt
+-e -t -s -b test_files/2.txt
+-e -t -s -b test_files/test_1_cat.txt
+-e -t -s -b test_files/test_2_cat.txt
+-e -t -s -b test_files/test_3_cat.txt
+-e -t -s -b test_files/test_4_cat.txt
+-e -t -s -b test_files/test_5_cat.txt
+-e -t -s -b test_files/test_case_cat.txt
+-e -t -s -n test_files/1.txt
+-e -t -s -n test_files/2.txt
+-e -t -s -n test_files/test_1_cat.txt
+-e -t -s -n test_files/test_2_cat.txt
+-e -t -s -n test_files/test_3_cat.txt
+-e -t -s -n test_files/test_4_cat.txt
+-e -t -s -n test_files/test_5_cat.txt
+-e -t -s -n test_files/test_case_cat.txt
+-e -t -s -v test_files/1.txt
+-e -t -s -v test_files/2.txt
+-e -t -s -v test_files/test_1_cat.txt
+-e -t -s -v test_files/test_2_cat.txt
+-e -t -s -v test_files/test_3_cat.txt
+-e -t -s -v test_files/test_4_cat.txt
+-e -t -s -v test_files/test_5_cat.txt
+-e -t -s -v test_files/test_case_cat.txt
+-e -t -v -b test_files/1.txt
+-e -t -v -b test_files/2.txt
+-e -t -v -b test_files/test_1_cat.txt
+-e -t -v -b test_files/test_2_cat.txt
+-e -t -v -b test_files/test_3_cat.txt
+-e -t -v -b test_files/test_4_cat.txt
+-e -t -v -b test_files/test_5_cat.txt
+-e -t -v -b test_files/test_case_cat.txt
+-e -t -v -n test_files/1.txt
+-e -t -v -n test_files/2.txt
+-e -t -v -n test_files/test_1_cat.txt
+-e -t -v -n test_files/test_2_cat.txt
+-e -t -v -n test_files/test_3_cat.txt
+-e -t -v -n test_files/test_4_cat.txt
+-e -t -v -n test_files/test_5_cat.txt
+-e -t -v -n test_files/test_case_cat.txt
+-e -t -v -s test_files/1.txt
+-e -t -v -s test_files/2.txt
+-e -t -v -s test_files/test_1_cat.txt
+-e -t -v -s test_files/test_2_cat.txt
+-e -t -v -s test_files/test_3_cat.txt
+-e -t -v -s test_files/test_4_cat.txt
+-e -t -v -s test_files/test_5_cat.txt
+-e -t -v -s test_files/test_case_cat.txt
+-e -v -b -n test_files/1.txt
+-e -v -b -n test_files/2.txt
+-e -v -b -n test_files/test_1_cat.txt
+-e -v -b -n test_files/test_2_cat.txt
+-e -v -b -n test_files/test_3_cat.txt
+-e -v -b -n test_files/test_4_cat.txt
+-e -v -b -n test_files/test_5_cat.txt
+-e -v -b -n test_files/test_case_cat.txt
+-e -v -b -s test_files/1.txt
+-e -v -b -s test_files/2.txt
+-e -v -b -s test_files/test_1_cat.txt
+-e -v -b -s test_files/test_2_cat.txt
+-e -v -b -s test_files/test_3_cat.txt
+-e -v -b -s test_files/test_4_cat.txt
+-e -v -b -s test_files/test_5_cat.txt
+-e -v -b -s test_files/test_case_cat.txt
+-e -v -b -t test_files/1.txt
+-e -v -b -t test_files/2.txt
+-e -v -b -t test_files/test_1_cat.txt
+-e -v -b -t test_files/test_2_cat.txt
+-e -v -b -t test_files/test_3_cat.txt
+-e -v -b -t test_files/test_4_cat.txt
+-e -v -b -t test_files/test_5_cat.txt
+-e -v -b -t test_files/test_case_cat.txt
+-e -v -n -b test_files/1.txt
+-e -v -n -b test_files/2.txt
+-e -v -n -b test_files/test_1_cat.txt
+-e -v -n -b test_files/test_2_cat.txt
+-e -v -n -b test_files/test_3_cat.txt
+-e -v -n -b test_files/test_4_cat.txt
+-e -v -n -b test_files/test_5_cat.txt
+-e -v -n -b test_files/test_case_cat.txt
+-e -v -n -s test_files/1.txt
+-e -v -n -s test_files/2.txt
+-e -v -n -s test_files/test_1_cat.txt
+-e -v -n -s test_files/test_2_cat.txt
+-e -v -n -s test_files/test_3_cat.txt
+-e -v -n -s test_files/test_4_cat.txt
+-e -v -n -s test_files/test_5_cat.txt
+-e -v -n -s test_files/test_case_cat.txt
+-e -v -n -t test_files/1.txt
+-e -v -n -t test_files/2.txt
+-e -v -n -t test_files/test_1_cat.txt
+-e -v -n -t test_files/test_2_cat.txt
+-e -v -n -t test_files/test_3_cat.txt
+-e -v -n -t test_files/test_4_cat.txt
+-e -v -n -t test_files/test_5_cat.txt
+-e -v -n -t test_files/test_case_cat.txt
+-e -v -s -b test_files/1.txt
+-e -v -s -b test_files/2.txt
+-e -v -s -b test_files/test_1_cat.txt
+-e -v -s -b test_files/test_2_cat.txt
+-e -v -s -b test_files/test_3_cat.txt
+-e -v -s -b test_files/test_4_cat.txt
+-e -v -s -b test_files/test_5_cat.txt
+-e -v -s -b test_files/test_case_cat.txt
+-e -v -s -n test_files/1.txt
+-e -v -s -n test_files/2.txt
+-e -v -s -n test_files/test_1_cat.txt
+-e -v -s -n test_files/test_2_cat.txt
+-e -v -s -n test_files/test_3_cat.txt
+-e -v -s -n test_files/test_4_cat.txt
+-e -v -s -n test_files/test_5_cat.txt
+-e -v -s -n test_files/test_case_cat.txt
+-e -v -s -t test_files/1.txt
+-e -v -s -t test_files/2.txt
+-e -v -s -t test_files/test_1_cat.txt
+-e -v -s -t test_files/test_2_cat.txt
+-e -v -s -t test_files/test_3_cat.txt
+-e -v -s -t test_files/test_4_cat.txt
+-e -v -s -t test_files/test_5_cat.txt
+-e -v -s -t test_files/test_case_cat.txt
+-e -v -t -b test_files/1.txt
+-e -v -t -b test_files/2.txt
+-e -v -t -b test_files/test_1_cat.txt
+-e -v -t -b test_files/test_2_cat.txt
+-e -v -t -b test_files/test_3_cat.txt
+-e -v -t -b test_files/test_4_cat.txt
+-e -v -t -b test_files/test_5_cat.txt
+-e -v -t -b test_files/test_case_cat.txt
+-e -v -t -n test_files/1.txt
+-e -v -t -n test_files/2.txt
+-e -v -t -n test_files/test_1_cat.txt
+-e -v -t -n test_files/test_2_cat.txt
+-e -v -t -n test_files/test_3_cat.txt
+-e -v -t -n test_files/test_4_cat.txt
+-e -v -t -n test_files/test_5_cat.txt
+-e -v -t -n test_files/test_case_cat.txt
+-e -v -t -s test_files/1.txt
+-e -v -t -s test_files/2.txt
+-e -v -t -s test_files/test_1_cat.txt
+-e -v -t -s test_files/test_2_cat.txt
+-e -v -t -s test_files/test_3_cat.txt
+-e -v -t -s test_files/test_4_cat.txt
+-e -v -t -s test_files/test_5_cat.txt
+-e -v -t -s test_files/test_case_cat.txt
+-n -b -e -s test_files/1.txt
+-n -b -e -s test_files/2.txt
+-n -b -e -s test_files/test_1_cat.txt
+-n -b -e -s test_files/test_2_cat.txt
+-n -b -e -s test_files/test_3_cat.txt
+-n -b -e -s test_files/test_4_cat.txt
+-n -b -e -s test_files/test_5_cat.txt
+-n -b -e -s test_files/test_case_cat.txt
+-n -b -e -t test_files/1.txt
+-n -b -e -t test_files/2.txt
+-n -b -e -t test_files/test_1_cat.txt
+-n -b -e -t test_files/test_2_cat.txt
+-n -b -e -t test_files/test_3_cat.txt
+-n -b -e -t test_files/test_4_cat.txt
+-n -b -e -t test_files/test_5_cat.txt
+-n -b -e -t test_files/test_case_cat.txt
+-n -b -e -v test_files/1.txt
+-n -b -e -v test_files/2.txt
+-n -b -e -v test_files/test_1_cat.txt
+-n -b -e -v test_files/test_2_cat.txt
+-n -b -e -v test_files/test_3_cat.txt
+-n -b -e -v test_files/test_4_cat.txt
+-n -b -e -v test_files/test_5_cat.txt
+-n -b -e -v test_files/test_case_cat.txt
+-n -b -s -e test_files/1.txt
+-n -b -s -e test_files/2.txt
+-n -b -s -e test_files/test_1_cat.txt
+-n -b -s -e test_files/test_2_cat.txt
+-n -b -s -e test_files/test_3_cat.txt
+-n -b -s -e test_files/test_4_cat.txt
+-n -b -s -e test_files/test_5_cat.txt
+-n -b -s -e test_files/test_case_cat.txt
+-n -b -s -t test_files/1.txt
+-n -b -s -t test_files/2.txt
+-n -b -s -t test_files/test_1_cat.txt
+-n -b -s -t test_files/test_2_cat.txt
+-n -b -s -t test_files/test_3_cat.txt
+-n -b -s -t test_files/test_4_cat.txt
+-n -b -s -t test_files/test_5_cat.txt
+-n -b -s -t test_files/test_case_cat.txt
+-n -b -s -v test_files/1.txt
+-n -b -s -v test_files/2.txt
+-n -b -s -v test_files/test_1_cat.txt
+-n -b -s -v test_files/test_2_cat.txt
+-n -b -s -v test_files/test_3_cat.txt
+-n -b -s -v test_files/test_4_cat.txt
+-n -b -s -v test_files/test_5_cat.txt
+-n -b -s -v test_files/test_case_cat.txt
+-n -b -t -e test_files/1.txt
+-n -b -t -e test_files/2.txt
+-n -b -t -e test_files/test_1_cat.txt
+-n -b -t -e test_files/test_2_cat.txt
+-n -b -t -e test_files/test_3_cat.txt
+-n -b -t -e test_files/test_4_cat.txt
+-n -b -t -e test_files/test_5_cat.txt
+-n -b -t -e test_files/test_case_cat.txt
+-n -b -t -s test_files/1.txt
+-n -b -t -s test_files/2.txt
+-n -b -t -s test_files/test_1_cat.txt
+-n -b -t -s test_files/test_2_cat.txt
+-n -b -t -s test_files/test_3_cat.txt
+-n -b -t -s test_files/test_4_cat.txt
+-n -b -t -s test_files/test_5_cat.txt
+-n -b -t -s test_files/test_case_cat.txt
+-n -b -t -v test_files/1.txt
+-n -b -t -v test_files/2.txt
+-n -b -t -v test_files/test_1_cat.txt
+-n -b -t -v test_files/test_2_cat.txt
+-n -b -t -v test_files/test_3_cat.txt
+-n -b -t -v test_files/test_4_cat.txt
+-n -b -t -v test_files/test_5_cat.txt
+-n -b -t -v test_files/test_case_cat.txt
+-n -b -v -e test_files/1.txt
+-n -b -v -e test_files/2.txt
+-n -b -v -e test_files/test_1_cat.txt
+-n -b -v -e test_files/test_2_cat.txt
+-n -b -v -e test_files/test_3_cat.txt
+-n -b -v -e test_files/test_4_cat.txt
+-n -b -v -e test_files/test_5_cat.txt
+-n -b -v -e test_files/test_case_cat.txt
+-n -b -v -s test_files/1.txt
+-n -b -v -s test_files/2.txt
+-n -b -v -s test_files/test_1_cat.txt
+-n -b -v -s test_files/test_2_cat.txt
+-n -b -v -s test_files/test_3_cat.txt
+-n -b -v -s test_files/test_4_cat.txt
+-n -b -v -s test_files/test_5_cat.txt
+-n -b -v -s test_files/test_case_cat.txt
+-n -b -v -t test_files/1.txt
+-n -b -v -t test_files/2.txt
+-n -b -v -t test_files/test_1_cat.txt
+-n -b -v -t test_files/test_2_cat.txt
+-n -b -v -t test_files/test_3_cat.txt
+-n -b -v -t test_files/test_4_cat.txt
+-n -b -v -t test_files/test_5_cat.txt
+-n -b -v -t test_files/test_case_cat.txt
+-n -e -b -s test_files/1.txt
+-n -e -b -s test_files/2.txt
+-n -e -b -s test_files/test_1_cat.txt
+-n -e -b -s test_files/test_2_cat.txt
+-n -e -b -s test_files/test_3_cat.txt
+-n -e -b -s test_files/test_4_cat.txt
+-n -e -b -s test_files/test_5_cat.txt
+-n -e -b -s test_files/test_case_cat.txt
+-n -e -b -t test_files/1.txt
+-n -e -b -t test_files/2.txt
+-n -e -b -t test_files/test_1_cat.txt
+-n -e -b -t test_files/test_2_cat.txt
+-n -e -b -t test_files/test_3_cat.txt
+-n -e -b -t test_files/test_4_cat.txt
+-n -e -b -t test_files/test_5_cat.txt
+-n -e -b -t test_files/test_case_cat.txt
+-n -e -b -v test_files/1.txt
+-n -e -b -v test_files/2.txt
+-n -e -b -v test_files/test_1_cat.txt
+-n -e -b -v test_files/test_2_cat.txt
+-n -e -b -v test_files/test_3_cat.txt
+-n -e -b -v test_files/test_4_cat.txt
+-n -e -b -v test_files/test_5_cat.txt
+-n -e -b -v test_files/test_case_cat.txt
+-n -e -s -b test_files/1.txt
+-n -e -s -b test_files/2.txt
+-n -e -s -b test_files/test_1_cat.txt
+-n -e -s -b test_files/test_2_cat.txt
+-n -e -s -b test_files/test_3_cat.txt
+-n -e -s -b test_files/test_4_cat.txt
+-n -e -s -b test_files/test_5_cat.txt
+-n -e -s -b test_files/test_case_cat.txt
+-n -e -s -t test_files/1.txt
+-n -e -s -t test_files/2.txt
+-n -e -s -t test_files/test_1_cat.txt
+-n -e -s -t test_files/test_2_cat.txt
+-n -e -s -t test_files/test_3_cat.txt
+-n -e -s -t test_files/test_4_cat.txt
+-n -e -s -t test_files/test_5_cat.txt
+-n -e -s -t test_files/test_case_cat.txt
+-n -e -s -v test_files/1.txt
+-n -e -s -v test_files/2.txt
+-n -e -s -v test_files/test_1_cat.txt
+-n -e -s -v test_files/test_2_cat.txt
+-n -e -s -v test_files/test_3_cat.txt
+-n -e -s -v test_files/test_4_cat.txt
+-n -e -s -v test_files/test_5_cat.txt
+-n -e -s -v test_files/test_case_cat.txt
+-n -e -t -b test_files/1.txt
+-n -e -t -b test_files/2.txt
+-n -e -t -b test_files/test_1_cat.txt
+-n -e -t -b test_files/test_2_cat.txt
+-n -e -t -b test_files/test_3_cat.txt
+-n -e -t -b test_files/test_4_cat.txt
+-n -e -t -b test_files/test_5_cat.txt
+-n -e -t -b test_files/test_case_cat.txt
+-n -e -t -s test_files/1.txt
+-n -e -t -s test_files/2.txt
+-n -e -t -s test_files/test_1_cat.txt
+-n -e -t -s test_files/test_2_cat.txt
+-n -e -t -s test_files/test_3_cat.txt
+-n -e -t -s test_files/test_4_cat.txt
+-n -e -t -s test_files/test_5_cat.txt
+-n -e -t -s test_files/test_case_cat.txt
+-n -e -t -v test_files/1.txt
+-n -e -t -v test_files/2.txt
+-n -e -t -v test_files/test_1_cat.txt
+-n -e -t -v test_files/test_2_cat.txt
+-n -e -t -v test_files/test_3_cat.txt
+-n -e -t -v test_files/test_4_cat.txt
+-n -e -t -v test_files/test_5_cat.txt
+-n -e -t -v test_files/test_case_cat.txt
+-n -e -v -b test_files/1.txt
+-n -e -v -b test_files/2.txt
+-n -e -v -b test_files/test_1_cat.txt
+-n -e -v -b test_files/test_2_cat.txt
+-n -e -v -b test_files/test_3_cat.txt
+-n -e -v -b test_files/test_4_cat.txt
+-n -e -v -b test_files/test_5_cat.txt
+-n -e -v -b test_files/test_case_cat.txt
+-n -e -v -s test_files/1.txt
+-n -e -v -s test_files/2.txt
+-n -e -v -s test_files/test_1_cat.txt
+-n -e -v -s test_files/test_2_cat.txt
+-n -e -v -s test_files/test_3_cat.txt
+-n -e -v -s test_files/test_4_cat.txt
+-n -e -v -s test_files/test_5_cat.txt
+-n -e -v -s test_files/test_case_cat.txt
+-n -e -v -t test_files/1.txt
+-n -e -v -t test_files/2.txt
+-n -e -v -t test_files/test_1_cat.txt
+-n -e -v -t test_files/test_2_cat.txt
+-n -e -v -t test_files/test_3_cat.txt
+-n -e -v -t test_files/test_4_cat.txt
+-n -e -v -t test_files/test_5_cat.txt
+-n -e -v -t test_files/test_case_cat.txt
+-n -s -b -e test_files/1.txt
+-n -s -b -e test_files/2.txt
+-n -s -b -e test_files/test_1_cat.txt
+-n -s -b -e test_files/test_2_cat.txt
+-n -s -b -e test_files/test_3_cat.txt
+-n -s -b -e test_files/test_4_cat.txt
+-n -s -b -e test_files/test_5_cat.txt
+-n -s -b -e test_files/test_case_cat.txt
+-n -s -b -t test_files/1.txt
+-n -s -b -t test_files/2.txt
+-n -s -b -t test_files/test_1_cat.txt
+-n -s -b -t test_files/test_2_cat.txt
+-n -s -b -t test_files/test_3_cat.txt
+-n -s -b -t test_files/test_4_cat.txt
+-n -s -b -t test_files/test_5_cat.txt
+-n -s -b -t test_files/test_case_cat.txt
+-n -s -b -v test_files/1.txt
+-n -s -b -v test_files/2.txt
+-n -s -b -v test_files/test_1_cat.txt
+-n -s -b -v test_files/test_2_cat.txt
+-n -s -b -v test_files/test_3_cat.txt
+-n -s -b -v test_files/test_4_cat.txt
+-n -s -b -v test_files/test_5_cat.txt
+-n -s -b -v test_files/test_case_cat.txt
+-n -s -e -b test_files/1.txt
+-n -s -e -b test_files/2.txt
+-n -s -e -b test_files/test_1_cat.txt
+-n -s -e -b test_files/test_2_cat.txt
+-n -s -e -b test_files/test_3_cat.txt
+-n -s -e -b test_files/test_4_cat.txt
+-n -s -e -b test_files/test_5_cat.txt
+-n -s -e -b test_files/test_case_cat.txt
+-n -s -e -t test_files/1.txt
+-n -s -e -t test_files/2.txt
+-n -s -e -t test_files/test_1_cat.txt
+-n -s -e -t test_files/test_2_cat.txt
+-n -s -e -t test_files/test_3_cat.txt
+-n -s -e -t test_files/test_4_cat.txt
+-n -s -e -t test_files/test_5_cat.txt
+-n -s -e -t test_files/test_case_cat.txt
+-n -s -e -v test_files/1.txt
+-n -s -e -v test_files/2.txt
+-n -s -e -v test_files/test_1_cat.txt
+-n -s -e -v test_files/test_2_cat.txt
+-n -s -e -v test_files/test_3_cat.txt
+-n -s -e -v test_files/test_4_cat.txt
+-n -s -e -v test_files/test_5_cat.txt
+-n -s -e -v test_files/test_case_cat.txt
+-n -s -t -b test_files/1.txt
+-n -s -t -b test_files/2.txt
+-n -s -t -b test_files/test_1_cat.txt
+-n -s -t -b test_files/test_2_cat.txt
+-n -s -t -b test_files/test_3_cat.txt
+-n -s -t -b test_files/test_4_cat.txt
+-n -s -t -b test_files/test_5_cat.txt
+-n -s -t -b test_files/test_case_cat.txt
+-n -s -t -e test_files/1.txt
+-n -s -t -e test_files/2.txt
+-n -s -t -e test_files/test_1_cat.txt
+-n -s -t -e test_files/test_2_cat.txt
+-n -s -t -e test_files/test_3_cat.txt
+-n -s -t -e test_files/test_4_cat.txt
+-n -s -t -e test_files/test_5_cat.txt
+-n -s -t -e test_files/test_case_cat.txt
+-n -s -t -v test_files/1.txt
+-n -s -t -v test_files/2.txt
+-n -s -t -v test_files/test_1_cat.txt
+-n -s -t -v test_files/test_2_cat.txt
+-n -s -t -v test_files/test_3_cat.txt
+-n -s -t -v test_files/test_4_cat.txt
+-n -s -t -v test_files/test_5_cat.txt
+-n -s -t -v test_files/test_case_cat.txt
+-n -s -v -b test_files/1.txt
+-n -s -v -b test_files/2.txt
+-n -s -v -b test_files/test_1_cat.txt
+-n -s -v -b test_files/test_2_cat.txt
+-n -s -v -b test_files/test_3_cat.txt
+-n -s -v -b test_files/test_4_cat.txt
+-n -s -v -b test_files/test_5_cat.txt
+-n -s -v -b test_files/test_case_cat.txt
+-n -s -v -e test_files/1.txt
+-n -s -v -e test_files/2.txt
+-n -s -v -e test_files/test_1_cat.txt
+-n -s -v -e test_files/test_2_cat.txt
+-n -s -v -e test_files/test_3_cat.txt
+-n -s -v -e test_files/test_4_cat.txt
+-n -s -v -e test_files/test_5_cat.txt
+-n -s -v -e test_files/test_case_cat.txt
+-n -s -v -t test_files/1.txt
+-n -s -v -t test_files/2.txt
+-n -s -v -t test_files/test_1_cat.txt
+-n -s -v -t test_files/test_2_cat.txt
+-n -s -v -t test_files/test_3_cat.txt
+-n -s -v -t test_files/test_4_cat.txt
+-n -s -v -t test_files/test_5_cat.txt
+-n -s -v -t test_files/test_case_cat.txt
+-n -t -b -e test_files/1.txt
+-n -t -b -e test_files/2.txt
+-n -t -b -e test_files/test_1_cat.txt
+-n -t -b -e test_files/test_2_cat.txt
+-n -t -b -e test_files/test_3_cat.txt
+-n -t -b -e test_files/test_4_cat.txt
+-n -t -b -e test_files/test_5_cat.txt
+-n -t -b -e test_files/test_case_cat.txt
+-n -t -b -s test_files/1.txt
+-n -t -b -s test_files/2.txt
+-n -t -b -s test_files/test_1_cat.txt
+-n -t -b -s test_files/test_2_cat.txt
+-n -t -b -s test_files/test_3_cat.txt
+-n -t -b -s test_files/test_4_cat.txt
+-n -t -b -s test_files/test_5_cat.txt
+-n -t -b -s test_files/test_case_cat.txt
+-n -t -b -v test_files/1.txt
+-n -t -b -v test_files/2.txt
+-n -t -b -v test_files/test_1_cat.txt
+-n -t -b -v test_files/test_2_cat.txt
+-n -t -b -v test_files/test_3_cat.txt
+-n -t -b -v test_files/test_4_cat.txt
+-n -t -b -v test_files/test_5_cat.txt
+-n -t -b -v test_files/test_case_cat.txt
+-n -t -e -b test_files/1.txt
+-n -t -e -b test_files/2.txt
+-n -t -e -b test_files/test_1_cat.txt
+-n -t -e -b test_files/test_2_cat.txt
+-n -t -e -b test_files/test_3_cat.txt
+-n -t -e -b test_files/test_4_cat.txt
+-n -t -e -b test_files/test_5_cat.txt
+-n -t -e -b test_files/test_case_cat.txt
+-n -t -e -s test_files/1.txt
+-n -t -e -s test_files/2.txt
+-n -t -e -s test_files/test_1_cat.txt
+-n -t -e -s test_files/test_2_cat.txt
+-n -t -e -s test_files/test_3_cat.txt
+-n -t -e -s test_files/test_4_cat.txt
+-n -t -e -s test_files/test_5_cat.txt
+-n -t -e -s test_files/test_case_cat.txt
+-n -t -e -v test_files/1.txt
+-n -t -e -v test_files/2.txt
+-n -t -e -v test_files/test_1_cat.txt
+-n -t -e -v test_files/test_2_cat.txt
+-n -t -e -v test_files/test_3_cat.txt
+-n -t -e -v test_files/test_4_cat.txt
+-n -t -e -v test_files/test_5_cat.txt
+-n -t -e -v test_files/test_case_cat.txt
+-n -t -s -b test_files/1.txt
+-n -t -s -b test_files/2.txt
+-n -t -s -b test_files/test_1_cat.txt
+-n -t -s -b test_files/test_2_cat.txt
+-n -t -s -b test_files/test_3_cat.txt
+-n -t -s -b test_files/test_4_cat.txt
+-n -t -s -b test_files/test_5_cat.txt
+-n -t -s -b test_files/test_case_cat.txt
+-n -t -s -e test_files/1.txt
+-n -t -s -e test_files/2.txt
+-n -t -s -e test_files/test_1_cat.txt
+-n -t -s -e test_files/test_2_cat.txt
+-n -t -s -e test_files/test_3_cat.txt
+-n -t -s -e test_files/test_4_cat.txt
+-n -t -s -e test_files/test_5_cat.txt
+-n -t -s -e test_files/test_case_cat.txt
+-n -t -s -v test_files/1.txt
+-n -t -s -v test_files/2.txt
+-n -t -s -v test_files/test_1_cat.txt
+-n -t -s -v test_files/test_2_cat.txt
+-n -t -s -v test_files/test_3_cat.txt
+-n -t -s -v test_files/test_4_cat.txt
+-n -t -s -v test_files/test_5_cat.txt
+-n -t -s -v test_files/test_case_cat.txt
+-n -t -v -b test_files/1.txt
+-n -t -v -b test_files/2.txt
+-n -t -v -b test_files/test_1_cat.txt
+-n -t -v -b test_files/test_2_cat.txt
+-n -t -v -b test_files/test_3_cat.txt
+-n -t -v -b test_files/test_4_cat.txt
+-n -t -v -b test_files/test_5_cat.txt
+-n -t -v -b test_files/test_case_cat.txt
+-n -t -v -e test_files/1.txt
+-n -t -v -e test_files/2.txt
+-n -t -v -e test_files/test_1_cat.txt
+-n -t -v -e test_files/test_2_cat.txt
+-n -t -v -e test_files/test_3_cat.txt
+-n -t -v -e test_files/test_4_cat.txt
+-n -t -v -e test_files/test_5_cat.txt
+-n -t -v -e test_files/test_case_cat.txt
+-n -t -v -s test_files/1.txt
+-n -t -v -s test_files/2.txt
+-n -t -v -s test_files/test_1_cat.txt
+-n -t -v -s test_files/test_2_cat.txt
+-n -t -v -s test_files/test_3_cat.txt
+-n -t -v -s test_files/test_4_cat.txt
+-n -t -v -s test_files/test_5_cat.txt
+-n -t -v -s test_files/test_case_cat.txt
+-n -v -b -e test_files/1.txt
+-n -v -b -e test_files/2.txt
+-n -v -b -e test_files/test_1_cat.txt
+-n -v -b -e test_files/test_2_cat.txt
+-n -v -b -e test_files/test_3_cat.txt
+-n -v -b -e test_files/test_4_cat.txt
+-n -v -b -e test_files/test_5_cat.txt
+-n -v -b -e test_files/test_case_cat.txt
+-n -v -b -s test_files/1.txt
+-n -v -b -s test_files/2.txt
+-n -v -b -s test_files/test_1_cat.txt
+-n -v -b -s test_files/test_2_cat.txt
+-n -v -b -s test_files/test_3_cat.txt
+-n -v -b -s test_files/test_4_cat.txt
+-n -v -b -s test_files/test_5_cat.txt
+-n -v -b -s test_files/test_case_cat.txt
+-n -v -b -t test_files/1.txt
+-n -v -b -t test_files/2.txt
+-n -v -b -t test_files/test_1_cat.txt
+-n -v -b -t test_files/test_2_cat.txt
+-n -v -b -t test_files/test_3_cat.txt
+-n -v -b -t test_files/test_4_cat.txt
+-n -v -b -t test_files/test_5_cat.txt
+-n -v -b -t test_files/test_case_cat.txt
+-n -v -e -b test_files/1.txt
+-n -v -e -b test_files/2.txt
+-n -v -e -b test_files/test_1_cat.txt
+-n -v -e -b test_files/test_2_cat.txt
+-n -v -e -b test_files/test_3_cat.txt
+-n -v -e -b test_files/test_4_cat.txt
+-n -v -e -b test_files/test_5_cat.txt
+-n -v -e -b test_files/test_case_cat.txt
+-n -v -e -s test_files/1.txt
+-n -v -e -s test_files/2.txt
+-n -v -e -s test_files/test_1_cat.txt
+-n -v -e -s test_files/test_2_cat.txt
+-n -v -e -s test_files/test_3_cat.txt
+-n -v -e -s test_files/test_4_cat.txt
+-n -v -e -s test_files/test_5_cat.txt
+-n -v -e -s test_files/test_case_cat.txt
+-n -v -e -t test_files/1.txt
+-n -v -e -t test_files/2.txt
+-n -v -e -t test_files/test_1_cat.txt
+-n -v -e -t test_files/test_2_cat.txt
+-n -v -e -t test_files/test_3_cat.txt
+-n -v -e -t test_files/test_4_cat.txt
+-n -v -e -t test_files/test_5_cat.txt
+-n -v -e -t test_files/test_case_cat.txt
+-n -v -s -b test_files/1.txt
+-n -v -s -b test_files/2.txt
+-n -v -s -b test_files/test_1_cat.txt
+-n -v -s -b test_files/test_2_cat.txt
+-n -v -s -b test_files/test_3_cat.txt
+-n -v -s -b test_files/test_4_cat.txt
+-n -v -s -b test_files/test_5_cat.txt
+-n -v -s -b test_files/test_case_cat.txt
+-n -v -s -e test_files/1.txt
+-n -v -s -e test_files/2.txt
+-n -v -s -e test_files/test_1_cat.txt
+-n -v -s -e test_files/test_2_cat.txt
+-n -v -s -e test_files/test_3_cat.txt
+-n -v -s -e test_files/test_4_cat.txt
+-n -v -s -e test_files/test_5_cat.txt
+-n -v -s -e test_files/test_case_cat.txt
+-n -v -s -t test_files/1.txt
+-n -v -s -t test_files/2.txt
+-n -v -s -t test_files/test_1_cat.txt
+-n -v -s -t test_files/test_2_cat.txt
+-n -v -s -t test_files/test_3_cat.txt
+-n -v -s -t test_files/test_4_cat.txt
+-n -v -s -t test_files/test_5_cat.txt
+-n -v -s -t test_files/test_case_cat.txt
+-n -v -t -b test_files/1.txt
+-n -v -t -b test_files/2.txt
+-n -v -t -b test_files/test_1_cat.txt
+-n -v -t -b test_files/test_2_cat.txt
+-n -v -t -b test_files/test_3_cat.txt
+-n -v -t -b test_files/test_4_cat.txt
+-n -v -t -b test_files/test_5_cat.txt
+-n -v -t -b test_files/test_case_cat.txt
+-n -v -t -e test_files/1.txt
+-n -v -t -e test_files/2.txt
+-n -v -t -e test_files/test_1_cat.txt
+-n -v -t -e test_files/test_2_cat.txt
+-n -v -t -e test_files/test_3_cat.txt
+-n -v -t -e test_files/test_4_cat.txt
+-n -v -t -e test_files/test_5_cat.txt
+-n -v -t -e test_files/test_case_cat.txt
+-n -v -t -s test_files/1.txt
+-n -v -t -s test_files/2.txt
+-n -v -t -s test_files/test_1_cat.txt
+-n -v -t -s test_files/test_2_cat.txt
+-n -v -t -s test_files/test_3_cat.txt
+-n -v -t -s test_files/test_4_cat.txt
+-n -v -t -s test_files/test_5_cat.txt
+-n -v -t -s test_files/test_case_cat.txt
+-s -b -e -n test_files/1.txt
+-s -b -e -n test_files/2.txt
+-s -b -e -n test_files/test_1_cat.txt
+-s -b -e -n test_files/test_2_cat.txt
+-s -b -e -n test_files/test_3_cat.txt
+-s -b -e -n test_files/test_4_cat.txt
+-s -b -e -n test_files/test_5_cat.txt
+-s -b -e -n test_files/test_case_cat.txt
+-s -b -e -t test_files/1.txt
+-s -b -e -t test_files/2.txt
+-s -b -e -t test_files/test_1_cat.txt
+-s -b -e -t test_files/test_2_cat.txt
+-s -b -e -t test_files/test_3_cat.txt
+-s -b -e -t test_files/test_4_cat.txt
+-s -b -e -t test_files/test_5_cat.txt
+-s -b -e -t test_files/test_case_cat.txt
+-s -b -e -v test_files/1.txt
+-s -b -e -v test_files/2.txt
+-s -b -e -v test_files/test_1_cat.txt
+-s -b -e -v test_files/test_2_cat.txt
+-s -b -e -v test_files/test_3_cat.txt
+-s -b -e -v test_files/test_4_cat.txt
+-s -b -e -v test_files/test_5_cat.txt
+-s -b -e -v test_files/test_case_cat.txt
+-s -b -n -e test_files/1.txt
+-s -b -n -e test_files/2.txt
+-s -b -n -e test_files/test_1_cat.txt
+-s -b -n -e test_files/test_2_cat.txt
+-s -b -n -e test_files/test_3_cat.txt
+-s -b -n -e test_files/test_4_cat.txt
+-s -b -n -e test_files/test_5_cat.txt
+-s -b -n -e test_files/test_case_cat.txt
+-s -b -n -t test_files/1.txt
+-s -b -n -t test_files/2.txt
+-s -b -n -t test_files/test_1_cat.txt
+-s -b -n -t test_files/test_2_cat.txt
+-s -b -n -t test_files/test_3_cat.txt
+-s -b -n -t test_files/test_4_cat.txt
+-s -b -n -t test_files/test_5_cat.txt
+-s -b -n -t test_files/test_case_cat.txt
+-s -b -n -v test_files/1.txt
+-s -b -n -v test_files/2.txt
+-s -b -n -v test_files/test_1_cat.txt
+-s -b -n -v test_files/test_2_cat.txt
+-s -b -n -v test_files/test_3_cat.txt
+-s -b -n -v test_files/test_4_cat.txt
+-s -b -n -v test_files/test_5_cat.txt
+-s -b -n -v test_files/test_case_cat.txt
+-s -b -t -e test_files/1.txt
+-s -b -t -e test_files/2.txt
+-s -b -t -e test_files/test_1_cat.txt
+-s -b -t -e test_files/test_2_cat.txt
+-s -b -t -e test_files/test_3_cat.txt
+-s -b -t -e test_files/test_4_cat.txt
+-s -b -t -e test_files/test_5_cat.txt
+-s -b -t -e test_files/test_case_cat.txt
+-s -b -t -n test_files/1.txt
+-s -b -t -n test_files/2.txt
+-s -b -t -n test_files/test_1_cat.txt
+-s -b -t -n test_files/test_2_cat.txt
+-s -b -t -n test_files/test_3_cat.txt
+-s -b -t -n test_files/test_4_cat.txt
+-s -b -t -n test_files/test_5_cat.txt
+-s -b -t -n test_files/test_case_cat.txt
+-s -b -t -v test_files/1.txt
+-s -b -t -v test_files/2.txt
+-s -b -t -v test_files/test_1_cat.txt
+-s -b -t -v test_files/test_2_cat.txt
+-s -b -t -v test_files/test_3_cat.txt
+-s -b -t -v test_files/test_4_cat.txt
+-s -b -t -v test_files/test_5_cat.txt
+-s -b -t -v test_files/test_case_cat.txt
+-s -b -v -e test_files/1.txt
+-s -b -v -e test_files/2.txt
+-s -b -v -e test_files/test_1_cat.txt
+-s -b -v -e test_files/test_2_cat.txt
+-s -b -v -e test_files/test_3_cat.txt
+-s -b -v -e test_files/test_4_cat.txt
+-s -b -v -e test_files/test_5_cat.txt
+-s -b -v -e test_files/test_case_cat.txt
+-s -b -v -n test_files/1.txt
+-s -b -v -n test_files/2.txt
+-s -b -v -n test_files/test_1_cat.txt
+-s -b -v -n test_files/test_2_cat.txt
+-s -b -v -n test_files/test_3_cat.txt
+-s -b -v -n test_files/test_4_cat.txt
+-s -b -v -n test_files/test_5_cat.txt
+-s -b -v -n test_files/test_case_cat.txt
+-s -b -v -t test_files/1.txt
+-s -b -v -t test_files/2.txt
+-s -b -v -t test_files/test_1_cat.txt
+-s -b -v -t test_files/test_2_cat.txt
+-s -b -v -t test_files/test_3_cat.txt
+-s -b -v -t test_files/test_4_cat.txt
+-s -b -v -t test_files/test_5_cat.txt
+-s -b -v -t test_files/test_case_cat.txt
+-s -e -b -n test_files/1.txt
+-s -e -b -n test_files/2.txt
+-s -e -b -n test_files/test_1_cat.txt
+-s -e -b -n test_files/test_2_cat.txt
+-s -e -b -n test_files/test_3_cat.txt
+-s -e -b -n test_files/test_4_cat.txt
+-s -e -b -n test_files/test_5_cat.txt
+-s -e -b -n test_files/test_case_cat.txt
+-s -e -b -t test_files/1.txt
+-s -e -b -t test_files/2.txt
+-s -e -b -t test_files/test_1_cat.txt
+-s -e -b -t test_files/test_2_cat.txt
+-s -e -b -t test_files/test_3_cat.txt
+-s -e -b -t test_files/test_4_cat.txt
+-s -e -b -t test_files/test_5_cat.txt
+-s -e -b -t test_files/test_case_cat.txt
+-s -e -b -v test_files/1.txt
+-s -e -b -v test_files/2.txt
+-s -e -b -v test_files/test_1_cat.txt
+-s -e -b -v test_files/test_2_cat.txt
+-s -e -b -v test_files/test_3_cat.txt
+-s -e -b -v test_files/test_4_cat.txt
+-s -e -b -v test_files/test_5_cat.txt
+-s -e -b -v test_files/test_case_cat.txt
+-s -e -n -b test_files/1.txt
+-s -e -n -b test_files/2.txt
+-s -e -n -b test_files/test_1_cat.txt
+-s -e -n -b test_files/test_2_cat.txt
+-s -e -n -b test_files/test_3_cat.txt
+-s -e -n -b test_files/test_4_cat.txt
+-s -e -n -b test_files/test_5_cat.txt
+-s -e -n -b test_files/test_case_cat.txt
+-s -e -n -t test_files/1.txt
+-s -e -n -t test_files/2.txt
+-s -e -n -t test_files/test_1_cat.txt
+-s -e -n -t test_files/test_2_cat.txt
+-s -e -n -t test_files/test_3_cat.txt
+-s -e -n -t test_files/test_4_cat.txt
+-s -e -n -t test_files/test_5_cat.txt
+-s -e -n -t test_files/test_case_cat.txt
+-s -e -n -v test_files/1.txt
+-s -e -n -v test_files/2.txt
+-s -e -n -v test_files/test_1_cat.txt
+-s -e -n -v test_files/test_2_cat.txt
+-s -e -n -v test_files/test_3_cat.txt
+-s -e -n -v test_files/test_4_cat.txt
+-s -e -n -v test_files/test_5_cat.txt
+-s -e -n -v test_files/test_case_cat.txt
+-s -e -t -b test_files/1.txt
+-s -e -t -b test_files/2.txt
+-s -e -t -b test_files/test_1_cat.txt
+-s -e -t -b test_files/test_2_cat.txt
+-s -e -t -b test_files/test_3_cat.txt
+-s -e -t -b test_files/test_4_cat.txt
+-s -e -t -b test_files/test_5_cat.txt
+-s -e -t -b test_files/test_case_cat.txt
+-s -e -t -n test_files/1.txt
+-s -e -t -n test_files/2.txt
+-s -e -t -n test_files/test_1_cat.txt
+-s -e -t -n test_files/test_2_cat.txt
+-s -e -t -n test_files/test_3_cat.txt
+-s -e -t -n test_files/test_4_cat.txt
+-s -e -t -n test_files/test_5_cat.txt
+-s -e -t -n test_files/test_case_cat.txt
+-s -e -t -v test_files/1.txt
+-s -e -t -v test_files/2.txt
+-s -e -t -v test_files/test_1_cat.txt
+-s -e -t -v test_files/test_2_cat.txt
+-s -e -t -v test_files/test_3_cat.txt
+-s -e -t -v test_files/test_4_cat.txt
+-s -e -t -v test_files/test_5_cat.txt
+-s -e -t -v test_files/test_case_cat.txt
+-s -e -v -b test_files/1.txt
+-s -e -v -b test_files/2.txt
+-s -e -v -b test_files/test_1_cat.txt
+-s -e -v -b test_files/test_2_cat.txt
+-s -e -v -b test_files/test_3_cat.txt
+-s -e -v -b test_files/test_4_cat.txt
+-s -e -v -b test_files/test_5_cat.txt
+-s -e -v -b test_files/test_case_cat.txt
+-s -e -v -n test_files/1.txt
+-s -e -v -n test_files/2.txt
+-s -e -v -n test_files/test_1_cat.txt
+-s -e -v -n test_files/test_2_cat.txt
+-s -e -v -n test_files/test_3_cat.txt
+-s -e -v -n test_files/test_4_cat.txt
+-s -e -v -n test_files/test_5_cat.txt
+-s -e -v -n test_files/test_case_cat.txt
+-s -e -v -t test_files/1.txt
+-s -e -v -t test_files/2.txt
+-s -e -v -t test_files/test_1_cat.txt
+-s -e -v -t test_files/test_2_cat.txt
+-s -e -v -t test_files/test_3_cat.txt
+-s -e -v -t test_files/test_4_cat.txt
+-s -e -v -t test_files/test_5_cat.txt
+-s -e -v -t test_files/test_case_cat.txt
+-s -n -b -e test_files/1.txt
+-s -n -b -e test_files/2.txt
+-s -n -b -e test_files/test_1_cat.txt
+-s -n -b -e test_files/test_2_cat.txt
+-s -n -b -e test_files/test_3_cat.txt
+-s -n -b -e test_files/test_4_cat.txt
+-s -n -b -e test_files/test_5_cat.txt
+-s -n -b -e test_files/test_case_cat.txt
+-s -n -b -t test_files/1.txt
+-s -n -b -t test_files/2.txt
+-s -n -b -t test_files/test_1_cat.txt
+-s -n -b -t test_files/test_2_cat.txt
+-s -n -b -t test_files/test_3_cat.txt
+-s -n -b -t test_files/test_4_cat.txt
+-s -n -b -t test_files/test_5_cat.txt
+-s -n -b -t test_files/test_case_cat.txt
+-s -n -b -v test_files/1.txt
+-s -n -b -v test_files/2.txt
+-s -n -b -v test_files/test_1_cat.txt
+-s -n -b -v test_files/test_2_cat.txt
+-s -n -b -v test_files/test_3_cat.txt
+-s -n -b -v test_files/test_4_cat.txt
+-s -n -b -v test_files/test_5_cat.txt
+-s -n -b -v test_files/test_case_cat.txt
+-s -n -e -b test_files/1.txt
+-s -n -e -b test_files/2.txt
+-s -n -e -b test_files/test_1_cat.txt
+-s -n -e -b test_files/test_2_cat.txt
+-s -n -e -b test_files/test_3_cat.txt
+-s -n -e -b test_files/test_4_cat.txt
+-s -n -e -b test_files/test_5_cat.txt
+-s -n -e -b test_files/test_case_cat.txt
+-s -n -e -t test_files/1.txt
+-s -n -e -t test_files/2.txt
+-s -n -e -t test_files/test_1_cat.txt
+-s -n -e -t test_files/test_2_cat.txt
+-s -n -e -t test_files/test_3_cat.txt
+-s -n -e -t test_files/test_4_cat.txt
+-s -n -e -t test_files/test_5_cat.txt
+-s -n -e -t test_files/test_case_cat.txt
+-s -n -e -v test_files/1.txt
+-s -n -e -v test_files/2.txt
+-s -n -e -v test_files/test_1_cat.txt
+-s -n -e -v test_files/test_2_cat.txt
+-s -n -e -v test_files/test_3_cat.txt
+-s -n -e -v test_files/test_4_cat.txt
+-s -n -e -v test_files/test_5_cat.txt
+-s -n -e -v test_files/test_case_cat.txt
+-s -n -t -b test_files/1.txt
+-s -n -t -b test_files/2.txt
+-s -n -t -b test_files/test_1_cat.txt
+-s -n -t -b test_files/test_2_cat.txt
+-s -n -t -b test_files/test_3_cat.txt
+-s -n -t -b test_files/test_4_cat.txt
+-s -n -t -b test_files/test_5_cat.txt
+-s -n -t -b test_files/test_case_cat.txt
+-s -n -t -e test_files/1.txt
+-s -n -t -e test_files/2.txt
+-s -n -t -e test_files/test_1_cat.txt
+-s -n -t -e test_files/test_2_cat.txt
+-s -n -t -e test_files/test_3_cat.txt
+-s -n -t -e test_files/test_4_cat.txt
+-s -n -t -e test_files/test_5_cat.txt
+-s -n -t -e test_files/test_case_cat.txt
+-s -n -t -v test_files/1.txt
+-s -n -t -v test_files/2.txt
+-s -n -t -v test_files/test_1_cat.txt
+-s -n -t -v test_files/test_2_cat.txt
+-s -n -t -v test_files/test_3_cat.txt
+-s -n -t -v test_files/test_4_cat.txt
+-s -n -t -v test_files/test_5_cat.txt
+-s -n -t -v test_files/test_case_cat.txt
+-s -n -v -b test_files/1.txt
+-s -n -v -b test_files/2.txt
+-s -n -v -b test_files/test_1_cat.txt
+-s -n -v -b test_files/test_2_cat.txt
+-s -n -v -b test_files/test_3_cat.txt
+-s -n -v -b test_files/test_4_cat.txt
+-s -n -v -b test_files/test_5_cat.txt
+-s -n -v -b test_files/test_case_cat.txt
+-s -n -v -e test_files/1.txt
+-s -n -v -e test_files/2.txt
+-s -n -v -e test_files/test_1_cat.txt
+-s -n -v -e test_files/test_2_cat.txt
+-s -n -v -e test_files/test_3_cat.txt
+-s -n -v -e test_files/test_4_cat.txt
+-s -n -v -e test_files/test_5_cat.txt
+-s -n -v -e test_files/test_case_cat.txt
+-s -n -v -t test_files/1.txt
+-s -n -v -t test_files/2.txt
+-s -n -v -t test_files/test_1_cat.txt
+-s -n -v -t test_files/test_2_cat.txt
+-s -n -v -t test_files/test_3_cat.txt
+-s -n -v -t test_files/test_4_cat.txt
+-s -n -v -t test_files/test_5_cat.txt
+-s -n -v -t test_files/test_case_cat.txt
+-s -t -b -e test_files/1.txt
+-s -t -b -e test_files/2.txt
+-s -t -b -e test_files/test_1_cat.txt
+-s -t -b -e test_files/test_2_cat.txt
+-s -t -b -e test_files/test_3_cat.txt
+-s -t -b -e test_files/test_4_cat.txt
+-s -t -b -e test_files/test_5_cat.txt
+-s -t -b -e test_files/test_case_cat.txt
+-s -t -b -n test_files/1.txt
+-s -t -b -n test_files/2.txt
+-s -t -b -n test_files/test_1_cat.txt
+-s -t -b -n test_files/test_2_cat.txt
+-s -t -b -n test_files/test_3_cat.txt
+-s -t -b -n test_files/test_4_cat.txt
+-s -t -b -n test_files/test_5_cat.txt
+-s -t -b -n test_files/test_case_cat.txt
+-s -t -b -v test_files/1.txt
+-s -t -b -v test_files/2.txt
+-s -t -b -v test_files/test_1_cat.txt
+-s -t -b -v test_files/test_2_cat.txt
+-s -t -b -v test_files/test_3_cat.txt
+-s -t -b -v test_files/test_4_cat.txt
+-s -t -b -v test_files/test_5_cat.txt
+-s -t -b -v test_files/test_case_cat.txt
+-s -t -e -b test_files/1.txt
+-s -t -e -b test_files/2.txt
+-s -t -e -b test_files/test_1_cat.txt
+-s -t -e -b test_files/test_2_cat.txt
+-s -t -e -b test_files/test_3_cat.txt
+-s -t -e -b test_files/test_4_cat.txt
+-s -t -e -b test_files/test_5_cat.txt
+-s -t -e -b test_files/test_case_cat.txt
+-s -t -e -n test_files/1.txt
+-s -t -e -n test_files/2.txt
+-s -t -e -n test_files/test_1_cat.txt
+-s -t -e -n test_files/test_2_cat.txt
+-s -t -e -n test_files/test_3_cat.txt
+-s -t -e -n test_files/test_4_cat.txt
+-s -t -e -n test_files/test_5_cat.txt
+-s -t -e -n test_files/test_case_cat.txt
+-s -t -e -v test_files/1.txt
+-s -t -e -v test_files/2.txt
+-s -t -e -v test_files/test_1_cat.txt
+-s -t -e -v test_files/test_2_cat.txt
+-s -t -e -v test_files/test_3_cat.txt
+-s -t -e -v test_files/test_4_cat.txt
+-s -t -e -v test_files/test_5_cat.txt
+-s -t -e -v test_files/test_case_cat.txt
+-s -t -n -b test_files/1.txt
+-s -t -n -b test_files/2.txt
+-s -t -n -b test_files/test_1_cat.txt
+-s -t -n -b test_files/test_2_cat.txt
+-s -t -n -b test_files/test_3_cat.txt
+-s -t -n -b test_files/test_4_cat.txt
+-s -t -n -b test_files/test_5_cat.txt
+-s -t -n -b test_files/test_case_cat.txt
+-s -t -n -e test_files/1.txt
+-s -t -n -e test_files/2.txt
+-s -t -n -e test_files/test_1_cat.txt
+-s -t -n -e test_files/test_2_cat.txt
+-s -t -n -e test_files/test_3_cat.txt
+-s -t -n -e test_files/test_4_cat.txt
+-s -t -n -e test_files/test_5_cat.txt
+-s -t -n -e test_files/test_case_cat.txt
+-s -t -n -v test_files/1.txt
+-s -t -n -v test_files/2.txt
+-s -t -n -v test_files/test_1_cat.txt
+-s -t -n -v test_files/test_2_cat.txt
+-s -t -n -v test_files/test_3_cat.txt
+-s -t -n -v test_files/test_4_cat.txt
+-s -t -n -v test_files/test_5_cat.txt
+-s -t -n -v test_files/test_case_cat.txt
+-s -t -v -b test_files/1.txt
+-s -t -v -b test_files/2.txt
+-s -t -v -b test_files/test_1_cat.txt
+-s -t -v -b test_files/test_2_cat.txt
+-s -t -v -b test_files/test_3_cat.txt
+-s -t -v -b test_files/test_4_cat.txt
+-s -t -v -b test_files/test_5_cat.txt
+-s -t -v -b test_files/test_case_cat.txt
+-s -t -v -e test_files/1.txt
+-s -t -v -e test_files/2.txt
+-s -t -v -e test_files/test_1_cat.txt
+-s -t -v -e test_files/test_2_cat.txt
+-s -t -v -e test_files/test_3_cat.txt
+-s -t -v -e test_files/test_4_cat.txt
+-s -t -v -e test_files/test_5_cat.txt
+-s -t -v -e test_files/test_case_cat.txt
+-s -t -v -n test_files/1.txt
+-s -t -v -n test_files/2.txt
+-s -t -v -n test_files/test_1_cat.txt
+-s -t -v -n test_files/test_2_cat.txt
+-s -t -v -n test_files/test_3_cat.txt
+-s -t -v -n test_files/test_4_cat.txt
+-s -t -v -n test_files/test_5_cat.txt
+-s -t -v -n test_files/test_case_cat.txt
+-s -v -b -e test_files/1.txt
+-s -v -b -e test_files/2.txt
+-s -v -b -e test_files/test_1_cat.txt
+-s -v -b -e test_files/test_2_cat.txt
+-s -v -b -e test_files/test_3_cat.txt
+-s -v -b -e test_files/test_4_cat.txt
+-s -v -b -e test_files/test_5_cat.txt
+-s -v -b -e test_files/test_case_cat.txt
+-s -v -b -n test_files/1.txt
+-s -v -b -n test_files/2.txt
+-s -v -b -n test_files/test_1_cat.txt
+-s -v -b -n test_files/test_2_cat.txt
+-s -v -b -n test_files/test_3_cat.txt
+-s -v -b -n test_files/test_4_cat.txt
+-s -v -b -n test_files/test_5_cat.txt
+-s -v -b -n test_files/test_case_cat.txt
+-s -v -b -t test_files/1.txt
+-s -v -b -t test_files/2.txt
+-s -v -b -t test_files/test_1_cat.txt
+-s -v -b -t test_files/test_2_cat.txt
+-s -v -b -t test_files/test_3_cat.txt
+-s -v -b -t test_files/test_4_cat.txt
+-s -v -b -t test_files/test_5_cat.txt
+-s -v -b -t test_files/test_case_cat.txt
+-s -v -e -b test_files/1.txt
+-s -v -e -b test_files/2.txt
+-s -v -e -b test_files/test_1_cat.txt
+-s -v -e -b test_files/test_2_cat.txt
+-s -v -e -b test_files/test_3_cat.txt
+-s -v -e -b test_files/test_4_cat.txt
+-s -v -e -b test_files/test_5_cat.txt
+-s -v -e -b test_files/test_case_cat.txt
+-s -v -e -n test_files/1.txt
+-s -v -e -n test_files/2.txt
+-s -v -e -n test_files/test_1_cat.txt
+-s -v -e -n test_files/test_2_cat.txt
+-s -v -e -n test_files/test_3_cat.txt
+-s -v -e -n test_files/test_4_cat.txt
+-s -v -e -n test_files/test_5_cat.txt
+-s -v -e -n test_files/test_case_cat.txt
+-s -v -e -t test_files/1.txt
+-s -v -e -t test_files/2.txt
+-s -v -e -t test_files/test_1_cat.txt
+-s -v -e -t test_files/test_2_cat.txt
+-s -v -e -t test_files/test_3_cat.txt
+-s -v -e -t test_files/test_4_cat.txt
+-s -v -e -t test_files/test_5_cat.txt
+-s -v -e -t test_files/test_case_cat.txt
+-s -v -n -b test_files/1.txt
+-s -v -n -b test_files/2.txt
+-s -v -n -b test_files/test_1_cat.txt
+-s -v -n -b test_files/test_2_cat.txt
+-s -v -n -b test_files/test_3_cat.txt
+-s -v -n -b test_files/test_4_cat.txt
+-s -v -n -b test_files/test_5_cat.txt
+-s -v -n -b test_files/test_case_cat.txt
+-s -v -n -e test_files/1.txt
+-s -v -n -e test_files/2.txt
+-s -v -n -e test_files/test_1_cat.txt
+-s -v -n -e test_files/test_2_cat.txt
+-s -v -n -e test_files/test_3_cat.txt
+-s -v -n -e test_files/test_4_cat.txt
+-s -v -n -e test_files/test_5_cat.txt
+-s -v -n -e test_files/test_case_cat.txt
+-s -v -n -t test_files/1.txt
+-s -v -n -t test_files/2.txt
+-s -v -n -t test_files/test_1_cat.txt
+-s -v -n -t test_files/test_2_cat.txt
+-s -v -n -t test_files/test_3_cat.txt
+-s -v -n -t test_files/test_4_cat.txt
+-s -v -n -t test_files/test_5_cat.txt
+-s -v -n -t test_files/test_case_cat.txt
+-s -v -t -b test_files/1.txt
+-s -v -t -b test_files/2.txt
+-s -v -t -b test_files/test_1_cat.txt
+-s -v -t -b test_files/test_2_cat.txt
+-s -v -t -b test_files/test_3_cat.txt
+-s -v -t -b test_files/test_4_cat.txt
+-s -v -t -b test_files/test_5_cat.txt
+-s -v -t -b test_files/test_case_cat.txt
+-s -v -t -e test_files/1.txt
+-s -v -t -e test_files/2.txt
+-s -v -t -e test_files/test_1_cat.txt
+-s -v -t -e test_files/test_2_cat.txt
+-s -v -t -e test_files/test_3_cat.txt
+-s -v -t -e test_files/test_4_cat.txt
+-s -v -t -e test_files/test_5_cat.txt
+-s -v -t -e test_files/test_case_cat.txt
+-s -v -t -n test_files/1.txt
+-s -v -t -n test_files/2.txt
+-s -v -t -n test_files/test_1_cat.txt
+-s -v -t -n test_files/test_2_cat.txt
+-s -v -t -n test_files/test_3_cat.txt
+-s -v -t -n test_files/test_4_cat.txt
+-s -v -t -n test_files/test_5_cat.txt
+-s -v -t -n test_files/test_case_cat.txt
+-t -b -e -n test_files/1.txt
+-t -b -e -n test_files/2.txt
+-t -b -e -n test_files/test_1_cat.txt
+-t -b -e -n test_files/test_2_cat.txt
+-t -b -e -n test_files/test_3_cat.txt
+-t -b -e -n test_files/test_4_cat.txt
+-t -b -e -n test_files/test_5_cat.txt
+-t -b -e -n test_files/test_case_cat.txt
+-t -b -e -s test_files/1.txt
+-t -b -e -s test_files/2.txt
+-t -b -e -s test_files/test_1_cat.txt
+-t -b -e -s test_files/test_2_cat.txt
+-t -b -e -s test_files/test_3_cat.txt
+-t -b -e -s test_files/test_4_cat.txt
+-t -b -e -s test_files/test_5_cat.txt
+-t -b -e -s test_files/test_case_cat.txt
+-t -b -e -v test_files/1.txt
+-t -b -e -v test_files/2.txt
+-t -b -e -v test_files/test_1_cat.txt
+-t -b -e -v test_files/test_2_cat.txt
+-t -b -e -v test_files/test_3_cat.txt
+-t -b -e -v test_files/test_4_cat.txt
+-t -b -e -v test_files/test_5_cat.txt
+-t -b -e -v test_files/test_case_cat.txt
+-t -b -n -e test_files/1.txt
+-t -b -n -e test_files/2.txt
+-t -b -n -e test_files/test_1_cat.txt
+-t -b -n -e test_files/test_2_cat.txt
+-t -b -n -e test_files/test_3_cat.txt
+-t -b -n -e test_files/test_4_cat.txt
+-t -b -n -e test_files/test_5_cat.txt
+-t -b -n -e test_files/test_case_cat.txt
+-t -b -n -s test_files/1.txt
+-t -b -n -s test_files/2.txt
+-t -b -n -s test_files/test_1_cat.txt
+-t -b -n -s test_files/test_2_cat.txt
+-t -b -n -s test_files/test_3_cat.txt
+-t -b -n -s test_files/test_4_cat.txt
+-t -b -n -s test_files/test_5_cat.txt
+-t -b -n -s test_files/test_case_cat.txt
+-t -b -n -v test_files/1.txt
+-t -b -n -v test_files/2.txt
+-t -b -n -v test_files/test_1_cat.txt
+-t -b -n -v test_files/test_2_cat.txt
+-t -b -n -v test_files/test_3_cat.txt
+-t -b -n -v test_files/test_4_cat.txt
+-t -b -n -v test_files/test_5_cat.txt
+-t -b -n -v test_files/test_case_cat.txt
+-t -b -s -e test_files/1.txt
+-t -b -s -e test_files/2.txt
+-t -b -s -e test_files/test_1_cat.txt
+-t -b -s -e test_files/test_2_cat.txt
+-t -b -s -e test_files/test_3_cat.txt
+-t -b -s -e test_files/test_4_cat.txt
+-t -b -s -e test_files/test_5_cat.txt
+-t -b -s -e test_files/test_case_cat.txt
+-t -b -s -n test_files/1.txt
+-t -b -s -n test_files/2.txt
+-t -b -s -n test_files/test_1_cat.txt
+-t -b -s -n test_files/test_2_cat.txt
+-t -b -s -n test_files/test_3_cat.txt
+-t -b -s -n test_files/test_4_cat.txt
+-t -b -s -n test_files/test_5_cat.txt
+-t -b -s -n test_files/test_case_cat.txt
+-t -b -s -v test_files/1.txt
+-t -b -s -v test_files/2.txt
+-t -b -s -v test_files/test_1_cat.txt
+-t -b -s -v test_files/test_2_cat.txt
+-t -b -s -v test_files/test_3_cat.txt
+-t -b -s -v test_files/test_4_cat.txt
+-t -b -s -v test_files/test_5_cat.txt
+-t -b -s -v test_files/test_case_cat.txt
+-t -b -v -e test_files/1.txt
+-t -b -v -e test_files/2.txt
+-t -b -v -e test_files/test_1_cat.txt
+-t -b -v -e test_files/test_2_cat.txt
+-t -b -v -e test_files/test_3_cat.txt
+-t -b -v -e test_files/test_4_cat.txt
+-t -b -v -e test_files/test_5_cat.txt
+-t -b -v -e test_files/test_case_cat.txt
+-t -b -v -n test_files/1.txt
+-t -b -v -n test_files/2.txt
+-t -b -v -n test_files/test_1_cat.txt
+-t -b -v -n test_files/test_2_cat.txt
+-t -b -v -n test_files/test_3_cat.txt
+-t -b -v -n test_files/test_4_cat.txt
+-t -b -v -n test_files/test_5_cat.txt
+-t -b -v -n test_files/test_case_cat.txt
+-t -b -v -s test_files/1.txt
+-t -b -v -s test_files/2.txt
+-t -b -v -s test_files/test_1_cat.txt
+-t -b -v -s test_files/test_2_cat.txt
+-t -b -v -s test_files/test_3_cat.txt
+-t -b -v -s test_files/test_4_cat.txt
+-t -b -v -s test_files/test_5_cat.txt
+-t -b -v -s test_files/test_case_cat.txt
+-t -e -b -n test_files/1.txt
+-t -e -b -n test_files/2.txt
+-t -e -b -n test_files/test_1_cat.txt
+-t -e -b -n test_files/test_2_cat.txt
+-t -e -b -n test_files/test_3_cat.txt
+-t -e -b -n test_files/test_4_cat.txt
+-t -e -b -n test_files/test_5_cat.txt
+-t -e -b -n test_files/test_case_cat.txt
+-t -e -b -s test_files/1.txt
+-t -e -b -s test_files/2.txt
+-t -e -b -s test_files/test_1_cat.txt
+-t -e -b -s test_files/test_2_cat.txt
+-t -e -b -s test_files/test_3_cat.txt
+-t -e -b -s test_files/test_4_cat.txt
+-t -e -b -s test_files/test_5_cat.txt
+-t -e -b -s test_files/test_case_cat.txt
+-t -e -b -v test_files/1.txt
+-t -e -b -v test_files/2.txt
+-t -e -b -v test_files/test_1_cat.txt
+-t -e -b -v test_files/test_2_cat.txt
+-t -e -b -v test_files/test_3_cat.txt
+-t -e -b -v test_files/test_4_cat.txt
+-t -e -b -v test_files/test_5_cat.txt
+-t -e -b -v test_files/test_case_cat.txt
+-t -e -n -b test_files/1.txt
+-t -e -n -b test_files/2.txt
+-t -e -n -b test_files/test_1_cat.txt
+-t -e -n -b test_files/test_2_cat.txt
+-t -e -n -b test_files/test_3_cat.txt
+-t -e -n -b test_files/test_4_cat.txt
+-t -e -n -b test_files/test_5_cat.txt
+-t -e -n -b test_files/test_case_cat.txt
+-t -e -n -s test_files/1.txt
+-t -e -n -s test_files/2.txt
+-t -e -n -s test_files/test_1_cat.txt
+-t -e -n -s test_files/test_2_cat.txt
+-t -e -n -s test_files/test_3_cat.txt
+-t -e -n -s test_files/test_4_cat.txt
+-t -e -n -s test_files/test_5_cat.txt
+-t -e -n -s test_files/test_case_cat.txt
+-t -e -n -v test_files/1.txt
+-t -e -n -v test_files/2.txt
+-t -e -n -v test_files/test_1_cat.txt
+-t -e -n -v test_files/test_2_cat.txt
+-t -e -n -v test_files/test_3_cat.txt
+-t -e -n -v test_files/test_4_cat.txt
+-t -e -n -v test_files/test_5_cat.txt
+-t -e -n -v test_files/test_case_cat.txt
+-t -e -s -b test_files/1.txt
+-t -e -s -b test_files/2.txt
+-t -e -s -b test_files/test_1_cat.txt
+-t -e -s -b test_files/test_2_cat.txt
+-t -e -s -b test_files/test_3_cat.txt
+-t -e -s -b test_files/test_4_cat.txt
+-t -e -s -b test_files/test_5_cat.txt
+-t -e -s -b test_files/test_case_cat.txt
+-t -e -s -n test_files/1.txt
+-t -e -s -n test_files/2.txt
+-t -e -s -n test_files/test_1_cat.txt
+-t -e -s -n test_files/test_2_cat.txt
+-t -e -s -n test_files/test_3_cat.txt
+-t -e -s -n test_files/test_4_cat.txt
+-t -e -s -n test_files/test_5_cat.txt
+-t -e -s -n test_files/test_case_cat.txt
+-t -e -s -v test_files/1.txt
+-t -e -s -v test_files/2.txt
+-t -e -s -v test_files/test_1_cat.txt
+-t -e -s -v test_files/test_2_cat.txt
+-t -e -s -v test_files/test_3_cat.txt
+-t -e -s -v test_files/test_4_cat.txt
+-t -e -s -v test_files/test_5_cat.txt
+-t -e -s -v test_files/test_case_cat.txt
+-t -e -v -b test_files/1.txt
+-t -e -v -b test_files/2.txt
+-t -e -v -b test_files/test_1_cat.txt
+-t -e -v -b test_files/test_2_cat.txt
+-t -e -v -b test_files/test_3_cat.txt
+-t -e -v -b test_files/test_4_cat.txt
+-t -e -v -b test_files/test_5_cat.txt
+-t -e -v -b test_files/test_case_cat.txt
+-t -e -v -n test_files/1.txt
+-t -e -v -n test_files/2.txt
+-t -e -v -n test_files/test_1_cat.txt
+-t -e -v -n test_files/test_2_cat.txt
+-t -e -v -n test_files/test_3_cat.txt
+-t -e -v -n test_files/test_4_cat.txt
+-t -e -v -n test_files/test_5_cat.txt
+-t -e -v -n test_files/test_case_cat.txt
+-t -e -v -s test_files/1.txt
+-t -e -v -s test_files/2.txt
+-t -e -v -s test_files/test_1_cat.txt
+-t -e -v -s test_files/test_2_cat.txt
+-t -e -v -s test_files/test_3_cat.txt
+-t -e -v -s test_files/test_4_cat.txt
+-t -e -v -s test_files/test_5_cat.txt
+-t -e -v -s test_files/test_case_cat.txt
+-t -n -b -e test_files/1.txt
+-t -n -b -e test_files/2.txt
+-t -n -b -e test_files/test_1_cat.txt
+-t -n -b -e test_files/test_2_cat.txt
+-t -n -b -e test_files/test_3_cat.txt
+-t -n -b -e test_files/test_4_cat.txt
+-t -n -b -e test_files/test_5_cat.txt
+-t -n -b -e test_files/test_case_cat.txt
+-t -n -b -s test_files/1.txt
+-t -n -b -s test_files/2.txt
+-t -n -b -s test_files/test_1_cat.txt
+-t -n -b -s test_files/test_2_cat.txt
+-t -n -b -s test_files/test_3_cat.txt
+-t -n -b -s test_files/test_4_cat.txt
+-t -n -b -s test_files/test_5_cat.txt
+-t -n -b -s test_files/test_case_cat.txt
+-t -n -b -v test_files/1.txt
+-t -n -b -v test_files/2.txt
+-t -n -b -v test_files/test_1_cat.txt
+-t -n -b -v test_files/test_2_cat.txt
+-t -n -b -v test_files/test_3_cat.txt
+-t -n -b -v test_files/test_4_cat.txt
+-t -n -b -v test_files/test_5_cat.txt
+-t -n -b -v test_files/test_case_cat.txt
+-t -n -e -b test_files/1.txt
+-t -n -e -b test_files/2.txt
+-t -n -e -b test_files/test_1_cat.txt
+-t -n -e -b test_files/test_2_cat.txt
+-t -n -e -b test_files/test_3_cat.txt
+-t -n -e -b test_files/test_4_cat.txt
+-t -n -e -b test_files/test_5_cat.txt
+-t -n -e -b test_files/test_case_cat.txt
+-t -n -e -s test_files/1.txt
+-t -n -e -s test_files/2.txt
+-t -n -e -s test_files/test_1_cat.txt
+-t -n -e -s test_files/test_2_cat.txt
+-t -n -e -s test_files/test_3_cat.txt
+-t -n -e -s test_files/test_4_cat.txt
+-t -n -e -s test_files/test_5_cat.txt
+-t -n -e -s test_files/test_case_cat.txt
+-t -n -e -v test_files/1.txt
+-t -n -e -v test_files/2.txt
+-t -n -e -v test_files/test_1_cat.txt
+-t -n -e -v test_files/test_2_cat.txt
+-t -n -e -v test_files/test_3_cat.txt
+-t -n -e -v test_files/test_4_cat.txt
+-t -n -e -v test_files/test_5_cat.txt
+-t -n -e -v test_files/test_case_cat.txt
+-t -n -s -b test_files/1.txt
+-t -n -s -b test_files/2.txt
+-t -n -s -b test_files/test_1_cat.txt
+-t -n -s -b test_files/test_2_cat.txt
+-t -n -s -b test_files/test_3_cat.txt
+-t -n -s -b test_files/test_4_cat.txt
+-t -n -s -b test_files/test_5_cat.txt
+-t -n -s -b test_files/test_case_cat.txt
+-t -n -s -e test_files/1.txt
+-t -n -s -e test_files/2.txt
+-t -n -s -e test_files/test_1_cat.txt
+-t -n -s -e test_files/test_2_cat.txt
+-t -n -s -e test_files/test_3_cat.txt
+-t -n -s -e test_files/test_4_cat.txt
+-t -n -s -e test_files/test_5_cat.txt
+-t -n -s -e test_files/test_case_cat.txt
+-t -n -s -v test_files/1.txt
+-t -n -s -v test_files/2.txt
+-t -n -s -v test_files/test_1_cat.txt
+-t -n -s -v test_files/test_2_cat.txt
+-t -n -s -v test_files/test_3_cat.txt
+-t -n -s -v test_files/test_4_cat.txt
+-t -n -s -v test_files/test_5_cat.txt
+-t -n -s -v test_files/test_case_cat.txt
+-t -n -v -b test_files/1.txt
+-t -n -v -b test_files/2.txt
+-t -n -v -b test_files/test_1_cat.txt
+-t -n -v -b test_files/test_2_cat.txt
+-t -n -v -b test_files/test_3_cat.txt
+-t -n -v -b test_files/test_4_cat.txt
+-t -n -v -b test_files/test_5_cat.txt
+-t -n -v -b test_files/test_case_cat.txt
+-t -n -v -e test_files/1.txt
+-t -n -v -e test_files/2.txt
+-t -n -v -e test_files/test_1_cat.txt
+-t -n -v -e test_files/test_2_cat.txt
+-t -n -v -e test_files/test_3_cat.txt
+-t -n -v -e test_files/test_4_cat.txt
+-t -n -v -e test_files/test_5_cat.txt
+-t -n -v -e test_files/test_case_cat.txt
+-t -n -v -s test_files/1.txt
+-t -n -v -s test_files/2.txt
+-t -n -v -s test_files/test_1_cat.txt
+-t -n -v -s test_files/test_2_cat.txt
+-t -n -v -s test_files/test_3_cat.txt
+-t -n -v -s test_files/test_4_cat.txt
+-t -n -v -s test_files/test_5_cat.txt
+-t -n -v -s test_files/test_case_cat.txt
+-t -s -b -e test_files/1.txt
+-t -s -b -e test_files/2.txt
+-t -s -b -e test_files/test_1_cat.txt
+-t -s -b -e test_files/test_2_cat.txt
+-t -s -b -e test_files/test_3_cat.txt
+-t -s -b -e test_files/test_4_cat.txt
+-t -s -b -e test_files/test_5_cat.txt
+-t -s -b -e test_files/test_case_cat.txt
+-t -s -b -n test_files/1.txt
+-t -s -b -n test_files/2.txt
+-t -s -b -n test_files/test_1_cat.txt
+-t -s -b -n test_files/test_2_cat.txt
+-t -s -b -n test_files/test_3_cat.txt
+-t -s -b -n test_files/test_4_cat.txt
+-t -s -b -n test_files/test_5_cat.txt
+-t -s -b -n test_files/test_case_cat.txt
+-t -s -b -v test_files/1.txt
+-t -s -b -v test_files/2.txt
+-t -s -b -v test_files/test_1_cat.txt
+-t -s -b -v test_files/test_2_cat.txt
+-t -s -b -v test_files/test_3_cat.txt
+-t -s -b -v test_files/test_4_cat.txt
+-t -s -b -v test_files/test_5_cat.txt
+-t -s -b -v test_files/test_case_cat.txt
+-t -s -e -b test_files/1.txt
+-t -s -e -b test_files/2.txt
+-t -s -e -b test_files/test_1_cat.txt
+-t -s -e -b test_files/test_2_cat.txt
+-t -s -e -b test_files/test_3_cat.txt
+-t -s -e -b test_files/test_4_cat.txt
+-t -s -e -b test_files/test_5_cat.txt
+-t -s -e -b test_files/test_case_cat.txt
+-t -s -e -n test_files/1.txt
+-t -s -e -n test_files/2.txt
+-t -s -e -n test_files/test_1_cat.txt
+-t -s -e -n test_files/test_2_cat.txt
+-t -s -e -n test_files/test_3_cat.txt
+-t -s -e -n test_files/test_4_cat.txt
+-t -s -e -n test_files/test_5_cat.txt
+-t -s -e -n test_files/test_case_cat.txt
+-t -s -e -v test_files/1.txt
+-t -s -e -v test_files/2.txt
+-t -s -e -v test_files/test_1_cat.txt
+-t -s -e -v test_files/test_2_cat.txt
+-t -s -e -v test_files/test_3_cat.txt
+-t -s -e -v test_files/test_4_cat.txt
+-t -s -e -v test_files/test_5_cat.txt
+-t -s -e -v test_files/test_case_cat.txt
+-t -s -n -b test_files/1.txt
+-t -s -n -b test_files/2.txt
+-t -s -n -b test_files/test_1_cat.txt
+-t -s -n -b test_files/test_2_cat.txt
+-t -s -n -b test_files/test_3_cat.txt
+-t -s -n -b test_files/test_4_cat.txt
+-t -s -n -b test_files/test_5_cat.txt
+-t -s -n -b test_files/test_case_cat.txt
+-t -s -n -e test_files/1.txt
+-t -s -n -e test_files/2.txt
+-t -s -n -e test_files/test_1_cat.txt
+-t -s -n -e test_files/test_2_cat.txt
+-t -s -n -e test_files/test_3_cat.txt
+-t -s -n -e test_files/test_4_cat.txt
+-t -s -n -e test_files/test_5_cat.txt
+-t -s -n -e test_files/test_case_cat.txt
+-t -s -n -v test_files/1.txt
+-t -s -n -v test_files/2.txt
+-t -s -n -v test_files/test_1_cat.txt
+-t -s -n -v test_files/test_2_cat.txt
+-t -s -n -v test_files/test_3_cat.txt
+-t -s -n -v test_files/test_4_cat.txt
+-t -s -n -v test_files/test_5_cat.txt
+-t -s -n -v test_files/test_case_cat.txt
+-t -s -v -b test_files/1.txt
+-t -s -v -b test_files/2.txt
+-t -s -v -b test_files/test_1_cat.txt
+-t -s -v -b test_files/test_2_cat.txt
+-t -s -v -b test_files/test_3_cat.txt
+-t -s -v -b test_files/test_4_cat.txt
+-t -s -v -b test_files/test_5_cat.txt
+-t -s -v -b test_files/test_case_cat.txt
+-t -s -v -e test_files/1.txt
+-t -s -v -e test_files/2.txt
+-t -s -v -e test_files/test_1_cat.txt
+-t -s -v -e test_files/test_2_cat.txt
+-t -s -v -e test_files/test_3_cat.txt
+-t -s -v -e test_files/test_4_cat.txt
+-t -s -v -e test_files/test_5_cat.txt
+-t -s -v -e test_files/test_case_cat.txt
+-t -s -v -n test_files/1.txt
+-t -s -v -n test_files/2.txt
+-t -s -v -n test_files/test_1_cat.txt
+-t -s -v -n test_files/test_2_cat.txt
+-t -s -v -n test_files/test_3_cat.txt
+-t -s -v -n test_files/test_4_cat.txt
+-t -s -v -n test_files/test_5_cat.txt
+-t -s -v -n test_files/test_case_cat.txt
+-t -v -b -e test_files/1.txt
+-t -v -b -e test_files/2.txt
+-t -v -b -e test_files/test_1_cat.txt
+-t -v -b -e test_files/test_2_cat.txt
+-t -v -b -e test_files/test_3_cat.txt
+-t -v -b -e test_files/test_4_cat.txt
+-t -v -b -e test_files/test_5_cat.txt
+-t -v -b -e test_files/test_case_cat.txt
+-t -v -b -n test_files/1.txt
+-t -v -b -n test_files/2.txt
+-t -v -b -n test_files/test_1_cat.txt
+-t -v -b -n test_files/test_2_cat.txt
+-t -v -b -n test_files/test_3_cat.txt
+-t -v -b -n test_files/test_4_cat.txt
+-t -v -b -n test_files/test_5_cat.txt
+-t -v -b -n test_files/test_case_cat.txt
+-t -v -b -s test_files/1.txt
+-t -v -b -s test_files/2.txt
+-t -v -b -s test_files/test_1_cat.txt
+-t -v -b -s test_files/test_2_cat.txt
+-t -v -b -s test_files/test_3_cat.txt
+-t -v -b -s test_files/test_4_cat.txt
+-t -v -b -s test_files/test_5_cat.txt
+-t -v -b -s test_files/test_case_cat.txt
+-t -v -e -b test_files/1.txt
+-t -v -e -b test_files/2.txt
+-t -v -e -b test_files/test_1_cat.txt
+-t -v -e -b test_files/test_2_cat.txt
+-t -v -e -b test_files/test_3_cat.txt
+-t -v -e -b test_files/test_4_cat.txt
+-t -v -e -b test_files/test_5_cat.txt
+-t -v -e -b test_files/test_case_cat.txt
+-t -v -e -n test_files/1.txt
+-t -v -e -n test_files/2.txt
+-t -v -e -n test_files/test_1_cat.txt
+-t -v -e -n test_files/test_2_cat.txt
+-t -v -e -n test_files/test_3_cat.txt
+-t -v -e -n test_files/test_4_cat.txt
+-t -v -e -n test_files/test_5_cat.txt
+-t -v -e -n test_files/test_case_cat.txt
+-t -v -e -s test_files/1.txt
+-t -v -e -s test_files/2.txt
+-t -v -e -s test_files/test_1_cat.txt
+-t -v -e -s test_files/test_2_cat.txt
+-t -v -e -s test_files/test_3_cat.txt
+-t -v -e -s test_files/test_4_cat.txt
+-t -v -e -s test_files/test_5_cat.txt
+-t -v -e -s test_files/test_case_cat.txt
+-t -v -n -b test_files/1.txt
+-t -v -n -b test_files/2.txt
+-t -v -n -b test_files/test_1_cat.txt
+-t -v -n -b test_files/test_2_cat.txt
+-t -v -n -b test_files/test_3_cat.txt
+-t -v -n -b test_files/test_4_cat.txt
+-t -v -n -b test_files/test_5_cat.txt
+-t -v -n -b test_files/test_case_cat.txt
+-t -v -n -e test_files/1.txt
+-t -v -n -e test_files/2.txt
+-t -v -n -e test_files/test_1_cat.txt
+-t -v -n -e test_files/test_2_cat.txt
+-t -v -n -e test_files/test_3_cat.txt
+-t -v -n -e test_files/test_4_cat.txt
+-t -v -n -e test_files/test_5_cat.txt
+-t -v -n -e test_files/test_case_cat.txt
+-t -v -n -s test_files/1.txt
+-t -v -n -s test_files/2.txt
+-t -v -n -s test_files/test_1_cat.txt
+-t -v -n -s test_files/test_2_cat.txt
+-t -v -n -s test_files/test_3_cat.txt
+-t -v -n -s test_files/test_4_cat.txt
+-t -v -n -s test_files/test_5_cat.txt
+-t -v -n -s test_files/test_case_cat.txt
+-t -v -s -b test_files/1.txt
+-t -v -s -b test_files/2.txt
+-t -v -s -b test_files/test_1_cat.txt
+-t -v -s -b test_files/test_2_cat.txt
+-t -v -s -b test_files/test_3_cat.txt
+-t -v -s -b test_files/test_4_cat.txt
+-t -v -s -b test_files/test_5_cat.txt
+-t -v -s -b test_files/test_case_cat.txt
+-t -v -s -e test_files/1.txt
+-t -v -s -e test_files/2.txt
+-t -v -s -e test_files/test_1_cat.txt
+-t -v -s -e test_files/test_2_cat.txt
+-t -v -s -e test_files/test_3_cat.txt
+-t -v -s -e test_files/test_4_cat.txt
+-t -v -s -e test_files/test_5_cat.txt
+-t -v -s -e test_files/test_case_cat.txt
+-t -v -s -n test_files/1.txt
+-t -v -s -n test_files/2.txt
+-t -v -s -n test_files/test_1_cat.txt
+-t -v -s -n test_files/test_2_cat.txt
+-t -v -s -n test_files/test_3_cat.txt
+-t -v -s -n test_files/test_4_cat.txt
+-t -v -s -n test_files/test_5_cat.txt
+-t -v -s -n test_files/test_case_cat.txt
+-v -b -e -n test_files/1.txt
+-v -b -e -n test_files/2.txt
+-v -b -e -n test_files/test_1_cat.txt
+-v -b -e -n test_files/test_2_cat.txt
+-v -b -e -n test_files/test_3_cat.txt
+-v -b -e -n test_files/test_4_cat.txt
+-v -b -e -n test_files/test_5_cat.txt
+-v -b -e -n test_files/test_case_cat.txt
+-v -b -e -s test_files/1.txt
+-v -b -e -s test_files/2.txt
+-v -b -e -s test_files/test_1_cat.txt
+-v -b -e -s test_files/test_2_cat.txt
+-v -b -e -s test_files/test_3_cat.txt
+-v -b -e -s test_files/test_4_cat.txt
+-v -b -e -s test_files/test_5_cat.txt
+-v -b -e -s test_files/test_case_cat.txt
+-v -b -e -t test_files/1.txt
+-v -b -e -t test_files/2.txt
+-v -b -e -t test_files/test_1_cat.txt
+-v -b -e -t test_files/test_2_cat.txt
+-v -b -e -t test_files/test_3_cat.txt
+-v -b -e -t test_files/test_4_cat.txt
+-v -b -e -t test_files/test_5_cat.txt
+-v -b -e -t test_files/test_case_cat.txt
+-v -b -n -e test_files/1.txt
+-v -b -n -e test_files/2.txt
+-v -b -n -e test_files/test_1_cat.txt
+-v -b -n -e test_files/test_2_cat.txt
+-v -b -n -e test_files/test_3_cat.txt
+-v -b -n -e test_files/test_4_cat.txt
+-v -b -n -e test_files/test_5_cat.txt
+-v -b -n -e test_files/test_case_cat.txt
+-v -b -n -s test_files/1.txt
+-v -b -n -s test_files/2.txt
+-v -b -n -s test_files/test_1_cat.txt
+-v -b -n -s test_files/test_2_cat.txt
+-v -b -n -s test_files/test_3_cat.txt
+-v -b -n -s test_files/test_4_cat.txt
+-v -b -n -s test_files/test_5_cat.txt
+-v -b -n -s test_files/test_case_cat.txt
+-v -b -n -t test_files/1.txt
+-v -b -n -t test_files/2.txt
+-v -b -n -t test_files/test_1_cat.txt
+-v -b -n -t test_files/test_2_cat.txt
+-v -b -n -t test_files/test_3_cat.txt
+-v -b -n -t test_files/test_4_cat.txt
+-v -b -n -t test_files/test_5_cat.txt
+-v -b -n -t test_files/test_case_cat.txt
+-v -b -s -e test_files/1.txt
+-v -b -s -e test_files/2.txt
+-v -b -s -e test_files/test_1_cat.txt
+-v -b -s -e test_files/test_2_cat.txt
+-v -b -s -e test_files/test_3_cat.txt
+-v -b -s -e test_files/test_4_cat.txt
+-v -b -s -e test_files/test_5_cat.txt
+-v -b -s -e test_files/test_case_cat.txt
+-v -b -s -n test_files/1.txt
+-v -b -s -n test_files/2.txt
+-v -b -s -n test_files/test_1_cat.txt
+-v -b -s -n test_files/test_2_cat.txt
+-v -b -s -n test_files/test_3_cat.txt
+-v -b -s -n test_files/test_4_cat.txt
+-v -b -s -n test_files/test_5_cat.txt
+-v -b -s -n test_files/test_case_cat.txt
+-v -b -s -t test_files/1.txt
+-v -b -s -t test_files/2.txt
+-v -b -s -t test_files/test_1_cat.txt
+-v -b -s -t test_files/test_2_cat.txt
+-v -b -s -t test_files/test_3_cat.txt
+-v -b -s -t test_files/test_4_cat.txt
+-v -b -s -t test_files/test_5_cat.txt
+-v -b -s -t test_files/test_case_cat.txt
+-v -b -t -e test_files/1.txt
+-v -b -t -e test_files/2.txt
+-v -b -t -e test_files/test_1_cat.txt
+-v -b -t -e test_files/test_2_cat.txt
+-v -b -t -e test_files/test_3_cat.txt
+-v -b -t -e test_files/test_4_cat.txt
+-v -b -t -e test_files/test_5_cat.txt
+-v -b -t -e test_files/test_case_cat.txt
+-v -b -t -n test_files/1.txt
+-v -b -t -n test_files/2.txt
+-v -b -t -n test_files/test_1_cat.txt
+-v -b -t -n test_files/test_2_cat.txt
+-v -b -t -n test_files/test_3_cat.txt
+-v -b -t -n test_files/test_4_cat.txt
+-v -b -t -n test_files/test_5_cat.txt
+-v -b -t -n test_files/test_case_cat.txt
+-v -b -t -s test_files/1.txt
+-v -b -t -s test_files/2.txt
+-v -b -t -s test_files/test_1_cat.txt
+-v -b -t -s test_files/test_2_cat.txt
+-v -b -t -s test_files/test_3_cat.txt
+-v -b -t -s test_files/test_4_cat.txt
+-v -b -t -s test_files/test_5_cat.txt
+-v -b -t -s test_files/test_case_cat.txt
+-v -e -b -n test_files/1.txt
+-v -e -b -n test_files/2.txt
+-v -e -b -n test_files/test_1_cat.txt
+-v -e -b -n test_files/test_2_cat.txt
+-v -e -b -n test_files/test_3_cat.txt
+-v -e -b -n test_files/test_4_cat.txt
+-v -e -b -n test_files/test_5_cat.txt
+-v -e -b -n test_files/test_case_cat.txt
+-v -e -b -s test_files/1.txt
+-v -e -b -s test_files/2.txt
+-v -e -b -s test_files/test_1_cat.txt
+-v -e -b -s test_files/test_2_cat.txt
+-v -e -b -s test_files/test_3_cat.txt
+-v -e -b -s test_files/test_4_cat.txt
+-v -e -b -s test_files/test_5_cat.txt
+-v -e -b -s test_files/test_case_cat.txt
+-v -e -b -t test_files/1.txt
+-v -e -b -t test_files/2.txt
+-v -e -b -t test_files/test_1_cat.txt
+-v -e -b -t test_files/test_2_cat.txt
+-v -e -b -t test_files/test_3_cat.txt
+-v -e -b -t test_files/test_4_cat.txt
+-v -e -b -t test_files/test_5_cat.txt
+-v -e -b -t test_files/test_case_cat.txt
+-v -e -n -b test_files/1.txt
+-v -e -n -b test_files/2.txt
+-v -e -n -b test_files/test_1_cat.txt
+-v -e -n -b test_files/test_2_cat.txt
+-v -e -n -b test_files/test_3_cat.txt
+-v -e -n -b test_files/test_4_cat.txt
+-v -e -n -b test_files/test_5_cat.txt
+-v -e -n -b test_files/test_case_cat.txt
+-v -e -n -s test_files/1.txt
+-v -e -n -s test_files/2.txt
+-v -e -n -s test_files/test_1_cat.txt
+-v -e -n -s test_files/test_2_cat.txt
+-v -e -n -s test_files/test_3_cat.txt
+-v -e -n -s test_files/test_4_cat.txt
+-v -e -n -s test_files/test_5_cat.txt
+-v -e -n -s test_files/test_case_cat.txt
+-v -e -n -t test_files/1.txt
+-v -e -n -t test_files/2.txt
+-v -e -n -t test_files/test_1_cat.txt
+-v -e -n -t test_files/test_2_cat.txt
+-v -e -n -t test_files/test_3_cat.txt
+-v -e -n -t test_files/test_4_cat.txt
+-v -e -n -t test_files/test_5_cat.txt
+-v -e -n -t test_files/test_case_cat.txt
+-v -e -s -b test_files/1.txt
+-v -e -s -b test_files/2.txt
+-v -e -s -b test_files/test_1_cat.txt
+-v -e -s -b test_files/test_2_cat.txt
+-v -e -s -b test_files/test_3_cat.txt
+-v -e -s -b test_files/test_4_cat.txt
+-v -e -s -b test_files/test_5_cat.txt
+-v -e -s -b test_files/test_case_cat.txt
+-v -e -s -n test_files/1.txt
+-v -e -s -n test_files/2.txt
+-v -e -s -n test_files/test_1_cat.txt
+-v -e -s -n test_files/test_2_cat.txt
+-v -e -s -n test_files/test_3_cat.txt
+-v -e -s -n test_files/test_4_cat.txt
+-v -e -s -n test_files/test_5_cat.txt
+-v -e -s -n test_files/test_case_cat.txt
+-v -e -s -t test_files/1.txt
+-v -e -s -t test_files/2.txt
+-v -e -s -t test_files/test_1_cat.txt
+-v -e -s -t test_files/test_2_cat.txt
+-v -e -s -t test_files/test_3_cat.txt
+-v -e -s -t test_files/test_4_cat.txt
+-v -e -s -t test_files/test_5_cat.txt
+-v -e -s -t test_files/test_case_cat.txt
+-v -e -t -b test_files/1.txt
+-v -e -t -b test_files/2.txt
+-v -e -t -b test_files/test_1_cat.txt
+-v -e -t -b test_files/test_2_cat.txt
+-v -e -t -b test_files/test_3_cat.txt
+-v -e -t -b test_files/test_4_cat.txt
+-v -e -t -b test_files/test_5_cat.txt
+-v -e -t -b test_files/test_case_cat.txt
+-v -e -t -n test_files/1.txt
+-v -e -t -n test_files/2.txt
+-v -e -t -n test_files/test_1_cat.txt
+-v -e -t -n test_files/test_2_cat.txt
+-v -e -t -n test_files/test_3_cat.txt
+-v -e -t -n test_files/test_4_cat.txt
+-v -e -t -n test_files/test_5_cat.txt
+-v -e -t -n test_files/test_case_cat.txt
+-v -e -t -s test_files/1.txt
+-v -e -t -s test_files/2.txt
+-v -e -t -s test_files/test_1_cat.txt
+-v -e -t -s test_files/test_2_cat.txt
+-v -e -t -s test_files/test_3_cat.txt
+-v -e -t -s test_files/test_4_cat.txt
+-v -e -t -s test_files/test_5_cat.txt
+-v -e -t -s test_files/test_case_cat.txt
+-v -n -b -e test_files/1.txt
+-v -n -b -e test_files/2.txt
+-v -n -b -e test_files/test_1_cat.txt
+-v -n -b -e test_files/test_2_cat.txt
+-v -n -b -e test_files/test_3_cat.txt
+-v -n -b -e test_files/test_4_cat.txt
+-v -n -b -e test_files/test_5_cat.txt
+-v -n -b -e test_files/test_case_cat.txt
+-v -n -b -s test_files/1.txt
+-v -n -b -s test_files/2.txt
+-v -n -b -s test_files/test_1_cat.txt
+-v -n -b -s test_files/test_2_cat.txt
+-v -n -b -s test_files/test_3_cat.txt
+-v -n -b -s test_files/test_4_cat.txt
+-v -n -b -s test_files/test_5_cat.txt
+-v -n -b -s test_files/test_case_cat.txt
+-v -n -b -t test_files/1.txt
+-v -n -b -t test_files/2.txt
+-v -n -b -t test_files/test_1_cat.txt
+-v -n -b -t test_files/test_2_cat.txt
+-v -n -b -t test_files/test_3_cat.txt
+-v -n -b -t test_files/test_4_cat.txt
+-v -n -b -t test_files/test_5_cat.txt
+-v -n -b -t test_files/test_case_cat.txt
+-v -n -e -b test_files/1.txt
+-v -n -e -b test_files/2.txt
+-v -n -e -b test_files/test_1_cat.txt
+-v -n -e -b test_files/test_2_cat.txt
+-v -n -e -b test_files/test_3_cat.txt
+-v -n -e -b test_files/test_4_cat.txt
+-v -n -e -b test_files/test_5_cat.txt
+-v -n -e -b test_files/test_case_cat.txt
+-v -n -e -s test_files/1.txt
+-v -n -e -s test_files/2.txt
+-v -n -e -s test_files/test_1_cat.txt
+-v -n -e -s test_files/test_2_cat.txt
+-v -n -e -s test_files/test_3_cat.txt
+-v -n -e -s test_files/test_4_cat.txt
+-v -n -e -s test_files/test_5_cat.txt
+-v -n -e -s test_files/test_case_cat.txt
+-v -n -e -t test_files/1.txt
+-v -n -e -t test_files/2.txt
+-v -n -e -t test_files/test_1_cat.txt
+-v -n -e -t test_files/test_2_cat.txt
+-v -n -e -t test_files/test_3_cat.txt
+-v -n -e -t test_files/test_4_cat.txt
+-v -n -e -t test_files/test_5_cat.txt
+-v -n -e -t test_files/test_case_cat.txt
+-v -n -s -b test_files/1.txt
+-v -n -s -b test_files/2.txt
+-v -n -s -b test_files/test_1_cat.txt
+-v -n -s -b test_files/test_2_cat.txt
+-v -n -s -b test_files/test_3_cat.txt
+-v -n -s -b test_files/test_4_cat.txt
+-v -n -s -b test_files/test_5_cat.txt
+-v -n -s -b test_files/test_case_cat.txt
+-v -n -s -e test_files/1.txt
+-v -n -s -e test_files/2.txt
+-v -n -s -e test_files/test_1_cat.txt
+-v -n -s -e test_files/test_2_cat.txt
+-v -n -s -e test_files/test_3_cat.txt
+-v -n -s -e test_files/test_4_cat.txt
+-v -n -s -e test_files/test_5_cat.txt
+-v -n -s -e test_files/test_case_cat.txt
+-v -n -s -t test_files/1.txt
+-v -n -s -t test_files/2.txt
+-v -n -s -t test_files/test_1_cat.txt
+-v -n -s -t test_files/test_2_cat.txt
+-v -n -s -t test_files/test_3_cat.txt
+-v -n -s -t test_files/test_4_cat.txt
+-v -n -s -t test_files/test_5_cat.txt
+-v -n -s -t test_files/test_case_cat.txt
+-v -n -t -b test_files/1.txt
+-v -n -t -b test_files/2.txt
+-v -n -t -b test_files/test_1_cat.txt
+-v -n -t -b test_files/test_2_cat.txt
+-v -n -t -b test_files/test_3_cat.txt
+-v -n -t -b test_files/test_4_cat.txt
+-v -n -t -b test_files/test_5_cat.txt
+-v -n -t -b test_files/test_case_cat.txt
+-v -n -t -e test_files/1.txt
+-v -n -t -e test_files/2.txt
+-v -n -t -e test_files/test_1_cat.txt
+-v -n -t -e test_files/test_2_cat.txt
+-v -n -t -e test_files/test_3_cat.txt
+-v -n -t -e test_files/test_4_cat.txt
+-v -n -t -e test_files/test_5_cat.txt
+-v -n -t -e test_files/test_case_cat.txt
+-v -n -t -s test_files/1.txt
+-v -n -t -s test_files/2.txt
+-v -n -t -s test_files/test_1_cat.txt
+-v -n -t -s test_files/test_2_cat.txt
+-v -n -t -s test_files/test_3_cat.txt
+-v -n -t -s test_files/test_4_cat.txt
+-v -n -t -s test_files/test_5_cat.txt
+-v -n -t -s test_files/test_case_cat.txt
+-v -s -b -e test_files/1.txt
+-v -s -b -e test_files/2.txt
+-v -s -b -e test_files/test_1_cat.txt
+-v -s -b -e test_files/test_2_cat.txt
+-v -s -b -e test_files/test_3_cat.txt
+-v -s -b -e test_files/test_4_cat.txt
+-v -s -b -e test_files/test_5_cat.txt
+-v -s -b -e test_files/test_case_cat.txt
+-v -s -b -n test_files/1.txt
+-v -s -b -n test_files/2.txt
+-v -s -b -n test_files/test_1_cat.txt
+-v -s -b -n test_files/test_2_cat.txt
+-v -s -b -n test_files/test_3_cat.txt
+-v -s -b -n test_files/test_4_cat.txt
+-v -s -b -n test_files/test_5_cat.txt
+-v -s -b -n test_files/test_case_cat.txt
+-v -s -b -t test_files/1.txt
+-v -s -b -t test_files/2.txt
+-v -s -b -t test_files/test_1_cat.txt
+-v -s -b -t test_files/test_2_cat.txt
+-v -s -b -t test_files/test_3_cat.txt
+-v -s -b -t test_files/test_4_cat.txt
+-v -s -b -t test_files/test_5_cat.txt
+-v -s -b -t test_files/test_case_cat.txt
+-v -s -e -b test_files/1.txt
+-v -s -e -b test_files/2.txt
+-v -s -e -b test_files/test_1_cat.txt
+-v -s -e -b test_files/test_2_cat.txt
+-v -s -e -b test_files/test_3_cat.txt
+-v -s -e -b test_files/test_4_cat.txt
+-v -s -e -b test_files/test_5_cat.txt
+-v -s -e -b test_files/test_case_cat.txt
+-v -s -e -n test_files/1.txt
+-v -s -e -n test_files/2.txt
+-v -s -e -n test_files/test_1_cat.txt
+-v -s -e -n test_files/test_2_cat.txt
+-v -s -e -n test_files/test_3_cat.txt
+-v -s -e -n test_files/test_4_cat.txt
+-v -s -e -n test_files/test_5_cat.txt
+-v -s -e -n test_files/test_case_cat.txt
+-v -s -e -t test_files/1.txt
+-v -s -e -t test_files/2.txt
+-v -s -e -t test_files/test_1_cat.txt
+-v -s -e -t test_files/test_2_cat.txt
+-v -s -e -t test_files/test_3_cat.txt
+-v -s -e -t test_files/test_4_cat.txt
+-v -s -e -t test_files/test_5_cat.txt
+-v -s -e -t test_files/test_case_cat.txt
+-v -s -n -b test_files/1.txt
+-v -s -n -b test_files/2.txt
+-v -s -n -b test_files/test_1_cat.txt
+-v -s -n -b test_files/test_2_cat.txt
+-v -s -n -b test_files/test_3_cat.txt
+-v -s -n -b test_files/test_4_cat.txt
+-v -s -n -b test_files/test_5_cat.txt
+-v -s -n -b test_files/test_case_cat.txt
+-v -s -n -e test_files/1.txt
+-v -s -n -e test_files/2.txt
+-v -s -n -e test_files/test_1_cat.txt
+-v -s -n -e test_files/test_2_cat.txt
+-v -s -n -e test_files/test_3_cat.txt
+-v -s -n -e test_files/test_4_cat.txt
+-v -s -n -e test_files/test_5_cat.txt
+-v -s -n -e test_files/test_case_cat.txt
+-v -s -n -t test_files/1.txt
+-v -s -n -t test_files/2.txt
+-v -s -n -t test_files/test_1_cat.txt
+-v -s -n -t test_files/test_2_cat.txt
+-v -s -n -t test_files/test_3_cat.txt
+-v -s -n -t test_files/test_4_cat.txt
+-v -s -n -t test_files/test_5_cat.txt
+-v -s -n -t test_files/test_case_cat.txt
+-v -s -t -b test_files/1.txt
+-v -s -t -b test_files/2.txt
+-v -s -t -b test_files/test_1_cat.txt
+-v -s -t -b test_files/test_2_cat.txt
+-v -s -t -b test_files/test_3_cat.txt
+-v -s -t -b test_files/test_4_cat.txt
+-v -s -t -b test_files/test_5_cat.txt
+-v -s -t -b test_files/test_case_cat.txt
+-v -s -t -e test_files/1.txt
+-v -s -t -e test_files/2.txt
+-v -s -t -e test_files/test_1_cat.txt
+-v -s -t -e test_files/test_2_cat.txt
+-v -s -t -e test_files/test_3_cat.txt
+-v -s -t -e test_files/test_4_cat.txt
+-v -s -t -e test_files/test_5_cat.txt
+-v -s -t -e test_files/test_case_cat.txt
+-v -s -t -n test_files/1.txt
+-v -s -t -n test_files/2.txt
+-v -s -t -n test_files/test_1_cat.txt
+-v -s -t -n test_files/test_2_cat.txt
+-v -s -t -n test_files/test_3_cat.txt
+-v -s -t -n test_files/test_4_cat.txt
+-v -s -t -n test_files/test_5_cat.txt
+-v -s -t -n test_files/test_case_cat.txt
+-v -t -b -e test_files/1.txt
+-v -t -b -e test_files/2.txt
+-v -t -b -e test_files/test_1_cat.txt
+-v -t -b -e test_files/test_2_cat.txt
+-v -t -b -e test_files/test_3_cat.txt
+-v -t -b -e test_files/test_4_cat.txt
+-v -t -b -e test_files/test_5_cat.txt
+-v -t -b -e test_files/test_case_cat.txt
+-v -t -b -n test_files/1.txt
+-v -t -b -n test_files/2.txt
+-v -t -b -n test_files/test_1_cat.txt
+-v -t -b -n test_files/test_2_cat.txt
+-v -t -b -n test_files/test_3_cat.txt
+-v -t -b -n test_files/test_4_cat.txt
+-v -t -b -n test_files/test_5_cat.txt
+-v -t -b -n test_files/test_case_cat.txt
+-v -t -b -s test_files/1.txt
+-v -t -b -s test_files/2.txt
+-v -t -b -s test_files/test_1_cat.txt
+-v -t -b -s test_files/test_2_cat.txt
+-v -t -b -s test_files/test_3_cat.txt
+-v -t -b -s test_files/test_4_cat.txt
+-v -t -b -s test_files/test_5_cat.txt
+-v -t -b -s test_files/test_case_cat.txt
+-v -t -e -b test_files/1.txt
+-v -t -e -b test_files/2.txt
+-v -t -e -b test_files/test_1_cat.txt
+-v -t -e -b test_files/test_2_cat.txt
+-v -t -e -b test_files/test_3_cat.txt
+-v -t -e -b test_files/test_4_cat.txt
+-v -t -e -b test_files/test_5_cat.txt
+-v -t -e -b test_files/test_case_cat.txt
+-v -t -e -n test_files/1.txt
+-v -t -e -n test_files/2.txt
+-v -t -e -n test_files/test_1_cat.txt
+-v -t -e -n test_files/test_2_cat.txt
+-v -t -e -n test_files/test_3_cat.txt
+-v -t -e -n test_files/test_4_cat.txt
+-v -t -e -n test_files/test_5_cat.txt
+-v -t -e -n test_files/test_case_cat.txt
+-v -t -e -s test_files/1.txt
+-v -t -e -s test_files/2.txt
+-v -t -e -s test_files/test_1_cat.txt
+-v -t -e -s test_files/test_2_cat.txt
+-v -t -e -s test_files/test_3_cat.txt
+-v -t -e -s test_files/test_4_cat.txt
+-v -t -e -s test_files/test_5_cat.txt
+-v -t -e -s test_files/test_case_cat.txt
+-v -t -n -b test_files/1.txt
+-v -t -n -b test_files/2.txt
+-v -t -n -b test_files/test_1_cat.txt
+-v -t -n -b test_files/test_2_cat.txt
+-v -t -n -b test_files/test_3_cat.txt
+-v -t -n -b test_files/test_4_cat.txt
+-v -t -n -b test_files/test_5_cat.txt
+-v -t -n -b test_files/test_case_cat.txt
+-v -t -n -e test_files/1.txt
+-v -t -n -e test_files/2.txt
+-v -t -n -e test_files/test_1_cat.txt
+-v -t -n -e test_files/test_2_cat.txt
+-v -t -n -e test_files/test_3_cat.txt
+-v -t -n -e test_files/test_4_cat.txt
+-v -t -n -e test_files/test_5_cat.txt
+-v -t -n -e test_files/test_case_cat.txt
+-v -t -n -s test_files/1.txt
+-v -t -n -s test_files/2.txt
+-v -t -n -s test_files/test_1_cat.txt
+-v -t -n -s test_files/test_2_cat.txt
+-v -t -n -s test_files/test_3_cat.txt
+-v -t -n -s test_files/test_4_cat.txt
+-v -t -n -s test_files/test_5_cat.txt
+-v -t -n -s test_files/test_case_cat.txt
+-v -t -s -b test_files/1.txt
+-v -t -s -b test_files/2.txt
+-v -t -s -b test_files/test_1_cat.txt
+-v -t -s -b test_files/test_2_cat.txt
+-v -t -s -b test_files/test_3_cat.txt
+-v -t -s -b test_files/test_4_cat.txt
+-v -t -s -b test_files/test_5_cat.txt
+-v -t -s -b test_files/test_case_cat.txt
+-v -t -s -e test_files/1.txt
+-v -t -s -e test_files/2.txt
+-v -t -s -e test_files/test_1_cat.txt
+-v -t -s -e test_files/test_2_cat.txt
+-v -t -s -e test_files/test_3_cat.txt
+-v -t -s -e test_files/test_4_cat.txt
+-v -t -s -e test_files/test_5_cat.txt
+-v -t -s -e test_files/test_case_cat.txt
+-v -t -s -n test_files/1.txt
+-v -t -s -n test_files/2.txt
+-v -t -s -n test_files/test_1_cat.txt
+-v -t -s -n test_files/test_2_cat.txt
+-v -t -s -n test_files/test_3_cat.txt
+-v -t -s -n test_files/test_4_cat.txt
+-v -t -s -n test_files/test_5_cat.txt
+-v -t -s -n test_files/test_case_cat.txt
