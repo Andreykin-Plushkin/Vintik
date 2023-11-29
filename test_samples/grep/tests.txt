@@ -1,0 +1,28 @@
+for test_files/test_1_grep.txt test_files/test_2_grep.txt
+for test_files/test_1_grep.txt
+^int test_files/test_1_grep.txt
+-l for test_files/test_1_grep.txt test_files/test_2_grep.txt
+= -e out test_files/test_5_grep.txt
+ing -e as -e the -e not -e is test_files/test_6_grep.txt
+-l for test_files/no_file.txt test_files/test_2_grep.txt
+-f test_files/test_3_grep.txt test_files/test_5_grep.txt
+s test_files/test_0_grep.txt -v
+for s21_grep.c s21_grep.h Makefile -v
+for s21_grep.c -v
+s test_files/test_0_grep.txt -c
+for s21_grep.c s21_grep.h Makefile -c
+for s21_grep.c -c
+s test_files/test_0_grep.txt -l
+for s21_grep.c s21_grep.h Makefile -l
+for s21_grep.c -l
+s test_files/test_0_grep.txt -n
+for s21_grep.c s21_grep.h Makefile -n
+for s21_grep.c -n
+s test_files/test_0_grep.txt -h
+for s21_grep.c s21_grep.h Makefile -h
+for s21_grep.c -h
+for s21_grep.c s21_grep.h Makefile -o
+for s21_grep.c -o
+s test_files/test_0_grep.txt -i
+for s21_grep.c s21_grep.h Makefile -i
+for s21_grep.c -i
